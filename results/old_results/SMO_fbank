@@ -1,0 +1,95 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.0010 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     fbankfeatures_w25-weka.filters.unsupervised.attribute.Discretize-unset-class-temporarily-B2-M-1.0-Rfirst-weka.filters.unsupervised.attribute.Reorder-R2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,1
+Instances:    190740
+Attributes:   21
+              1
+              2
+              3
+              4
+              5
+              6
+              7
+              8
+              9
+              10
+              11
+              12
+              13
+              14
+              15
+              16
+              17
+              18
+              19
+              20
+              0
+Test mode:split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: '(-inf-0.5]', '(0.5-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0922 * (normalized) 1
+ +       3.5545 * (normalized) 2
+ +      -1.0311 * (normalized) 3
+ +       0.719  * (normalized) 4
+ +      -1.7803 * (normalized) 5
+ +      -0.2646 * (normalized) 6
+ +       0.5626 * (normalized) 7
+ +       0.0468 * (normalized) 8
+ +      -5.5233 * (normalized) 9
+ +       0.1738 * (normalized) 10
+ +      -2.3853 * (normalized) 11
+ +       3.1164 * (normalized) 12
+ +       0.6602 * (normalized) 13
+ +       1.9382 * (normalized) 14
+ +      -2.2317 * (normalized) 15
+ +      12.2881 * (normalized) 16
+ +      -3.3503 * (normalized) 17
+ +       3.6264 * (normalized) 18
+ +     -15.4914 * (normalized) 19
+ +       9.9996 * (normalized) 20
+ -       2.7085
+
+Number of kernel evaluations: 1272252767 (36.643% cached)
+
+
+
+Time taken to build model: 892.61 seconds
+
+=== Evaluation on test split ===
+=== Summary ===
+
+Correctly Classified Instances       33484               58.516  %
+Incorrectly Classified Instances     23738               41.484  %
+Kappa statistic                          0.1696
+Mean absolute error                      0.4148
+Root mean squared error                  0.6441
+Relative absolute error                 82.9701 %
+Root relative squared error            128.8177 %
+Total Number of Instances            57222     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.67      0.5        0.575     0.67      0.619      0.585    '(-inf-0.5]'
+                 0.5       0.33       0.6       0.5       0.545      0.585    '(0.5-inf)'
+Weighted Avg.    0.585     0.416      0.587     0.585     0.582      0.585
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 19255  9494 |     a = '(-inf-0.5]'
+ 14244 14229 |     b = '(0.5-inf)'
+

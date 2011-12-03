@@ -1,0 +1,130 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     features-weka.filters.unsupervised.attribute.Discretize-D-B2-M-1.0-R1
+Instances:    1118861
+Attributes:   13
+              0_1
+              1
+              2
+              3
+              4
+              5
+              6
+              7
+              8
+              9
+              10
+              11
+              12
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                      Class
+Attribute      '(-inf-0.5]'  '(0.5-inf)'
+                     (0.49)       (0.51)
+=========================================
+1
+  mean               -0.0026       -0.099
+  std. dev.           0.6327       0.6465
+  weight sum          542563       574922
+  precision                0            0
+
+2
+  mean                0.5211       0.5331
+  std. dev.           0.4411       0.4469
+  weight sum          542563       574922
+  precision                0            0
+
+3
+  mean               -0.0422      -0.0734
+  std. dev.           0.4901       0.4885
+  weight sum          542563       574922
+  precision                0            0
+
+4
+  mean                0.3043       0.2974
+  std. dev.           0.3571       0.3636
+  weight sum          542563       574922
+  precision                0            0
+
+5
+  mean                0.0434       0.0287
+  std. dev.           0.3101        0.309
+  weight sum          542563       574922
+  precision                0            0
+
+6
+  mean                0.2772        0.255
+  std. dev.           0.3017       0.2937
+  weight sum          542563       574922
+  precision                0            0
+
+7
+  mean                0.1031       0.1046
+  std. dev.           0.2362       0.2383
+  weight sum          542563       574922
+  precision                0            0
+
+8
+  mean                0.2097       0.2118
+  std. dev.           0.2288       0.2381
+  weight sum          542563       574922
+  precision                0            0
+
+9
+  mean                0.0557       0.0632
+  std. dev.           0.1905       0.1938
+  weight sum          542563       574922
+  precision                0            0
+
+10
+  mean                 0.122       0.1228
+  std. dev.           0.1623       0.1671
+  weight sum          542563       574922
+  precision                0            0
+
+11
+  mean                0.0454       0.0408
+  std. dev.           0.1274       0.1301
+  weight sum          542563       574922
+  precision                0            0
+
+12
+  mean                0.0694       0.0718
+  std. dev.           0.1054       0.1046
+  weight sum          542563       574922
+  precision                0            0
+
+
+
+Time taken to build model: 40.43 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances      603675               53.9544 %
+Incorrectly Classified Instances    515186               46.0456 %
+Kappa statistic                          0.075 
+Mean absolute error                      0.4935
+Root mean squared error                  0.4979
+Relative absolute error                 98.7916 %
+Root relative squared error             99.6267 %
+Total Number of Instances          1118861     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.463     0.388      0.529     0.463     0.494      0.555    '(-inf-0.5]'
+                 0.612     0.537      0.547     0.612     0.578      0.555    '(0.5-inf)'
+Weighted Avg.    0.54      0.465      0.538     0.54      0.537      0.555
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+ 251457 291697 |      a = '(-inf-0.5]'
+ 223489 352218 |      b = '(0.5-inf)'
+
