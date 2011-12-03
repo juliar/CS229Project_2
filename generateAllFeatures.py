@@ -39,10 +39,10 @@ if __name__ == '__main__':
   subsets = ['strength0.scp'] #'strong2_0.scp', 'stronger2_5.scp', 'strongest2_7.scp', 
   
   configFiles = {}
-  configFiles['mfcc'] = 'mfccconfig.txt'
-  configFiles['fbank'] = 'fbankconfig.txt'
-  configFiles['lpc'] = 'lpcconfig.txt'
-  configFiles['mfccplus'] = 'mfccplusconfig.txt'
+  configFiles['mfcc'] = 'config_files/mfccconfig.txt'
+  configFiles['fbank'] = 'config_files/fbankconfig.txt'
+  configFiles['lpc'] = 'config_files/lpcconfig.txt'
+  configFiles['mfccplus'] = 'config_files/mfccplusconfig.txt'
   
   #configFiles['mfcchamming'] = 'mfccconfighamming'
   

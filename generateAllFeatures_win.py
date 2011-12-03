@@ -41,9 +41,9 @@ if __name__ == '__main__':
   subsets = ['strength0.scp']
   
   configFiles = {}
-  configFiles['mfcc'] = 'mfccconfig.txt'
-  configFiles['fbank'] = 'fbankconfig.txt'
-  configFiles['lpc'] = 'lpcconfig.txt'
+  configFiles['mfcc'] = 'config_files/mfccconfig.txt'
+  configFiles['fbank'] = 'config_files/fbankconfig.txt'
+  configFiles['lpc'] = 'config_files/lpcconfig.txt'
   #configFiles['mfcchamming'] = 'mfccconfighamming.txt'
   
   all_feature_only_files = []
