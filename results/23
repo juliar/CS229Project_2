@@ -1,0 +1,5484 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.0010 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     12_lang_all_features_train-weka.filters.unsupervised.attribute.Discretize-unset-class-temporarily-B12-M-1.0-Rlast-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    18069
+Attributes:   72
+              1
+              2
+              3
+              4
+              5
+              6
+              7
+              8
+              9
+              10
+              11
+              12
+              13
+              14
+              15
+              16
+              17
+              18
+              19
+              20
+              21
+              22
+              23
+              24
+              25
+              26
+              27
+              28
+              29
+              30
+              31
+              32
+              33
+              34
+              35
+              36
+              37
+              38
+              39
+              40
+              41
+              42
+              43
+              44
+              45
+              46
+              47
+              48
+              49
+              50
+              51
+              52
+              53
+              54
+              55
+              56
+              57
+              58
+              59
+              60
+              61
+              62
+              63
+              64
+              65
+              66
+              67
+              68
+              69
+              70
+              71
+              72
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: '(-inf-0.916667]', '(0.916667-1.833333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8221 * (normalized) 1
+ +       0.7146 * (normalized) 2
+ +      -1.2071 * (normalized) 3
+ +      -0.4484 * (normalized) 4
+ +      -0.412  * (normalized) 5
+ +      -0.3843 * (normalized) 6
+ +      -0.6611 * (normalized) 7
+ +       0.6218 * (normalized) 8
+ +      -0.848  * (normalized) 9
+ +       0.4838 * (normalized) 10
+ +      -0.4214 * (normalized) 11
+ +      -0.7663 * (normalized) 12
+ +      -0.025  * (normalized) 13
+ +      -0.9241 * (normalized) 14
+ +      -0.6819 * (normalized) 15
+ +      -0.3338 * (normalized) 16
+ +      -0.9709 * (normalized) 17
+ +       0.2126 * (normalized) 18
+ +      -0.8971 * (normalized) 19
+ +      -0.2119 * (normalized) 20
+ +       0.3741 * (normalized) 21
+ +      -0.3748 * (normalized) 22
+ +      -0.8823 * (normalized) 23
+ +       1.3909 * (normalized) 24
+ +       1.2219 * (normalized) 25
+ +       0.2162 * (normalized) 26
+ +       0.1794 * (normalized) 27
+ +      -0.392  * (normalized) 28
+ +       0.4372 * (normalized) 29
+ +      -0.353  * (normalized) 30
+ +      -1.1075 * (normalized) 31
+ +      -1.028  * (normalized) 32
+ +       0.3741 * (normalized) 33
+ +      -0.3748 * (normalized) 34
+ +      -0.8823 * (normalized) 35
+ +       1.3909 * (normalized) 36
+ +       1.2219 * (normalized) 37
+ +       0.2162 * (normalized) 38
+ +       0.1794 * (normalized) 39
+ +      -0.392  * (normalized) 40
+ +       0.4372 * (normalized) 41
+ +      -0.353  * (normalized) 42
+ +      -1.1075 * (normalized) 43
+ +      -1.028  * (normalized) 44
+ +       3.2491 * (normalized) 45
+ +       0.4229 * (normalized) 46
+ +       0.1189 * (normalized) 47
+ +       0.2057 * (normalized) 48
+ +      -0.0758 * (normalized) 49
+ +      -0.05   * (normalized) 50
+ +       0.4075 * (normalized) 51
+ +      -0.0019 * (normalized) 52
+ +       0.1526 * (normalized) 53
+ +       0.143  * (normalized) 54
+ +      -0.0145 * (normalized) 55
+ +      -0.1537 * (normalized) 56
+ +      -0.1114 * (normalized) 57
+ +      -0.2452 * (normalized) 58
+ +      -0.1743 * (normalized) 59
+ +      -0.4811 * (normalized) 60
+ +      -0.3054 * (normalized) 61
+ +       0.7959 * (normalized) 62
+ +       0.1912 * (normalized) 63
+ +       0.0669 * (normalized) 64
+ +      -0.2543 * (normalized) 65
+ +       0.1118 * (normalized) 66
+ +      -0.0641 * (normalized) 67
+ +      -0.0949 * (normalized) 68
+ +      -0.2378 * (normalized) 69
+ +      -0.071  * (normalized) 70
+ +       0.2195 * (normalized) 71
+ +       3.2719
+
+Number of kernel evaluations: 1234254 (70.746% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(1.833333-2.75]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.1268 * (normalized) 1
+ +       2.2426 * (normalized) 2
+ +      -2.8255 * (normalized) 3
+ +       1.6249 * (normalized) 4
+ +      -1.3253 * (normalized) 5
+ +       0.1118 * (normalized) 6
+ +      -0.0484 * (normalized) 7
+ +      -0.0016 * (normalized) 8
+ +      -0.5029 * (normalized) 9
+ +       0.3095 * (normalized) 10
+ +      -0.8243 * (normalized) 11
+ +      -0.5893 * (normalized) 12
+ +      -0.2023 * (normalized) 13
+ +      -0.9262 * (normalized) 14
+ +      -0.1502 * (normalized) 15
+ +      -0.561  * (normalized) 16
+ +      -0.8472 * (normalized) 17
+ +      -0.0054 * (normalized) 18
+ +      -1.2543 * (normalized) 19
+ +      -0.2679 * (normalized) 20
+ +       0.9662 * (normalized) 21
+ +      -0.2227 * (normalized) 22
+ +      -0.5057 * (normalized) 23
+ +       0.1274 * (normalized) 24
+ +       1.2019 * (normalized) 25
+ +       0.8984 * (normalized) 26
+ +      -0.3081 * (normalized) 27
+ +       0.4544 * (normalized) 28
+ +       0.1434 * (normalized) 29
+ +      -0.1849 * (normalized) 30
+ +      -0.8796 * (normalized) 31
+ +       0.4036 * (normalized) 32
+ +       0.9662 * (normalized) 33
+ +      -0.2227 * (normalized) 34
+ +      -0.5057 * (normalized) 35
+ +       0.1274 * (normalized) 36
+ +       1.2019 * (normalized) 37
+ +       0.8984 * (normalized) 38
+ +      -0.3081 * (normalized) 39
+ +       0.4544 * (normalized) 40
+ +       0.1434 * (normalized) 41
+ +      -0.1849 * (normalized) 42
+ +      -0.8796 * (normalized) 43
+ +       0.4036 * (normalized) 44
+ +       1.5206 * (normalized) 45
+ +      -0.2661 * (normalized) 46
+ +      -0.4499 * (normalized) 47
+ +      -0.1824 * (normalized) 48
+ +      -0.3825 * (normalized) 49
+ +      -0.33   * (normalized) 50
+ +       0.0064 * (normalized) 51
+ +      -0.6033 * (normalized) 52
+ +      -0.342  * (normalized) 53
+ +       0.1174 * (normalized) 54
+ +       0.0184 * (normalized) 55
+ +      -0.2894 * (normalized) 56
+ +      -0.0243 * (normalized) 57
+ +       0.4944 * (normalized) 58
+ +       0.2059 * (normalized) 59
+ +      -0.3491 * (normalized) 60
+ +      -0.0029 * (normalized) 61
+ +       0.8718 * (normalized) 62
+ +       0.363  * (normalized) 63
+ +       0.106  * (normalized) 64
+ +       0.0215 * (normalized) 65
+ +       0.0127 * (normalized) 66
+ +       0.0416 * (normalized) 67
+ +      -0.0911 * (normalized) 68
+ +      -0.249  * (normalized) 69
+ +       0.1043 * (normalized) 70
+ +       0.3451 * (normalized) 71
+ +       2.0071
+
+Number of kernel evaluations: 1005881 (72.599% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(2.75-3.666667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1744 * (normalized) 1
+ +       3.4407 * (normalized) 2
+ +      -2.2154 * (normalized) 3
+ +       1.5232 * (normalized) 4
+ +      -0.4749 * (normalized) 5
+ +      -0.2979 * (normalized) 6
+ +      -0.5629 * (normalized) 7
+ +       0.8524 * (normalized) 8
+ +      -1.0214 * (normalized) 9
+ +       0.2504 * (normalized) 10
+ +      -0.6022 * (normalized) 11
+ +      -0.7332 * (normalized) 12
+ +      -0.2898 * (normalized) 13
+ +      -0.4558 * (normalized) 14
+ +      -0.5096 * (normalized) 15
+ +      -0.0782 * (normalized) 16
+ +      -0.7426 * (normalized) 17
+ +       0.4121 * (normalized) 18
+ +      -0.4514 * (normalized) 19
+ +       0.2754 * (normalized) 20
+ +       1.2165 * (normalized) 21
+ +       1.9642 * (normalized) 22
+ +       0.3034 * (normalized) 23
+ +       1.7741 * (normalized) 24
+ +       1.7245 * (normalized) 25
+ +       1.6045 * (normalized) 26
+ +      -0.3565 * (normalized) 27
+ +       0.0133 * (normalized) 28
+ +       1.0327 * (normalized) 29
+ +       0.84   * (normalized) 30
+ +       0.539  * (normalized) 31
+ +      -0.5581 * (normalized) 32
+ +       1.2165 * (normalized) 33
+ +       1.9642 * (normalized) 34
+ +       0.3034 * (normalized) 35
+ +       1.7741 * (normalized) 36
+ +       1.7245 * (normalized) 37
+ +       1.6045 * (normalized) 38
+ +      -0.3565 * (normalized) 39
+ +       0.0133 * (normalized) 40
+ +       1.0327 * (normalized) 41
+ +       0.84   * (normalized) 42
+ +       0.539  * (normalized) 43
+ +      -0.5581 * (normalized) 44
+ +       1.2676 * (normalized) 45
+ +      -0.3567 * (normalized) 46
+ +      -0.3074 * (normalized) 47
+ +      -0.3576 * (normalized) 48
+ +      -0.3572 * (normalized) 49
+ +      -0.4626 * (normalized) 50
+ +       0.1101 * (normalized) 51
+ +      -0.2966 * (normalized) 52
+ +      -0.1716 * (normalized) 53
+ +       0.0196 * (normalized) 54
+ +      -0.3937 * (normalized) 55
+ +      -0.0779 * (normalized) 56
+ +      -0.0689 * (normalized) 57
+ +       0.3965 * (normalized) 58
+ +       0.1083 * (normalized) 59
+ +       0.0912 * (normalized) 60
+ +       0.4222 * (normalized) 61
+ +       1.0981 * (normalized) 62
+ +       0.4182 * (normalized) 63
+ +       0.3786 * (normalized) 64
+ +      -0.0992 * (normalized) 65
+ +       0.1735 * (normalized) 66
+ +       0.338  * (normalized) 67
+ +       0.0868 * (normalized) 68
+ +      -0.083  * (normalized) 69
+ +      -0.2263 * (normalized) 70
+ +       0.7172 * (normalized) 71
+ -      10.3806
+
+Number of kernel evaluations: 1026251 (73.444% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(3.666667-4.583333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.0848 * (normalized) 1
+ +      -0.0319 * (normalized) 2
+ +      -0.894  * (normalized) 3
+ +      -0.5727 * (normalized) 4
+ +      -0.7662 * (normalized) 5
+ +       0.3684 * (normalized) 6
+ +      -1.3019 * (normalized) 7
+ +       0.5819 * (normalized) 8
+ +      -0.5348 * (normalized) 9
+ +       0.2559 * (normalized) 10
+ +      -0.1063 * (normalized) 11
+ +      -0.0711 * (normalized) 12
+ +       0.009  * (normalized) 13
+ +      -0.1852 * (normalized) 14
+ +      -0.3834 * (normalized) 15
+ +       0.0965 * (normalized) 16
+ +      -0.1521 * (normalized) 17
+ +       0.3275 * (normalized) 18
+ +      -0.6651 * (normalized) 19
+ +       0.6017 * (normalized) 20
+ +      -1.1534 * (normalized) 21
+ +      -0.5315 * (normalized) 22
+ +      -0.6225 * (normalized) 23
+ +       0.8934 * (normalized) 24
+ +      -0.0378 * (normalized) 25
+ +      -0.1327 * (normalized) 26
+ +      -0.1081 * (normalized) 27
+ +       0.6452 * (normalized) 28
+ +      -1.0177 * (normalized) 29
+ +       1.2834 * (normalized) 30
+ +      -2.8576 * (normalized) 31
+ +      -1.064  * (normalized) 32
+ +      -1.1534 * (normalized) 33
+ +      -0.5315 * (normalized) 34
+ +      -0.6225 * (normalized) 35
+ +       0.8934 * (normalized) 36
+ +      -0.0378 * (normalized) 37
+ +      -0.1327 * (normalized) 38
+ +      -0.1081 * (normalized) 39
+ +       0.6452 * (normalized) 40
+ +      -1.0177 * (normalized) 41
+ +       1.2834 * (normalized) 42
+ +      -2.8576 * (normalized) 43
+ +      -1.064  * (normalized) 44
+ +       3.5202 * (normalized) 45
+ +      -0.5047 * (normalized) 46
+ +      -0.0647 * (normalized) 47
+ +      -0.4399 * (normalized) 48
+ +      -0.353  * (normalized) 49
+ +      -0.7113 * (normalized) 50
+ +      -0.0117 * (normalized) 51
+ +      -0.3094 * (normalized) 52
+ +      -0.211  * (normalized) 53
+ +       0.0038 * (normalized) 54
+ +      -0.1802 * (normalized) 55
+ +      -0.1195 * (normalized) 56
+ +       0.2091 * (normalized) 57
+ +       0.4902 * (normalized) 58
+ +      -0.1232 * (normalized) 59
+ +      -0.8525 * (normalized) 60
+ +      -0.0783 * (normalized) 61
+ +       0.4496 * (normalized) 62
+ +      -0.0028 * (normalized) 63
+ +       0.0282 * (normalized) 64
+ +      -0.0757 * (normalized) 65
+ +       0.4753 * (normalized) 66
+ +       0.1746 * (normalized) 67
+ +      -0.1539 * (normalized) 68
+ +      -0.4824 * (normalized) 69
+ +      -0.2329 * (normalized) 70
+ +       0.1186 * (normalized) 71
+ +       6.138 
+
+Number of kernel evaluations: 1053749 (72.778% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(4.583333-5.5]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2372 * (normalized) 1
+ +       0.6368 * (normalized) 2
+ +      -0.4628 * (normalized) 3
+ +       0.666  * (normalized) 4
+ +      -0.7467 * (normalized) 5
+ +       0.8691 * (normalized) 6
+ +      -0.5991 * (normalized) 7
+ +       0.4074 * (normalized) 8
+ +      -0.4717 * (normalized) 9
+ +       0.2419 * (normalized) 10
+ +      -0.9019 * (normalized) 11
+ +       0.2633 * (normalized) 12
+ +      -0.4281 * (normalized) 13
+ +      -0.9784 * (normalized) 14
+ +       0.2894 * (normalized) 15
+ +      -0.9369 * (normalized) 16
+ +      -0.4515 * (normalized) 17
+ +       1.1987 * (normalized) 18
+ +      -1.8721 * (normalized) 19
+ +       0.856  * (normalized) 20
+ +       0.8657 * (normalized) 21
+ +       0.8097 * (normalized) 22
+ +      -0.8427 * (normalized) 23
+ +       0.7422 * (normalized) 24
+ +       0.183  * (normalized) 25
+ +       0.4654 * (normalized) 26
+ +       0.8596 * (normalized) 27
+ +       0.1256 * (normalized) 28
+ +      -0.6126 * (normalized) 29
+ +       1.2847 * (normalized) 30
+ +      -1.4141 * (normalized) 31
+ +       1.5048 * (normalized) 32
+ +       0.8657 * (normalized) 33
+ +       0.8097 * (normalized) 34
+ +      -0.8427 * (normalized) 35
+ +       0.7422 * (normalized) 36
+ +       0.183  * (normalized) 37
+ +       0.4654 * (normalized) 38
+ +       0.8596 * (normalized) 39
+ +       0.1256 * (normalized) 40
+ +      -0.6126 * (normalized) 41
+ +       1.2847 * (normalized) 42
+ +      -1.4141 * (normalized) 43
+ +       1.5048 * (normalized) 44
+ +      -0.1018 * (normalized) 45
+ +       0.094  * (normalized) 46
+ +      -0.3454 * (normalized) 47
+ +      -0.0372 * (normalized) 48
+ +      -0.1748 * (normalized) 49
+ +      -0.1733 * (normalized) 50
+ +       0.0307 * (normalized) 51
+ +      -0.2657 * (normalized) 52
+ +      -0.34   * (normalized) 53
+ +       0.0944 * (normalized) 54
+ +      -0.0065 * (normalized) 55
+ +       0.1858 * (normalized) 56
+ +       0.1241 * (normalized) 57
+ +       0.3719 * (normalized) 58
+ +       0.4132 * (normalized) 59
+ +      -0.6329 * (normalized) 60
+ +       0.2432 * (normalized) 61
+ +       0.5282 * (normalized) 62
+ +       0.1243 * (normalized) 63
+ +       0.2255 * (normalized) 64
+ +      -0.0475 * (normalized) 65
+ +       0.194  * (normalized) 66
+ +      -0.0555 * (normalized) 67
+ +      -0.1771 * (normalized) 68
+ +      -0.0892 * (normalized) 69
+ +       0.0202 * (normalized) 70
+ +       0.2757 * (normalized) 71
+ -       3.0125
+
+Number of kernel evaluations: 1074012 (72.53% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(5.5-6.416667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0391 * (normalized) 1
+ +       2.9433 * (normalized) 2
+ +      -2.0759 * (normalized) 3
+ +       0.4878 * (normalized) 4
+ +       0.1287 * (normalized) 5
+ +      -0.747  * (normalized) 6
+ +      -0.5393 * (normalized) 7
+ +       0.8921 * (normalized) 8
+ +      -0.7122 * (normalized) 9
+ +       0.1925 * (normalized) 10
+ +      -0.2594 * (normalized) 11
+ +      -0.8313 * (normalized) 12
+ +       0.0201 * (normalized) 13
+ +      -0.4632 * (normalized) 14
+ +      -0.5506 * (normalized) 15
+ +       0.1704 * (normalized) 16
+ +      -0.7616 * (normalized) 17
+ +       0.6161 * (normalized) 18
+ +      -0.9065 * (normalized) 19
+ +       0.5945 * (normalized) 20
+ +       0.6859 * (normalized) 21
+ +       1.2833 * (normalized) 22
+ +       0.198  * (normalized) 23
+ +       2.0353 * (normalized) 24
+ +       2.1501 * (normalized) 25
+ +       1.8331 * (normalized) 26
+ +      -0.3264 * (normalized) 27
+ +       0.8569 * (normalized) 28
+ +       0.9407 * (normalized) 29
+ +       2.6148 * (normalized) 30
+ +      -0.812  * (normalized) 31
+ +      -0.9494 * (normalized) 32
+ +       0.6859 * (normalized) 33
+ +       1.2833 * (normalized) 34
+ +       0.198  * (normalized) 35
+ +       2.0353 * (normalized) 36
+ +       2.1501 * (normalized) 37
+ +       1.8331 * (normalized) 38
+ +      -0.3264 * (normalized) 39
+ +       0.8569 * (normalized) 40
+ +       0.9407 * (normalized) 41
+ +       2.6148 * (normalized) 42
+ +      -0.812  * (normalized) 43
+ +      -0.9494 * (normalized) 44
+ +       2.0084 * (normalized) 45
+ +      -0.4013 * (normalized) 46
+ +      -0.1639 * (normalized) 47
+ +      -0.2096 * (normalized) 48
+ +      -0.0212 * (normalized) 49
+ +      -0.2599 * (normalized) 50
+ +       0.2123 * (normalized) 51
+ +      -0.4019 * (normalized) 52
+ +      -0.354  * (normalized) 53
+ +      -0.2849 * (normalized) 54
+ +      -0.2639 * (normalized) 55
+ +      -0.1685 * (normalized) 56
+ +      -0.1418 * (normalized) 57
+ +       0.5435 * (normalized) 58
+ +       0.1087 * (normalized) 59
+ +      -0.1988 * (normalized) 60
+ +      -0.3539 * (normalized) 61
+ +       0.7198 * (normalized) 62
+ +       0.3254 * (normalized) 63
+ +       0.4315 * (normalized) 64
+ +      -0.1709 * (normalized) 65
+ +       0.219  * (normalized) 66
+ +       0.1657 * (normalized) 67
+ +       0.1076 * (normalized) 68
+ +      -0.2491 * (normalized) 69
+ +      -0.262  * (normalized) 70
+ +       0.6841 * (normalized) 71
+ -      10.7471
+
+Number of kernel evaluations: 1072194 (72.06% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(6.416667-7.333333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6343 * (normalized) 1
+ +       0.5417 * (normalized) 2
+ +      -0.5119 * (normalized) 3
+ +       0.7092 * (normalized) 4
+ +      -0.1223 * (normalized) 5
+ +       0.1305 * (normalized) 6
+ +       0.2092 * (normalized) 7
+ +       0.3282 * (normalized) 8
+ +      -0.2269 * (normalized) 9
+ +       0.1315 * (normalized) 10
+ +      -0.4728 * (normalized) 11
+ +       0.1239 * (normalized) 12
+ +      -0.1113 * (normalized) 13
+ +      -0.3269 * (normalized) 14
+ +      -0.552  * (normalized) 15
+ +       0.5653 * (normalized) 16
+ +      -0.6262 * (normalized) 17
+ +       0.6361 * (normalized) 18
+ +      -0.4308 * (normalized) 19
+ +       0.3893 * (normalized) 20
+ +       0.5679 * (normalized) 21
+ +       0.778  * (normalized) 22
+ +      -0.6332 * (normalized) 23
+ +       0.4708 * (normalized) 24
+ +       0.6739 * (normalized) 25
+ +       0.8629 * (normalized) 26
+ +       1.1047 * (normalized) 27
+ +       0.3175 * (normalized) 28
+ +      -0.5421 * (normalized) 29
+ +       2.8352 * (normalized) 30
+ +       0.792  * (normalized) 31
+ +       0.5654 * (normalized) 32
+ +       0.5679 * (normalized) 33
+ +       0.778  * (normalized) 34
+ +      -0.6332 * (normalized) 35
+ +       0.4708 * (normalized) 36
+ +       0.6739 * (normalized) 37
+ +       0.8629 * (normalized) 38
+ +       1.1047 * (normalized) 39
+ +       0.3175 * (normalized) 40
+ +      -0.5421 * (normalized) 41
+ +       2.8352 * (normalized) 42
+ +       0.792  * (normalized) 43
+ +       0.5654 * (normalized) 44
+ +      -0.2965 * (normalized) 45
+ +      -0.4238 * (normalized) 46
+ +      -0.4881 * (normalized) 47
+ +      -0.4776 * (normalized) 48
+ +      -0.4939 * (normalized) 49
+ +      -0.1951 * (normalized) 50
+ +      -0.0872 * (normalized) 51
+ +       0.1602 * (normalized) 52
+ +      -0.3021 * (normalized) 53
+ +      -0.5173 * (normalized) 54
+ +      -0.2612 * (normalized) 55
+ +       0.093  * (normalized) 56
+ +      -0.0322 * (normalized) 57
+ +       0.462  * (normalized) 58
+ +       0.1438 * (normalized) 59
+ +      -0.3364 * (normalized) 60
+ +      -0.4029 * (normalized) 61
+ +       0.1277 * (normalized) 62
+ +      -0.1586 * (normalized) 63
+ +      -0.0249 * (normalized) 64
+ +      -0.0946 * (normalized) 65
+ +       0.3674 * (normalized) 66
+ +       0.0061 * (normalized) 67
+ +       0.2779 * (normalized) 68
+ +       0.0437 * (normalized) 69
+ +       0.1255 * (normalized) 70
+ +       0.0677 * (normalized) 71
+ -       7.6957
+
+Number of kernel evaluations: 987157 (71.479% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(7.333333-8.25]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4428 * (normalized) 1
+ +      -0.073  * (normalized) 2
+ +      -0.7253 * (normalized) 3
+ +      -0.6799 * (normalized) 4
+ +      -0.5147 * (normalized) 5
+ +      -0.4765 * (normalized) 6
+ +      -0.3192 * (normalized) 7
+ +       0.411  * (normalized) 8
+ +      -0.4612 * (normalized) 9
+ +       0.3699 * (normalized) 10
+ +       0.1229 * (normalized) 11
+ +      -1.4882 * (normalized) 12
+ +       0.6759 * (normalized) 13
+ +      -0.5958 * (normalized) 14
+ +      -1.1293 * (normalized) 15
+ +       0.5597 * (normalized) 16
+ +      -0.7694 * (normalized) 17
+ +      -0.7952 * (normalized) 18
+ +       0.7168 * (normalized) 19
+ +      -0.7058 * (normalized) 20
+ +      -0.0918 * (normalized) 21
+ +      -0.5165 * (normalized) 22
+ +      -0.8047 * (normalized) 23
+ +       1.3123 * (normalized) 24
+ +       1.7352 * (normalized) 25
+ +       0.8169 * (normalized) 26
+ +      -0.504  * (normalized) 27
+ +      -0.2468 * (normalized) 28
+ +       0.9155 * (normalized) 29
+ +      -0.5999 * (normalized) 30
+ +      -0.8693 * (normalized) 31
+ +      -1.0434 * (normalized) 32
+ +      -0.0918 * (normalized) 33
+ +      -0.5165 * (normalized) 34
+ +      -0.8047 * (normalized) 35
+ +       1.3123 * (normalized) 36
+ +       1.7352 * (normalized) 37
+ +       0.8169 * (normalized) 38
+ +      -0.504  * (normalized) 39
+ +      -0.2468 * (normalized) 40
+ +       0.9155 * (normalized) 41
+ +      -0.5999 * (normalized) 42
+ +      -0.8693 * (normalized) 43
+ +      -1.0434 * (normalized) 44
+ +       2.7295 * (normalized) 45
+ +       0.2092 * (normalized) 46
+ +      -0.1373 * (normalized) 47
+ +      -0.2814 * (normalized) 48
+ +      -0.333  * (normalized) 49
+ +      -0.2226 * (normalized) 50
+ +      -0.0178 * (normalized) 51
+ +       0.0819 * (normalized) 52
+ +       0.0958 * (normalized) 53
+ +       0.1566 * (normalized) 54
+ +      -0.2384 * (normalized) 55
+ +      -0.1227 * (normalized) 56
+ +       0.0117 * (normalized) 57
+ +      -0.4779 * (normalized) 58
+ +       0.0514 * (normalized) 59
+ +      -0.5783 * (normalized) 60
+ +      -0.1262 * (normalized) 61
+ +       0.7475 * (normalized) 62
+ +       0.2612 * (normalized) 63
+ +      -0.0548 * (normalized) 64
+ +      -0.2468 * (normalized) 65
+ +      -0.0536 * (normalized) 66
+ +       0.2168 * (normalized) 67
+ +      -0.0761 * (normalized) 68
+ +      -0.1368 * (normalized) 69
+ +      -0.1806 * (normalized) 70
+ +      -0.0516 * (normalized) 71
+ +       2.8131
+
+Number of kernel evaluations: 1036081 (73.611% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(8.25-9.166667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3993 * (normalized) 1
+ +       0.5204 * (normalized) 2
+ +      -0.9634 * (normalized) 3
+ +       0.1191 * (normalized) 4
+ +      -1.2768 * (normalized) 5
+ +       0.1116 * (normalized) 6
+ +      -1.0286 * (normalized) 7
+ +       0.6534 * (normalized) 8
+ +      -0.791  * (normalized) 9
+ +       1.0236 * (normalized) 10
+ +      -0.6948 * (normalized) 11
+ +      -0.1854 * (normalized) 12
+ +       0.2669 * (normalized) 13
+ +      -0.4864 * (normalized) 14
+ +      -0.437  * (normalized) 15
+ +       0.2597 * (normalized) 16
+ +      -0.2727 * (normalized) 17
+ +       0.4106 * (normalized) 18
+ +      -0.1198 * (normalized) 19
+ +       0.4732 * (normalized) 20
+ +      -0.8304 * (normalized) 21
+ +       0.2628 * (normalized) 22
+ +      -0.3251 * (normalized) 23
+ +       2.0134 * (normalized) 24
+ +       1.2029 * (normalized) 25
+ +       0.0295 * (normalized) 26
+ +      -0.541  * (normalized) 27
+ +      -0.5456 * (normalized) 28
+ +      -0.138  * (normalized) 29
+ +       0.8638 * (normalized) 30
+ +      -2.1577 * (normalized) 31
+ +       0.1007 * (normalized) 32
+ +      -0.8304 * (normalized) 33
+ +       0.2628 * (normalized) 34
+ +      -0.3251 * (normalized) 35
+ +       2.0134 * (normalized) 36
+ +       1.2029 * (normalized) 37
+ +       0.0295 * (normalized) 38
+ +      -0.541  * (normalized) 39
+ +      -0.5456 * (normalized) 40
+ +      -0.138  * (normalized) 41
+ +       0.8638 * (normalized) 42
+ +      -2.1577 * (normalized) 43
+ +       0.1007 * (normalized) 44
+ +       2.6208 * (normalized) 45
+ +       0.0615 * (normalized) 46
+ +       0.0101 * (normalized) 47
+ +      -0.0741 * (normalized) 48
+ +      -0.1353 * (normalized) 49
+ +      -0.1716 * (normalized) 50
+ +       0.441  * (normalized) 51
+ +       0.0453 * (normalized) 52
+ +       0.1186 * (normalized) 53
+ +      -0.0024 * (normalized) 54
+ +      -0.1709 * (normalized) 55
+ +       0.1016 * (normalized) 56
+ +       0.0244 * (normalized) 57
+ +       0.0462 * (normalized) 58
+ +      -0.0298 * (normalized) 59
+ +      -0.2559 * (normalized) 60
+ +      -0.1245 * (normalized) 61
+ +       0.9387 * (normalized) 62
+ +      -0.1243 * (normalized) 63
+ +       0.3567 * (normalized) 64
+ +      -0.0246 * (normalized) 65
+ +       0.2482 * (normalized) 66
+ +       0.0702 * (normalized) 67
+ +       0.2001 * (normalized) 68
+ +      -0.1372 * (normalized) 69
+ +      -0.0455 * (normalized) 70
+ +       0.1525 * (normalized) 71
+ -       0.8633
+
+Number of kernel evaluations: 1069238 (74.023% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6383 * (normalized) 1
+ +       0.971  * (normalized) 2
+ +       0.1197 * (normalized) 3
+ +      -0.6378 * (normalized) 4
+ +       0.2064 * (normalized) 5
+ +      -0.2898 * (normalized) 6
+ +      -0.6576 * (normalized) 7
+ +       0.5952 * (normalized) 8
+ +       0.1624 * (normalized) 9
+ +       0.4432 * (normalized) 10
+ +       0.5985 * (normalized) 11
+ +       0.2504 * (normalized) 12
+ +       0.1274 * (normalized) 13
+ +       0.2123 * (normalized) 14
+ +       0.0902 * (normalized) 15
+ +       0.1426 * (normalized) 16
+ +       0.3981 * (normalized) 17
+ +       0.5113 * (normalized) 18
+ +      -0.0418 * (normalized) 19
+ +       0.5451 * (normalized) 20
+ +      -0.3769 * (normalized) 21
+ +       0.2765 * (normalized) 22
+ +       1.0971 * (normalized) 23
+ +       2.5732 * (normalized) 24
+ +       1.7102 * (normalized) 25
+ +      -0.4538 * (normalized) 26
+ +       0.164  * (normalized) 27
+ +       0.451  * (normalized) 28
+ +       0.2875 * (normalized) 29
+ +       0.7243 * (normalized) 30
+ +      -1.2161 * (normalized) 31
+ +      -1.2843 * (normalized) 32
+ +      -0.3769 * (normalized) 33
+ +       0.2765 * (normalized) 34
+ +       1.0971 * (normalized) 35
+ +       2.5732 * (normalized) 36
+ +       1.7102 * (normalized) 37
+ +      -0.4538 * (normalized) 38
+ +       0.164  * (normalized) 39
+ +       0.451  * (normalized) 40
+ +       0.2875 * (normalized) 41
+ +       0.7243 * (normalized) 42
+ +      -1.2161 * (normalized) 43
+ +      -1.2843 * (normalized) 44
+ +       0.325  * (normalized) 45
+ +       0.307  * (normalized) 46
+ +       0.201  * (normalized) 47
+ +       0.0999 * (normalized) 48
+ +       0.075  * (normalized) 49
+ +      -0.0878 * (normalized) 50
+ +       0.2555 * (normalized) 51
+ +       0.0819 * (normalized) 52
+ +      -0.0691 * (normalized) 53
+ +      -0.0973 * (normalized) 54
+ +      -0.1983 * (normalized) 55
+ +      -0.3234 * (normalized) 56
+ +      -0.0198 * (normalized) 57
+ +      -0.1282 * (normalized) 58
+ +      -0.0665 * (normalized) 59
+ +      -0.3807 * (normalized) 60
+ +      -0.0651 * (normalized) 61
+ +       0.3308 * (normalized) 62
+ +       0.2873 * (normalized) 63
+ +      -0.0491 * (normalized) 64
+ +      -0.1643 * (normalized) 65
+ +      -0.119  * (normalized) 66
+ +       0.0447 * (normalized) 67
+ +      -0.0488 * (normalized) 68
+ +      -0.3463 * (normalized) 69
+ +      -0.2185 * (normalized) 70
+ +       0.3692 * (normalized) 71
+ -       6.8537
+
+Number of kernel evaluations: 974194 (72.575% cached)
+
+Classifier for classes: '(-inf-0.916667]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8194 * (normalized) 1
+ +       2.8699 * (normalized) 2
+ +      -2.7279 * (normalized) 3
+ +       1.1062 * (normalized) 4
+ +      -0.4471 * (normalized) 5
+ +      -0.8937 * (normalized) 6
+ +       0.4543 * (normalized) 7
+ +       0.0956 * (normalized) 8
+ +      -0.4426 * (normalized) 9
+ +       0.3813 * (normalized) 10
+ +      -0.9633 * (normalized) 11
+ +      -0.6935 * (normalized) 12
+ +       0.1251 * (normalized) 13
+ +      -0.7741 * (normalized) 14
+ +      -0.6729 * (normalized) 15
+ +      -0.0214 * (normalized) 16
+ +      -0.9102 * (normalized) 17
+ +       0.4106 * (normalized) 18
+ +      -0.9467 * (normalized) 19
+ +      -0.0293 * (normalized) 20
+ +       0.8155 * (normalized) 21
+ +       0.4686 * (normalized) 22
+ +      -0.4724 * (normalized) 23
+ +       0.9404 * (normalized) 24
+ +       1.9958 * (normalized) 25
+ +       1.4989 * (normalized) 26
+ +       0.067  * (normalized) 27
+ +      -1.1492 * (normalized) 28
+ +       0.8139 * (normalized) 29
+ +       1.4358 * (normalized) 30
+ +      -1.4123 * (normalized) 31
+ +      -0.3823 * (normalized) 32
+ +       0.8155 * (normalized) 33
+ +       0.4686 * (normalized) 34
+ +      -0.4724 * (normalized) 35
+ +       0.9404 * (normalized) 36
+ +       1.9958 * (normalized) 37
+ +       1.4989 * (normalized) 38
+ +       0.067  * (normalized) 39
+ +      -1.1492 * (normalized) 40
+ +       0.8139 * (normalized) 41
+ +       1.4358 * (normalized) 42
+ +      -1.4123 * (normalized) 43
+ +      -0.3823 * (normalized) 44
+ +       2.7697 * (normalized) 45
+ +      -0.2927 * (normalized) 46
+ +      -0.0465 * (normalized) 47
+ +      -0.2344 * (normalized) 48
+ +      -0.3449 * (normalized) 49
+ +      -0.5425 * (normalized) 50
+ +       0.3984 * (normalized) 51
+ +      -0.1669 * (normalized) 52
+ +      -0.2345 * (normalized) 53
+ +      -0.1296 * (normalized) 54
+ +      -0.2613 * (normalized) 55
+ +      -0.0795 * (normalized) 56
+ +       0.0523 * (normalized) 57
+ +       0.6408 * (normalized) 58
+ +       0.4004 * (normalized) 59
+ +      -0.1871 * (normalized) 60
+ +      -0.4639 * (normalized) 61
+ +       0.8223 * (normalized) 62
+ +       0.5585 * (normalized) 63
+ +       0.1989 * (normalized) 64
+ +      -0.2482 * (normalized) 65
+ +      -0.0374 * (normalized) 66
+ +       0.1102 * (normalized) 67
+ +       0.0446 * (normalized) 68
+ +      -0.3619 * (normalized) 69
+ +       0.1116 * (normalized) 70
+ +       0.8547 * (normalized) 71
+ -       3.752 
+
+Number of kernel evaluations: 1190827 (73.529% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(1.833333-2.75]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0339 * (normalized) 1
+ +       1.6312 * (normalized) 2
+ +      -1.4182 * (normalized) 3
+ +       2.0971 * (normalized) 4
+ +      -0.5713 * (normalized) 5
+ +       0.5001 * (normalized) 6
+ +       0.487  * (normalized) 7
+ +      -0.2413 * (normalized) 8
+ +       0.0206 * (normalized) 9
+ +       0.0359 * (normalized) 10
+ +      -0.2456 * (normalized) 11
+ +       0.3895 * (normalized) 12
+ +       0.0637 * (normalized) 13
+ +       0.2339 * (normalized) 14
+ +       0.6618 * (normalized) 15
+ +      -0.0394 * (normalized) 16
+ +       0.1043 * (normalized) 17
+ +      -0.2221 * (normalized) 18
+ +      -0.2639 * (normalized) 19
+ +      -0.181  * (normalized) 20
+ +       0.7195 * (normalized) 21
+ +      -0.0056 * (normalized) 22
+ +       1.1848 * (normalized) 23
+ +      -1.4533 * (normalized) 24
+ +      -0.441  * (normalized) 25
+ +       0.7507 * (normalized) 26
+ +      -0.1903 * (normalized) 27
+ +       0.8863 * (normalized) 28
+ +      -0.1278 * (normalized) 29
+ +       0.3566 * (normalized) 30
+ +       1.1175 * (normalized) 31
+ +       1.2593 * (normalized) 32
+ +       0.7195 * (normalized) 33
+ +      -0.0056 * (normalized) 34
+ +       1.1848 * (normalized) 35
+ +      -1.4533 * (normalized) 36
+ +      -0.441  * (normalized) 37
+ +       0.7507 * (normalized) 38
+ +      -0.1903 * (normalized) 39
+ +       0.8863 * (normalized) 40
+ +      -0.1278 * (normalized) 41
+ +       0.3566 * (normalized) 42
+ +       1.1175 * (normalized) 43
+ +       1.2593 * (normalized) 44
+ +      -3.1791 * (normalized) 45
+ +      -0.8982 * (normalized) 46
+ +      -0.6932 * (normalized) 47
+ +      -0.5471 * (normalized) 48
+ +      -0.4864 * (normalized) 49
+ +      -0.4599 * (normalized) 50
+ +      -0.7152 * (normalized) 51
+ +      -0.3513 * (normalized) 52
+ +      -0.4324 * (normalized) 53
+ +      -0.2223 * (normalized) 54
+ +      -0.3054 * (normalized) 55
+ +      -0.1589 * (normalized) 56
+ +      -0.0358 * (normalized) 57
+ +       0.8209 * (normalized) 58
+ +      -0.4153 * (normalized) 59
+ +       0.3827 * (normalized) 60
+ +       0.201  * (normalized) 61
+ +      -0.2273 * (normalized) 62
+ +      -0.475  * (normalized) 63
+ +       0.3656 * (normalized) 64
+ +       0.1236 * (normalized) 65
+ +      -0.0726 * (normalized) 66
+ +      -0.2157 * (normalized) 67
+ +       0.0575 * (normalized) 68
+ +       0.1061 * (normalized) 69
+ +       0.533  * (normalized) 70
+ +       0.3187 * (normalized) 71
+ -       2.0071
+
+Number of kernel evaluations: 981840 (72.319% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(2.75-3.666667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.0826 * (normalized) 1
+ +       1.6685 * (normalized) 2
+ +      -0.4033 * (normalized) 3
+ +       1.8222 * (normalized) 4
+ +      -0.1067 * (normalized) 5
+ +       0.3641 * (normalized) 6
+ +       0.1017 * (normalized) 7
+ +      -0.0343 * (normalized) 8
+ +       0.0342 * (normalized) 9
+ +      -0.299  * (normalized) 10
+ +      -0.1125 * (normalized) 11
+ +       0.3585 * (normalized) 12
+ +       0.0614 * (normalized) 13
+ +       0.6366 * (normalized) 14
+ +       0.4156 * (normalized) 15
+ +       0.6245 * (normalized) 16
+ +      -0.0043 * (normalized) 17
+ +       0.6546 * (normalized) 18
+ +       0.1035 * (normalized) 19
+ +       0.432  * (normalized) 20
+ +       0.4838 * (normalized) 21
+ +       1.7194 * (normalized) 22
+ +       1.7837 * (normalized) 23
+ +      -0.5893 * (normalized) 24
+ +      -0.2463 * (normalized) 25
+ +       0.9398 * (normalized) 26
+ +      -0.257  * (normalized) 27
+ +       0.2271 * (normalized) 28
+ +       0.7636 * (normalized) 29
+ +       1.3374 * (normalized) 30
+ +       1.8495 * (normalized) 31
+ +       0.4748 * (normalized) 32
+ +       0.4838 * (normalized) 33
+ +       1.7194 * (normalized) 34
+ +       1.7837 * (normalized) 35
+ +      -0.5893 * (normalized) 36
+ +      -0.2463 * (normalized) 37
+ +       0.9398 * (normalized) 38
+ +      -0.257  * (normalized) 39
+ +       0.2271 * (normalized) 40
+ +       0.7636 * (normalized) 41
+ +       1.3374 * (normalized) 42
+ +       1.8495 * (normalized) 43
+ +       0.4748 * (normalized) 44
+ +      -3.2283 * (normalized) 45
+ +      -0.5075 * (normalized) 46
+ +      -0.4447 * (normalized) 47
+ +      -0.1308 * (normalized) 48
+ +      -0.3045 * (normalized) 49
+ +      -0.3085 * (normalized) 50
+ +      -0.4984 * (normalized) 51
+ +      -0.0561 * (normalized) 52
+ +      -0.3243 * (normalized) 53
+ +      -0.1386 * (normalized) 54
+ +      -0.1354 * (normalized) 55
+ +       0.0626 * (normalized) 56
+ +      -0.0503 * (normalized) 57
+ +       0.6863 * (normalized) 58
+ +      -0.1416 * (normalized) 59
+ +       0.2841 * (normalized) 60
+ +       0.1066 * (normalized) 61
+ +      -0.1102 * (normalized) 62
+ +      -0.3038 * (normalized) 63
+ +       0.1444 * (normalized) 64
+ +      -0.0161 * (normalized) 65
+ +       0.0458 * (normalized) 66
+ +       0.1657 * (normalized) 67
+ +       0.5834 * (normalized) 68
+ +       0.2247 * (normalized) 69
+ +       0.0719 * (normalized) 70
+ +       0.2803 * (normalized) 71
+ -      10.9363
+
+Number of kernel evaluations: 1101546 (71.983% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(3.666667-4.583333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0584 * (normalized) 1
+ +      -0.6245 * (normalized) 2
+ +       0.416  * (normalized) 3
+ +       0.3755 * (normalized) 4
+ +      -0.5538 * (normalized) 5
+ +       0.9168 * (normalized) 6
+ +      -0.5821 * (normalized) 7
+ +      -0.0405 * (normalized) 8
+ +       0.1573 * (normalized) 9
+ +       0.0163 * (normalized) 10
+ +       0.117  * (normalized) 11
+ +       0.7303 * (normalized) 12
+ +       0.2439 * (normalized) 13
+ +       0.7948 * (normalized) 14
+ +       0.3385 * (normalized) 15
+ +       0.5567 * (normalized) 16
+ +       0.9477 * (normalized) 17
+ +      -0.1862 * (normalized) 18
+ +       0.7048 * (normalized) 19
+ +       0.7008 * (normalized) 20
+ +      -1.3657 * (normalized) 21
+ +       0.1646 * (normalized) 22
+ +       0.6471 * (normalized) 23
+ +      -0.5821 * (normalized) 24
+ +      -1.5103 * (normalized) 25
+ +      -0.174  * (normalized) 26
+ +      -0.5484 * (normalized) 27
+ +       0.8697 * (normalized) 28
+ +      -1.3169 * (normalized) 29
+ +       1.6758 * (normalized) 30
+ +      -1.5156 * (normalized) 31
+ +       0.5272 * (normalized) 32
+ +      -1.3657 * (normalized) 33
+ +       0.1646 * (normalized) 34
+ +       0.6471 * (normalized) 35
+ +      -0.5821 * (normalized) 36
+ +      -1.5103 * (normalized) 37
+ +      -0.174  * (normalized) 38
+ +      -0.5484 * (normalized) 39
+ +       0.8697 * (normalized) 40
+ +      -1.3169 * (normalized) 41
+ +       1.6758 * (normalized) 42
+ +      -1.5156 * (normalized) 43
+ +       0.5272 * (normalized) 44
+ +      -0.2401 * (normalized) 45
+ +      -0.5596 * (normalized) 46
+ +      -0.4623 * (normalized) 47
+ +      -0.4154 * (normalized) 48
+ +      -0.3359 * (normalized) 49
+ +      -0.7808 * (normalized) 50
+ +      -0.4798 * (normalized) 51
+ +      -0.2599 * (normalized) 52
+ +      -0.0094 * (normalized) 53
+ +      -0.1438 * (normalized) 54
+ +      -0.0689 * (normalized) 55
+ +       0.0141 * (normalized) 56
+ +       0.0852 * (normalized) 57
+ +       0.5239 * (normalized) 58
+ +      -0.4477 * (normalized) 59
+ +      -0.0075 * (normalized) 60
+ +       0.3834 * (normalized) 61
+ +      -0.346  * (normalized) 62
+ +      -0.4072 * (normalized) 63
+ +       0.0765 * (normalized) 64
+ +      -0.1097 * (normalized) 65
+ +       0.2279 * (normalized) 66
+ +       0.1301 * (normalized) 67
+ +       0.3732 * (normalized) 68
+ +      -0.2187 * (normalized) 69
+ +      -0.0853 * (normalized) 70
+ +       0.1168 * (normalized) 71
+ +       0.7822
+
+Number of kernel evaluations: 852803 (73.751% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(4.583333-5.5]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.6932 * (normalized) 1
+ +      -0.6711 * (normalized) 2
+ +       1.4423 * (normalized) 3
+ +       0.9066 * (normalized) 4
+ +      -0.2984 * (normalized) 5
+ +       1.1345 * (normalized) 6
+ +       0.0647 * (normalized) 7
+ +      -0.4326 * (normalized) 8
+ +       0.5969 * (normalized) 9
+ +      -0.2837 * (normalized) 10
+ +      -0.2845 * (normalized) 11
+ +       1.2852 * (normalized) 12
+ +      -0.2544 * (normalized) 13
+ +       0.1273 * (normalized) 14
+ +       1.086  * (normalized) 15
+ +      -0.34   * (normalized) 16
+ +       0.4811 * (normalized) 17
+ +       0.7682 * (normalized) 18
+ +      -0.48   * (normalized) 19
+ +       0.774  * (normalized) 20
+ +       0.4549 * (normalized) 21
+ +       1.1057 * (normalized) 22
+ +       1.061  * (normalized) 23
+ +      -0.331  * (normalized) 24
+ +      -1.1162 * (normalized) 25
+ +       0.1021 * (normalized) 26
+ +       0.64   * (normalized) 27
+ +       0.5741 * (normalized) 28
+ +      -0.7226 * (normalized) 29
+ +       1.5361 * (normalized) 30
+ +       1.0381 * (normalized) 31
+ +       1.5351 * (normalized) 32
+ +       0.4549 * (normalized) 33
+ +       1.1057 * (normalized) 34
+ +       1.061  * (normalized) 35
+ +      -0.331  * (normalized) 36
+ +      -1.1162 * (normalized) 37
+ +       0.1021 * (normalized) 38
+ +       0.64   * (normalized) 39
+ +       0.5741 * (normalized) 40
+ +      -0.7226 * (normalized) 41
+ +       1.5361 * (normalized) 42
+ +       1.0381 * (normalized) 43
+ +       1.5351 * (normalized) 44
+ +      -4.0553 * (normalized) 45
+ +       0.0516 * (normalized) 46
+ +      -0.3828 * (normalized) 47
+ +      -0.0353 * (normalized) 48
+ +      -0.0922 * (normalized) 49
+ +      -0.0731 * (normalized) 50
+ +      -0.1895 * (normalized) 51
+ +       0.0653 * (normalized) 52
+ +      -0.3615 * (normalized) 53
+ +      -0.035  * (normalized) 54
+ +      -0.1026 * (normalized) 55
+ +       0.1187 * (normalized) 56
+ +      -0.2345 * (normalized) 57
+ +       0.3141 * (normalized) 58
+ +      -0.1009 * (normalized) 59
+ +       0.1705 * (normalized) 60
+ +       0.2755 * (normalized) 61
+ +      -0.1466 * (normalized) 62
+ +      -0.3402 * (normalized) 63
+ +       0.1204 * (normalized) 64
+ +       0.1773 * (normalized) 65
+ +       0.0647 * (normalized) 66
+ +      -0.0402 * (normalized) 67
+ +       0.0269 * (normalized) 68
+ +       0.0146 * (normalized) 69
+ +      -0.0239 * (normalized) 70
+ +       0.1185 * (normalized) 71
+ -       7.7386
+
+Number of kernel evaluations: 1224462 (70.406% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(5.5-6.416667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5832 * (normalized) 1
+ +       2.5331 * (normalized) 2
+ +      -1.3377 * (normalized) 3
+ +       1.7183 * (normalized) 4
+ +       0.0336 * (normalized) 5
+ +       0.0098 * (normalized) 6
+ +       0.1307 * (normalized) 7
+ +       0.0804 * (normalized) 8
+ +       0.2107 * (normalized) 9
+ +      -0.5409 * (normalized) 10
+ +       0.1534 * (normalized) 11
+ +       0.2771 * (normalized) 12
+ +      -0.0612 * (normalized) 13
+ +       0.7342 * (normalized) 14
+ +       0.3817 * (normalized) 15
+ +       0.4216 * (normalized) 16
+ +       0.2964 * (normalized) 17
+ +       0.5316 * (normalized) 18
+ +      -0.2148 * (normalized) 19
+ +       0.7682 * (normalized) 20
+ +       0.232  * (normalized) 21
+ +       1.5049 * (normalized) 22
+ +       1.5572 * (normalized) 23
+ +      -0.1529 * (normalized) 24
+ +       0.2764 * (normalized) 25
+ +       1.5586 * (normalized) 26
+ +      -0.3317 * (normalized) 27
+ +       0.8217 * (normalized) 28
+ +       0.1537 * (normalized) 29
+ +       2.6247 * (normalized) 30
+ +       0.8015 * (normalized) 31
+ +       0.6566 * (normalized) 32
+ +       0.232  * (normalized) 33
+ +       1.5049 * (normalized) 34
+ +       1.5572 * (normalized) 35
+ +      -0.1529 * (normalized) 36
+ +       0.2764 * (normalized) 37
+ +       1.5586 * (normalized) 38
+ +      -0.3317 * (normalized) 39
+ +       0.8217 * (normalized) 40
+ +       0.1537 * (normalized) 41
+ +       2.6247 * (normalized) 42
+ +       0.8015 * (normalized) 43
+ +       0.6566 * (normalized) 44
+ +      -2.1609 * (normalized) 45
+ +      -0.4034 * (normalized) 46
+ +      -0.2343 * (normalized) 47
+ +      -0.3378 * (normalized) 48
+ +       0.0925 * (normalized) 49
+ +       0.0696 * (normalized) 50
+ +      -0.2214 * (normalized) 51
+ +      -0.1306 * (normalized) 52
+ +       0.0582 * (normalized) 53
+ +      -0.2344 * (normalized) 54
+ +       0.0173 * (normalized) 55
+ +       0.184  * (normalized) 56
+ +      -0.3452 * (normalized) 57
+ +       0.9928 * (normalized) 58
+ +      -0.1414 * (normalized) 59
+ +      -0.082  * (normalized) 60
+ +       0.1111 * (normalized) 61
+ +      -0.4059 * (normalized) 62
+ +      -0.634  * (normalized) 63
+ +       0.1801 * (normalized) 64
+ +      -0.0338 * (normalized) 65
+ +       0.2819 * (normalized) 66
+ +       0.2303 * (normalized) 67
+ +       0.3203 * (normalized) 68
+ +       0.0772 * (normalized) 69
+ +      -0.0014 * (normalized) 70
+ +       0.0441 * (normalized) 71
+ -      12.7329
+
+Number of kernel evaluations: 1055969 (73.372% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(6.416667-7.333333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.4436 * (normalized) 1
+ +      -0.0885 * (normalized) 2
+ +       0.5082 * (normalized) 3
+ +       1.4422 * (normalized) 4
+ +      -0.2169 * (normalized) 5
+ +       0.7063 * (normalized) 6
+ +       0.5788 * (normalized) 7
+ +      -0.3481 * (normalized) 8
+ +       0.6052 * (normalized) 9
+ +      -0.2179 * (normalized) 10
+ +      -0.0589 * (normalized) 11
+ +       0.8252 * (normalized) 12
+ +       0.0495 * (normalized) 13
+ +       0.5962 * (normalized) 14
+ +       0.0609 * (normalized) 15
+ +       0.5721 * (normalized) 16
+ +       0.6022 * (normalized) 17
+ +      -0.4618 * (normalized) 18
+ +       1.2495 * (normalized) 19
+ +       0.1742 * (normalized) 20
+ +       0.2859 * (normalized) 21
+ +       0.9974 * (normalized) 22
+ +       0.5588 * (normalized) 23
+ +      -0.3137 * (normalized) 24
+ +      -0.913  * (normalized) 25
+ +       0.7404 * (normalized) 26
+ +       0.5572 * (normalized) 27
+ +       0.4519 * (normalized) 28
+ +      -0.2236 * (normalized) 29
+ +       2.5626 * (normalized) 30
+ +       1.8653 * (normalized) 31
+ +       0.9498 * (normalized) 32
+ +       0.2859 * (normalized) 33
+ +       0.9974 * (normalized) 34
+ +       0.5588 * (normalized) 35
+ +      -0.3137 * (normalized) 36
+ +      -0.913  * (normalized) 37
+ +       0.7404 * (normalized) 38
+ +       0.5572 * (normalized) 39
+ +       0.4519 * (normalized) 40
+ +      -0.2236 * (normalized) 41
+ +       2.5626 * (normalized) 42
+ +       1.8653 * (normalized) 43
+ +       0.9498 * (normalized) 44
+ +      -2.8353 * (normalized) 45
+ +      -0.257  * (normalized) 46
+ +      -0.4141 * (normalized) 47
+ +      -0.2002 * (normalized) 48
+ +      -0.0515 * (normalized) 49
+ +      -0.3337 * (normalized) 50
+ +      -0.1306 * (normalized) 51
+ +      -0.0239 * (normalized) 52
+ +      -0.031  * (normalized) 53
+ +      -0.1787 * (normalized) 54
+ +      -0.0214 * (normalized) 55
+ +       0.1511 * (normalized) 56
+ +      -0.0723 * (normalized) 57
+ +       0.5985 * (normalized) 58
+ +      -0.117  * (normalized) 59
+ +       0.3886 * (normalized) 60
+ +       0.0507 * (normalized) 61
+ +      -0.1636 * (normalized) 62
+ +      -0.706  * (normalized) 63
+ +       0.0158 * (normalized) 64
+ +       0.2376 * (normalized) 65
+ +       0.1753 * (normalized) 66
+ +      -0.266  * (normalized) 67
+ +      -0.0241 * (normalized) 68
+ +       0.1407 * (normalized) 69
+ +       0.1761 * (normalized) 70
+ +      -0.1566 * (normalized) 71
+ -      10.7629
+
+Number of kernel evaluations: 1041970 (72.684% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(7.333333-8.25]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4275 * (normalized) 1
+ +      -1.3528 * (normalized) 2
+ +       0.5189 * (normalized) 3
+ +      -0.4831 * (normalized) 4
+ +      -0.5896 * (normalized) 5
+ +      -0.1219 * (normalized) 6
+ +       0.348  * (normalized) 7
+ +      -0.2463 * (normalized) 8
+ +       0.3675 * (normalized) 9
+ +      -0.1156 * (normalized) 10
+ +       0.2339 * (normalized) 11
+ +      -0.8817 * (normalized) 12
+ +       0.7724 * (normalized) 13
+ +       0.0934 * (normalized) 14
+ +      -0.3168 * (normalized) 15
+ +       0.8626 * (normalized) 16
+ +      -0.0096 * (normalized) 17
+ +      -0.9469 * (normalized) 18
+ +       1.4643 * (normalized) 19
+ +      -0.5635 * (normalized) 20
+ +      -0.6841 * (normalized) 21
+ +      -0.2957 * (normalized) 22
+ +      -0.006  * (normalized) 23
+ +      -0.1026 * (normalized) 24
+ +       1.3294 * (normalized) 25
+ +       1.433  * (normalized) 26
+ +      -0.9682 * (normalized) 27
+ +      -0.2806 * (normalized) 28
+ +       0.4065 * (normalized) 29
+ +      -0.4368 * (normalized) 30
+ +       0.4347 * (normalized) 31
+ +       0.3354 * (normalized) 32
+ +      -0.6841 * (normalized) 33
+ +      -0.2957 * (normalized) 34
+ +      -0.006  * (normalized) 35
+ +      -0.1026 * (normalized) 36
+ +       1.3294 * (normalized) 37
+ +       1.433  * (normalized) 38
+ +      -0.9682 * (normalized) 39
+ +      -0.2806 * (normalized) 40
+ +       0.4065 * (normalized) 41
+ +      -0.4368 * (normalized) 42
+ +       0.4347 * (normalized) 43
+ +       0.3354 * (normalized) 44
+ +       0.0575 * (normalized) 45
+ +       0.0069 * (normalized) 46
+ +      -0.2882 * (normalized) 47
+ +      -0.2538 * (normalized) 48
+ +      -0.4557 * (normalized) 49
+ +      -0.2119 * (normalized) 50
+ +      -0.2227 * (normalized) 51
+ +       0.232  * (normalized) 52
+ +       0.2834 * (normalized) 53
+ +       0.0308 * (normalized) 54
+ +      -0.4892 * (normalized) 55
+ +       0.3536 * (normalized) 56
+ +      -0.0555 * (normalized) 57
+ +      -0.0651 * (normalized) 58
+ +       0.2449 * (normalized) 59
+ +      -0.4671 * (normalized) 60
+ +       0.1363 * (normalized) 61
+ +      -0.0042 * (normalized) 62
+ +       0.0291 * (normalized) 63
+ +       0.5671 * (normalized) 64
+ +      -0.2981 * (normalized) 65
+ +       0.036  * (normalized) 66
+ +       0.2813 * (normalized) 67
+ +      -0.2835 * (normalized) 68
+ +       0.0037 * (normalized) 69
+ +       0.0649 * (normalized) 70
+ +      -0.0946 * (normalized) 71
+ -       0.7458
+
+Number of kernel evaluations: 630882 (72.961% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(8.25-9.166667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.1526 * (normalized) 1
+ +      -1.0619 * (normalized) 2
+ +       1.2374 * (normalized) 3
+ +       0.47   * (normalized) 4
+ +      -0.8232 * (normalized) 5
+ +       0.7248 * (normalized) 6
+ +      -0.293  * (normalized) 7
+ +      -0.043  * (normalized) 8
+ +       0.0643 * (normalized) 9
+ +       0.6795 * (normalized) 10
+ +      -0.2468 * (normalized) 11
+ +       0.5804 * (normalized) 12
+ +       0.6082 * (normalized) 13
+ +       0.5027 * (normalized) 14
+ +       0.2692 * (normalized) 15
+ +       1.035  * (normalized) 16
+ +       0.7421 * (normalized) 17
+ +       0.117  * (normalized) 18
+ +       1.3191 * (normalized) 19
+ +       0.7253 * (normalized) 20
+ +      -1.2927 * (normalized) 21
+ +       0.9901 * (normalized) 22
+ +       0.8078 * (normalized) 23
+ +       0.5167 * (normalized) 24
+ +      -0.3267 * (normalized) 25
+ +      -0.1721 * (normalized) 26
+ +      -0.8514 * (normalized) 27
+ +       0.1201 * (normalized) 28
+ +      -0.6927 * (normalized) 29
+ +       1.363  * (normalized) 30
+ +      -0.6678 * (normalized) 31
+ +       1.7733 * (normalized) 32
+ +      -1.2927 * (normalized) 33
+ +       0.9901 * (normalized) 34
+ +       0.8078 * (normalized) 35
+ +       0.5167 * (normalized) 36
+ +      -0.3267 * (normalized) 37
+ +      -0.1721 * (normalized) 38
+ +      -0.8514 * (normalized) 39
+ +       0.1201 * (normalized) 40
+ +      -0.6927 * (normalized) 41
+ +       1.363  * (normalized) 42
+ +      -0.6678 * (normalized) 43
+ +       1.7733 * (normalized) 44
+ +      -1.9493 * (normalized) 45
+ +      -0.3692 * (normalized) 46
+ +      -0.1119 * (normalized) 47
+ +      -0.172  * (normalized) 48
+ +       0.1476 * (normalized) 49
+ +      -0.2219 * (normalized) 50
+ +      -0.0486 * (normalized) 51
+ +      -0.2815 * (normalized) 52
+ +       0.0867 * (normalized) 53
+ +      -0.3882 * (normalized) 54
+ +      -0.1923 * (normalized) 55
+ +       0.0432 * (normalized) 56
+ +      -0.0572 * (normalized) 57
+ +       0.3033 * (normalized) 58
+ +       0.1894 * (normalized) 59
+ +       0.1917 * (normalized) 60
+ +       0.4269 * (normalized) 61
+ +      -0.1658 * (normalized) 62
+ +      -0.0383 * (normalized) 63
+ +      -0.0482 * (normalized) 64
+ +       0.1848 * (normalized) 65
+ +       0.1278 * (normalized) 66
+ +      -0.1615 * (normalized) 67
+ +       0.3738 * (normalized) 68
+ +       0.0501 * (normalized) 69
+ +       0.2873 * (normalized) 70
+ +      -0.1929 * (normalized) 71
+ -       5.7628
+
+Number of kernel evaluations: 876522 (72.498% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.2358 * (normalized) 1
+ +       0.4563 * (normalized) 2
+ +       0.8093 * (normalized) 3
+ +       0.5868 * (normalized) 4
+ +       0.2935 * (normalized) 5
+ +       0.3562 * (normalized) 6
+ +       0.1664 * (normalized) 7
+ +      -0.0892 * (normalized) 8
+ +       0.8029 * (normalized) 9
+ +      -0.0988 * (normalized) 10
+ +       0.7532 * (normalized) 11
+ +       0.9448 * (normalized) 12
+ +       0.2593 * (normalized) 13
+ +       1.0243 * (normalized) 14
+ +       0.8218 * (normalized) 15
+ +       0.6478 * (normalized) 16
+ +       0.8243 * (normalized) 17
+ +       0.4795 * (normalized) 18
+ +       0.5775 * (normalized) 19
+ +       0.6086 * (normalized) 20
+ +      -0.4577 * (normalized) 21
+ +       0.5791 * (normalized) 22
+ +       1.9493 * (normalized) 23
+ +       0.1875 * (normalized) 24
+ +      -0.1241 * (normalized) 25
+ +      -0.1799 * (normalized) 26
+ +      -0.1066 * (normalized) 27
+ +       0.7448 * (normalized) 28
+ +      -0.1283 * (normalized) 29
+ +       0.8619 * (normalized) 30
+ +       0.8833 * (normalized) 31
+ +      -0.0967 * (normalized) 32
+ +      -0.4577 * (normalized) 33
+ +       0.5791 * (normalized) 34
+ +       1.9493 * (normalized) 35
+ +       0.1875 * (normalized) 36
+ +      -0.1241 * (normalized) 37
+ +      -0.1799 * (normalized) 38
+ +      -0.1066 * (normalized) 39
+ +       0.7448 * (normalized) 40
+ +      -0.1283 * (normalized) 41
+ +       0.8619 * (normalized) 42
+ +       0.8833 * (normalized) 43
+ +      -0.0967 * (normalized) 44
+ +      -3.5685 * (normalized) 45
+ +      -0.2531 * (normalized) 46
+ +       0.0079 * (normalized) 47
+ +       0.0041 * (normalized) 48
+ +      -0.0574 * (normalized) 49
+ +      -0.0556 * (normalized) 50
+ +      -0.3619 * (normalized) 51
+ +       0.1367 * (normalized) 52
+ +       0.0367 * (normalized) 53
+ +      -0.0039 * (normalized) 54
+ +      -0.0023 * (normalized) 55
+ +      -0.0543 * (normalized) 56
+ +       0.1045 * (normalized) 57
+ +       0.2227 * (normalized) 58
+ +      -0.1743 * (normalized) 59
+ +      -0.1669 * (normalized) 60
+ +       0.1643 * (normalized) 61
+ +      -0.5957 * (normalized) 62
+ +      -0.228  * (normalized) 63
+ +       0.0033 * (normalized) 64
+ +       0.0445 * (normalized) 65
+ +       0.148  * (normalized) 66
+ +      -0.4084 * (normalized) 67
+ +       0.2752 * (normalized) 68
+ +      -0.0699 * (normalized) 69
+ +      -0.0932 * (normalized) 70
+ +      -0.1425 * (normalized) 71
+ -       8.4492
+
+Number of kernel evaluations: 915144 (73.464% cached)
+
+Classifier for classes: '(0.916667-1.833333]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.434  * (normalized) 1
+ +       1.7626 * (normalized) 2
+ +      -1.1236 * (normalized) 3
+ +       1.9834 * (normalized) 4
+ +      -0.4061 * (normalized) 5
+ +       0.0909 * (normalized) 6
+ +       0.9163 * (normalized) 7
+ +      -0.4008 * (normalized) 8
+ +       0.3156 * (normalized) 9
+ +      -0.0627 * (normalized) 10
+ +      -0.47   * (normalized) 11
+ +       0.3275 * (normalized) 12
+ +       0.4887 * (normalized) 13
+ +       0.4555 * (normalized) 14
+ +       0.2431 * (normalized) 15
+ +       0.7661 * (normalized) 16
+ +       0.1687 * (normalized) 17
+ +       0.3951 * (normalized) 18
+ +       0.3397 * (normalized) 19
+ +       0.2795 * (normalized) 20
+ +       0.0788 * (normalized) 21
+ +       1.0468 * (normalized) 22
+ +       1.0427 * (normalized) 23
+ +      -0.9733 * (normalized) 24
+ +       0.2046 * (normalized) 25
+ +       1.4484 * (normalized) 26
+ +       0.1016 * (normalized) 27
+ +      -0.9258 * (normalized) 28
+ +       0.2695 * (normalized) 29
+ +       1.8347 * (normalized) 30
+ +       0.3826 * (normalized) 31
+ +       0.9786 * (normalized) 32
+ +       0.0788 * (normalized) 33
+ +       1.0468 * (normalized) 34
+ +       1.0427 * (normalized) 35
+ +      -0.9733 * (normalized) 36
+ +       0.2046 * (normalized) 37
+ +       1.4484 * (normalized) 38
+ +       0.1016 * (normalized) 39
+ +      -0.9258 * (normalized) 40
+ +       0.2695 * (normalized) 41
+ +       1.8347 * (normalized) 42
+ +       0.3826 * (normalized) 43
+ +       0.9786 * (normalized) 44
+ +      -2.0981 * (normalized) 45
+ +      -0.7362 * (normalized) 46
+ +       0.0194 * (normalized) 47
+ +      -0.2769 * (normalized) 48
+ +       0.0207 * (normalized) 49
+ +      -0.3228 * (normalized) 50
+ +      -0.292  * (normalized) 51
+ +      -0.2087 * (normalized) 52
+ +      -0.2111 * (normalized) 53
+ +      -0.3423 * (normalized) 54
+ +      -0.0456 * (normalized) 55
+ +      -0.0679 * (normalized) 56
+ +      -0.3966 * (normalized) 57
+ +       0.8946 * (normalized) 58
+ +       0.177  * (normalized) 59
+ +      -0.2078 * (normalized) 60
+ +       0.2566 * (normalized) 61
+ +      -0.5415 * (normalized) 62
+ +      -0.1996 * (normalized) 63
+ +      -0.163  * (normalized) 64
+ +      -0.1844 * (normalized) 65
+ +      -0.0727 * (normalized) 66
+ +      -0.0059 * (normalized) 67
+ +       0.1929 * (normalized) 68
+ +       0.1297 * (normalized) 69
+ +       0.1682 * (normalized) 70
+ +       0.1523 * (normalized) 71
+ -       7.6443
+
+Number of kernel evaluations: 1029695 (71.833% cached)
+
+Classifier for classes: '(1.833333-2.75]', '(2.75-3.666667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.241  * (normalized) 1
+ +       0.5215 * (normalized) 2
+ +       1.0746 * (normalized) 3
+ +      -0.6144 * (normalized) 4
+ +       1.0138 * (normalized) 5
+ +      -0.5719 * (normalized) 6
+ +      -0.6525 * (normalized) 7
+ +       0.773  * (normalized) 8
+ +      -0.4992 * (normalized) 9
+ +      -0.0382 * (normalized) 10
+ +       0.3284 * (normalized) 11
+ +      -0.2563 * (normalized) 12
+ +       0.1102 * (normalized) 13
+ +       0.6008 * (normalized) 14
+ +      -0.4948 * (normalized) 15
+ +       0.788  * (normalized) 16
+ +       0.3647 * (normalized) 17
+ +       0.2721 * (normalized) 18
+ +       1.3006 * (normalized) 19
+ +       0.4916 * (normalized) 20
+ +      -0.3659 * (normalized) 21
+ +       2.1612 * (normalized) 22
+ +       0.8218 * (normalized) 23
+ +       1.535  * (normalized) 24
+ +       0.4511 * (normalized) 25
+ +       0.0668 * (normalized) 26
+ +      -0.1897 * (normalized) 27
+ +      -0.6616 * (normalized) 28
+ +       1.1173 * (normalized) 29
+ +       1.2123 * (normalized) 30
+ +       0.9383 * (normalized) 31
+ +      -1.2345 * (normalized) 32
+ +      -0.3659 * (normalized) 33
+ +       2.1612 * (normalized) 34
+ +       0.8218 * (normalized) 35
+ +       1.535  * (normalized) 36
+ +       0.4511 * (normalized) 37
+ +       0.0668 * (normalized) 38
+ +      -0.1897 * (normalized) 39
+ +      -0.6616 * (normalized) 40
+ +       1.1173 * (normalized) 41
+ +       1.2123 * (normalized) 42
+ +       0.9383 * (normalized) 43
+ +      -1.2345 * (normalized) 44
+ +      -0.3892 * (normalized) 45
+ +       0.1601 * (normalized) 46
+ +       0.1945 * (normalized) 47
+ +       0.0228 * (normalized) 48
+ +       0.128  * (normalized) 49
+ +      -0.059  * (normalized) 50
+ +       0.2323 * (normalized) 51
+ +       0.0321 * (normalized) 52
+ +      -0.006  * (normalized) 53
+ +       0.1661 * (normalized) 54
+ +       0.0033 * (normalized) 55
+ +       0.2306 * (normalized) 56
+ +       0.0939 * (normalized) 57
+ +      -0.2442 * (normalized) 58
+ +      -0.2986 * (normalized) 59
+ +       0.3277 * (normalized) 60
+ +       0.1115 * (normalized) 61
+ +       0.3558 * (normalized) 62
+ +       0.2478 * (normalized) 63
+ +       0.1327 * (normalized) 64
+ +      -0.3256 * (normalized) 65
+ +      -0.1336 * (normalized) 66
+ +       0.1588 * (normalized) 67
+ +       0.1166 * (normalized) 68
+ +       0.1144 * (normalized) 69
+ +      -0.1792 * (normalized) 70
+ +       0.2945 * (normalized) 71
+ -      10.414 
+
+Number of kernel evaluations: 1054918 (72.62% cached)
+
+Classifier for classes: '(1.833333-2.75]', '(3.666667-4.583333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0295 * (normalized) 1
+ +      -1.8486 * (normalized) 2
+ +       1.5226 * (normalized) 3
+ +      -1.8542 * (normalized) 4
+ +       0.436  * (normalized) 5
+ +       0.4385 * (normalized) 6
+ +      -1.3852 * (normalized) 7
+ +       0.8818 * (normalized) 8
+ +      -0.2406 * (normalized) 9
+ +       0.0635 * (normalized) 10
+ +       0.5735 * (normalized) 11
+ +       0.2899 * (normalized) 12
+ +       0.0308 * (normalized) 13
+ +       0.6397 * (normalized) 14
+ +      -0.4531 * (normalized) 15
+ +       0.6441 * (normalized) 16
+ +       0.6904 * (normalized) 17
+ +       0.3553 * (normalized) 18
+ +       0.5875 * (normalized) 19
+ +       0.9209 * (normalized) 20
+ +      -1.9091 * (normalized) 21
+ +       0.0208 * (normalized) 22
+ +      -0.7393 * (normalized) 23
+ +       0.8055 * (normalized) 24
+ +      -0.7759 * (normalized) 25
+ +      -1.0484 * (normalized) 26
+ +       0.2212 * (normalized) 27
+ +       0.3255 * (normalized) 28
+ +      -0.9041 * (normalized) 29
+ +       1.6712 * (normalized) 30
+ +      -2.1037 * (normalized) 31
+ +      -0.9729 * (normalized) 32
+ +      -1.9091 * (normalized) 33
+ +       0.0208 * (normalized) 34
+ +      -0.7393 * (normalized) 35
+ +       0.8055 * (normalized) 36
+ +      -0.7759 * (normalized) 37
+ +      -1.0484 * (normalized) 38
+ +       0.2212 * (normalized) 39
+ +       0.3255 * (normalized) 40
+ +      -0.9041 * (normalized) 41
+ +       1.6712 * (normalized) 42
+ +      -2.1037 * (normalized) 43
+ +      -0.9729 * (normalized) 44
+ +       2.3093 * (normalized) 45
+ +       0.3864 * (normalized) 46
+ +       0.0033 * (normalized) 47
+ +       0.233  * (normalized) 48
+ +      -0.1235 * (normalized) 49
+ +      -0.3449 * (normalized) 50
+ +       0.0272 * (normalized) 51
+ +       0.0722 * (normalized) 52
+ +      -0.0121 * (normalized) 53
+ +       0.0181 * (normalized) 54
+ +      -0.1616 * (normalized) 55
+ +       0.0354 * (normalized) 56
+ +       0.2663 * (normalized) 57
+ +      -0.4029 * (normalized) 58
+ +      -0.2548 * (normalized) 59
+ +      -0.2568 * (normalized) 60
+ +       0.0354 * (normalized) 61
+ +      -0.2609 * (normalized) 62
+ +      -0.0281 * (normalized) 63
+ +      -0.133  * (normalized) 64
+ +      -0.0435 * (normalized) 65
+ +       0.4281 * (normalized) 66
+ +       0.2925 * (normalized) 67
+ +       0.4435 * (normalized) 68
+ +      -0.1696 * (normalized) 69
+ +      -0.1583 * (normalized) 70
+ +      -0.0193 * (normalized) 71
+ +       1.7451
+
+Number of kernel evaluations: 805408 (73.349% cached)
+
+Classifier for classes: '(1.833333-2.75]', '(4.583333-5.5]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.7533 * (normalized) 1
+ +      -2.2116 * (normalized) 2
+ +       2.9674 * (normalized) 3
+ +      -1.3089 * (normalized) 4
+ +       0.7153 * (normalized) 5
+ +       0.5474 * (normalized) 6
+ +      -0.4986 * (normalized) 7
+ +       0.1052 * (normalized) 8
+ +       0.2297 * (normalized) 9
+ +      -0.2719 * (normalized) 10
+ +       0.0168 * (normalized) 11
+ +       0.8747 * (normalized) 12
+ +      -0.3295 * (normalized) 13
+ +       0.092  * (normalized) 14
+ +       0.1993 * (normalized) 15
+ +      -0.0785 * (normalized) 16
+ +       0.3241 * (normalized) 17
+ +       1.0006 * (normalized) 18
+ +      -0.3659 * (normalized) 19
+ +       0.8083 * (normalized) 20
+ +      -0.0348 * (normalized) 21
+ +       1.0749 * (normalized) 22
+ +       0.1702 * (normalized) 23
+ +       0.6036 * (normalized) 24
+ +      -0.7841 * (normalized) 25
+ +      -0.8957 * (normalized) 26
+ +       1.2452 * (normalized) 27
+ +      -0.3017 * (normalized) 28
+ +      -0.6345 * (normalized) 29
+ +       1.5913 * (normalized) 30
+ +       0.0591 * (normalized) 31
+ +       0.6362 * (normalized) 32
+ +      -0.0348 * (normalized) 33
+ +       1.0749 * (normalized) 34
+ +       0.1702 * (normalized) 35
+ +       0.6036 * (normalized) 36
+ +      -0.7841 * (normalized) 37
+ +      -0.8957 * (normalized) 38
+ +       1.2452 * (normalized) 39
+ +      -0.3017 * (normalized) 40
+ +      -0.6345 * (normalized) 41
+ +       1.5913 * (normalized) 42
+ +       0.0591 * (normalized) 43
+ +       0.6362 * (normalized) 44
+ +      -1.6943 * (normalized) 45
+ +       0.8106 * (normalized) 46
+ +       0.0159 * (normalized) 47
+ +       0.1875 * (normalized) 48
+ +      -0.0822 * (normalized) 49
+ +       0.2401 * (normalized) 50
+ +      -0.1992 * (normalized) 51
+ +       0.5732 * (normalized) 52
+ +      -0.3033 * (normalized) 53
+ +       0.0782 * (normalized) 54
+ +       0.2123 * (normalized) 55
+ +       0.1816 * (normalized) 56
+ +       0.0393 * (normalized) 57
+ +      -0.4079 * (normalized) 58
+ +      -0.1634 * (normalized) 59
+ +      -0.1909 * (normalized) 60
+ +       0.1267 * (normalized) 61
+ +      -0.3932 * (normalized) 62
+ +      -0.4131 * (normalized) 63
+ +      -0.3556 * (normalized) 64
+ +       0.2967 * (normalized) 65
+ +       0.0596 * (normalized) 66
+ +       0.0521 * (normalized) 67
+ +       0.102  * (normalized) 68
+ +      -0.0807 * (normalized) 69
+ +      -0.0483 * (normalized) 70
+ +       0.0607 * (normalized) 71
+ -       4.9556
+
+Number of kernel evaluations: 1059797 (74.61% cached)
+
+Classifier for classes: '(1.833333-2.75]', '(5.5-6.416667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.9745 * (normalized) 1
+ +       1.0272 * (normalized) 2
+ +       0.3375 * (normalized) 3
+ +      -0.699  * (normalized) 4
+ +       1.0075 * (normalized) 5
+ +      -0.4236 * (normalized) 6
+ +      -0.7668 * (normalized) 7
+ +       1.0661 * (normalized) 8
+ +      -0.2086 * (normalized) 9
+ +      -0.2026 * (normalized) 10
+ +       0.5331 * (normalized) 11
+ +      -0.2982 * (normalized) 12
+ +       0.1511 * (normalized) 13
+ +       0.5603 * (normalized) 14
+ +      -0.5187 * (normalized) 15
+ +       0.673  * (normalized) 16
+ +       0.2554 * (normalized) 17
+ +       0.3033 * (normalized) 18
+ +       0.4888 * (normalized) 19
+ +       0.7458 * (normalized) 20
+ +      -0.1947 * (normalized) 21
+ +       1.4647 * (normalized) 22
+ +       0.6046 * (normalized) 23
+ +       1.7127 * (normalized) 24
+ +       1.0444 * (normalized) 25
+ +       1.0933 * (normalized) 26
+ +      -0.1222 * (normalized) 27
+ +       0.257  * (normalized) 28
+ +       0.7636 * (normalized) 29
+ +       2.9918 * (normalized) 30
+ +      -0.3787 * (normalized) 31
+ +      -1.5364 * (normalized) 32
+ +      -0.1947 * (normalized) 33
+ +       1.4647 * (normalized) 34
+ +       0.6046 * (normalized) 35
+ +       1.7127 * (normalized) 36
+ +       1.0444 * (normalized) 37
+ +       1.0933 * (normalized) 38
+ +      -0.1222 * (normalized) 39
+ +       0.257  * (normalized) 40
+ +       0.7636 * (normalized) 41
+ +       2.9918 * (normalized) 42
+ +      -0.3787 * (normalized) 43
+ +      -1.5364 * (normalized) 44
+ +       0.2655 * (normalized) 45
+ +       0.3378 * (normalized) 46
+ +       0.3233 * (normalized) 47
+ +       0.3614 * (normalized) 48
+ +       0.4046 * (normalized) 49
+ +       0.0149 * (normalized) 50
+ +       0.1932 * (normalized) 51
+ +       0.3837 * (normalized) 52
+ +      -0.1099 * (normalized) 53
+ +       0.1135 * (normalized) 54
+ +      -0.0652 * (normalized) 55
+ +      -0.2137 * (normalized) 56
+ +       0.0389 * (normalized) 57
+ +       0.0006 * (normalized) 58
+ +      -0.2568 * (normalized) 59
+ +       0.1568 * (normalized) 60
+ +      -0.3707 * (normalized) 61
+ +      -0.1769 * (normalized) 62
+ +      -0.176  * (normalized) 63
+ +       0.2956 * (normalized) 64
+ +       0.0498 * (normalized) 65
+ +       0.0716 * (normalized) 66
+ +       0.028  * (normalized) 67
+ +       0.5484 * (normalized) 68
+ +       0.024  * (normalized) 69
+ +      -0.2763 * (normalized) 70
+ +       0.2338 * (normalized) 71
+ -      12.4757
+
+Number of kernel evaluations: 1063240 (72.251% cached)
+
+Classifier for classes: '(1.833333-2.75]', '(6.416667-7.333333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.4192 * (normalized) 1
+ +      -1.5136 * (normalized) 2
+ +       1.7881 * (normalized) 3
+ +      -0.6676 * (normalized) 4
+ +       0.8127 * (normalized) 5
+ +       0.1587 * (normalized) 6
+ +       0.0462 * (normalized) 7
+ +       0.3345 * (normalized) 8
+ +       0.2503 * (normalized) 9
+ +      -0.2171 * (normalized) 10
+ +       0.3435 * (normalized) 11
+ +       0.3441 * (normalized) 12
+ +       0.1604 * (normalized) 13
+ +       0.4099 * (normalized) 14
+ +      -0.6544 * (normalized) 15
+ +       1.0227 * (normalized) 16
+ +       0.1285 * (normalized) 17
+ +       0.0075 * (normalized) 18
+ +       1.0431 * (normalized) 19
+ +       0.2744 * (normalized) 20
+ +      -0.171  * (normalized) 21
+ +       0.6953 * (normalized) 22
+ +      -0.3207 * (normalized) 23
+ +       0.3777 * (normalized) 24
+ +      -0.4559 * (normalized) 25
+ +       0.0585 * (normalized) 26
+ +       1.0182 * (normalized) 27
+ +       0.0296 * (normalized) 28
+ +      -0.3991 * (normalized) 29
+ +       2.999  * (normalized) 30
+ +       1.3315 * (normalized) 31
+ +      -0.515  * (normalized) 32
+ +      -0.171  * (normalized) 33
+ +       0.6953 * (normalized) 34
+ +      -0.3207 * (normalized) 35
+ +       0.3777 * (normalized) 36
+ +      -0.4559 * (normalized) 37
+ +       0.0585 * (normalized) 38
+ +       1.0182 * (normalized) 39
+ +       0.0296 * (normalized) 40
+ +      -0.3991 * (normalized) 41
+ +       2.999  * (normalized) 42
+ +       1.3315 * (normalized) 43
+ +      -0.515  * (normalized) 44
+ +      -1.3676 * (normalized) 45
+ +       0.2098 * (normalized) 46
+ +       0.1283 * (normalized) 47
+ +       0.2918 * (normalized) 48
+ +      -0.1392 * (normalized) 49
+ +      -0.0058 * (normalized) 50
+ +      -0.0578 * (normalized) 51
+ +       0.2703 * (normalized) 52
+ +      -0.1322 * (normalized) 53
+ +      -0.2916 * (normalized) 54
+ +       0.0004 * (normalized) 55
+ +       0.2436 * (normalized) 56
+ +       0.1001 * (normalized) 57
+ +       0.0134 * (normalized) 58
+ +       0.1769 * (normalized) 59
+ +       0.2173 * (normalized) 60
+ +      -0.0761 * (normalized) 61
+ +      -0.2599 * (normalized) 62
+ +      -0.2305 * (normalized) 63
+ +      -0.2314 * (normalized) 64
+ +       0.1398 * (normalized) 65
+ +      -0.1323 * (normalized) 66
+ +      -0.1268 * (normalized) 67
+ +       0.0286 * (normalized) 68
+ +       0.0272 * (normalized) 69
+ +      -0.1915 * (normalized) 70
+ +      -0.0705 * (normalized) 71
+ -       7.8712
+
+Number of kernel evaluations: 1008476 (71.655% cached)
+
+Classifier for classes: '(1.833333-2.75]', '(7.333333-8.25]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5165 * (normalized) 1
+ +      -2.4253 * (normalized) 2
+ +       2.013  * (normalized) 3
+ +      -2.6015 * (normalized) 4
+ +       0.6343 * (normalized) 5
+ +      -0.7844 * (normalized) 6
+ +      -0.2274 * (normalized) 7
+ +       0.3503 * (normalized) 8
+ +       0.1151 * (normalized) 9
+ +       0.036  * (normalized) 10
+ +       0.6548 * (normalized) 11
+ +      -0.9698 * (normalized) 12
+ +       0.5556 * (normalized) 13
+ +       0.0157 * (normalized) 14
+ +      -0.7494 * (normalized) 15
+ +       0.6445 * (normalized) 16
+ +       0.2205 * (normalized) 17
+ +      -0.7627 * (normalized) 18
+ +       1.7041 * (normalized) 19
+ +      -0.3042 * (normalized) 20
+ +      -1.1564 * (normalized) 21
+ +      -0.2062 * (normalized) 22
+ +      -0.8626 * (normalized) 23
+ +       1.4649 * (normalized) 24
+ +       1.3911 * (normalized) 25
+ +       0.1261 * (normalized) 26
+ +      -0.6125 * (normalized) 27
+ +      -0.8255 * (normalized) 28
+ +       0.469  * (normalized) 29
+ +      -0.6707 * (normalized) 30
+ +      -0.2874 * (normalized) 31
+ +      -1.1156 * (normalized) 32
+ +      -1.1564 * (normalized) 33
+ +      -0.2062 * (normalized) 34
+ +      -0.8626 * (normalized) 35
+ +       1.4649 * (normalized) 36
+ +       1.3911 * (normalized) 37
+ +       0.1261 * (normalized) 38
+ +      -0.6125 * (normalized) 39
+ +      -0.8255 * (normalized) 40
+ +       0.469  * (normalized) 41
+ +      -0.6707 * (normalized) 42
+ +      -0.2874 * (normalized) 43
+ +      -1.1156 * (normalized) 44
+ +       2.6884 * (normalized) 45
+ +       0.8837 * (normalized) 46
+ +       0.5502 * (normalized) 47
+ +       0.3749 * (normalized) 48
+ +      -0.1832 * (normalized) 49
+ +       0.6891 * (normalized) 50
+ +       0.5393 * (normalized) 51
+ +       0.4666 * (normalized) 52
+ +       0.2524 * (normalized) 53
+ +       0.3493 * (normalized) 54
+ +       0.0694 * (normalized) 55
+ +       0.0486 * (normalized) 56
+ +       0.0473 * (normalized) 57
+ +      -0.9984 * (normalized) 58
+ +       0.0707 * (normalized) 59
+ +      -0.3125 * (normalized) 60
+ +       0.1224 * (normalized) 61
+ +       0.1553 * (normalized) 62
+ +       0.4519 * (normalized) 63
+ +      -0.1516 * (normalized) 64
+ +      -0.5355 * (normalized) 65
+ +       0.0465 * (normalized) 66
+ +       0.37   * (normalized) 67
+ +      -0.0468 * (normalized) 68
+ +      -0.0696 * (normalized) 69
+ +      -0.3629 * (normalized) 70
+ +       0.0647 * (normalized) 71
+ -       0.1475
+
+Number of kernel evaluations: 917012 (72.921% cached)
+
+Classifier for classes: '(1.833333-2.75]', '(8.25-9.166667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.9799 * (normalized) 1
+ +      -1.8536 * (normalized) 2
+ +       2.1055 * (normalized) 3
+ +      -1.6433 * (normalized) 4
+ +       0.1396 * (normalized) 5
+ +      -0.0105 * (normalized) 6
+ +      -1.1036 * (normalized) 7
+ +       0.8264 * (normalized) 8
+ +      -0.3791 * (normalized) 9
+ +       0.5669 * (normalized) 10
+ +       0.1374 * (normalized) 11
+ +       0.2091 * (normalized) 12
+ +       0.2583 * (normalized) 13
+ +       0.3491 * (normalized) 14
+ +      -0.3594 * (normalized) 15
+ +       0.6409 * (normalized) 16
+ +       0.8266 * (normalized) 17
+ +       0.1219 * (normalized) 18
+ +       1.43   * (normalized) 19
+ +       0.6245 * (normalized) 20
+ +      -1.6097 * (normalized) 21
+ +       0.8941 * (normalized) 22
+ +      -0.0765 * (normalized) 23
+ +       1.9828 * (normalized) 24
+ +       0.4783 * (normalized) 25
+ +      -0.9349 * (normalized) 26
+ +      -0.1638 * (normalized) 27
+ +      -1.0503 * (normalized) 28
+ +      -0.22   * (normalized) 29
+ +       1.1858 * (normalized) 30
+ +      -0.7821 * (normalized) 31
+ +      -0.0905 * (normalized) 32
+ +      -1.6097 * (normalized) 33
+ +       0.8941 * (normalized) 34
+ +      -0.0765 * (normalized) 35
+ +       1.9828 * (normalized) 36
+ +       0.4783 * (normalized) 37
+ +      -0.9349 * (normalized) 38
+ +      -0.1638 * (normalized) 39
+ +      -1.0503 * (normalized) 40
+ +      -0.22   * (normalized) 41
+ +       1.1858 * (normalized) 42
+ +      -0.7821 * (normalized) 43
+ +      -0.0905 * (normalized) 44
+ +       0.9905 * (normalized) 45
+ +       0.6905 * (normalized) 46
+ +       0.4153 * (normalized) 47
+ +       0.1662 * (normalized) 48
+ +       0.1433 * (normalized) 49
+ +       0.1746 * (normalized) 50
+ +       0.4485 * (normalized) 51
+ +       0.0205 * (normalized) 52
+ +       0.1729 * (normalized) 53
+ +       0.077  * (normalized) 54
+ +       0.2443 * (normalized) 55
+ +       0.4702 * (normalized) 56
+ +       0.0503 * (normalized) 57
+ +      -0.4022 * (normalized) 58
+ +       0.1201 * (normalized) 59
+ +      -0.2039 * (normalized) 60
+ +       0.0787 * (normalized) 61
+ +       0.1612 * (normalized) 62
+ +       0.2116 * (normalized) 63
+ +      -0.2266 * (normalized) 64
+ +      -0.0691 * (normalized) 65
+ +      -0.1377 * (normalized) 66
+ +       0.2965 * (normalized) 67
+ +       0.0102 * (normalized) 68
+ +      -0.1072 * (normalized) 69
+ +      -0.0414 * (normalized) 70
+ +      -0.3192 * (normalized) 71
+ -       4.3733
+
+Number of kernel evaluations: 1099828 (72.735% cached)
+
+Classifier for classes: '(1.833333-2.75]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.1574 * (normalized) 1
+ +      -1.1857 * (normalized) 2
+ +       2.428  * (normalized) 3
+ +      -1.9927 * (normalized) 4
+ +       1.4422 * (normalized) 5
+ +      -0.5652 * (normalized) 6
+ +      -0.5858 * (normalized) 7
+ +       0.7248 * (normalized) 8
+ +       0.2723 * (normalized) 9
+ +       0.1655 * (normalized) 10
+ +       1.1219 * (normalized) 11
+ +       0.4837 * (normalized) 12
+ +       0.1947 * (normalized) 13
+ +       1.0345 * (normalized) 14
+ +      -0.0043 * (normalized) 15
+ +       0.6704 * (normalized) 16
+ +       0.9847 * (normalized) 17
+ +       0.2358 * (normalized) 18
+ +       1.131  * (normalized) 19
+ +       0.5572 * (normalized) 20
+ +      -1.1872 * (normalized) 21
+ +       0.3466 * (normalized) 22
+ +       1.0479 * (normalized) 23
+ +       1.6924 * (normalized) 24
+ +       0.3217 * (normalized) 25
+ +      -1.2956 * (normalized) 26
+ +      -0.2276 * (normalized) 27
+ +      -0.3155 * (normalized) 28
+ +       0.0898 * (normalized) 29
+ +       0.7511 * (normalized) 30
+ +       0.0397 * (normalized) 31
+ +      -0.9636 * (normalized) 32
+ +      -1.1872 * (normalized) 33
+ +       0.3466 * (normalized) 34
+ +       1.0479 * (normalized) 35
+ +       1.6924 * (normalized) 36
+ +       0.3217 * (normalized) 37
+ +      -1.2956 * (normalized) 38
+ +      -0.2276 * (normalized) 39
+ +      -0.3155 * (normalized) 40
+ +       0.0898 * (normalized) 41
+ +       0.7511 * (normalized) 42
+ +       0.0397 * (normalized) 43
+ +      -0.9636 * (normalized) 44
+ +      -0.6953 * (normalized) 45
+ +       0.3643 * (normalized) 46
+ +       0.544  * (normalized) 47
+ +       0.2899 * (normalized) 48
+ +       0.3084 * (normalized) 49
+ +       0.0484 * (normalized) 50
+ +       0.2942 * (normalized) 51
+ +       0.2159 * (normalized) 52
+ +       0.2187 * (normalized) 53
+ +       0.1199 * (normalized) 54
+ +       0.1183 * (normalized) 55
+ +      -0.1742 * (normalized) 56
+ +      -0.0436 * (normalized) 57
+ +      -0.3562 * (normalized) 58
+ +      -0.1466 * (normalized) 59
+ +       0.0003 * (normalized) 60
+ +       0.0572 * (normalized) 61
+ +      -0.1971 * (normalized) 62
+ +      -0.2561 * (normalized) 63
+ +      -0.3895 * (normalized) 64
+ +      -0.0553 * (normalized) 65
+ +       0.1269 * (normalized) 66
+ +      -0.0423 * (normalized) 67
+ +       0.2126 * (normalized) 68
+ +      -0.049  * (normalized) 69
+ +      -0.3893 * (normalized) 70
+ +      -0.182  * (normalized) 71
+ -       5.7372
+
+Number of kernel evaluations: 1065985 (71.528% cached)
+
+Classifier for classes: '(1.833333-2.75]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6496 * (normalized) 1
+ +       0.702  * (normalized) 2
+ +       0.1558 * (normalized) 3
+ +      -0.3431 * (normalized) 4
+ +       0.6818 * (normalized) 5
+ +      -0.8914 * (normalized) 6
+ +       0.5319 * (normalized) 7
+ +      -0.0639 * (normalized) 8
+ +       0.1834 * (normalized) 9
+ +      -0.1333 * (normalized) 10
+ +      -0.1199 * (normalized) 11
+ +      -0.241  * (normalized) 12
+ +       0.4976 * (normalized) 13
+ +       0.1571 * (normalized) 14
+ +      -0.6535 * (normalized) 15
+ +       0.6866 * (normalized) 16
+ +       0.236  * (normalized) 17
+ +       0.0139 * (normalized) 18
+ +       0.9929 * (normalized) 19
+ +       0.0819 * (normalized) 20
+ +      -0.1757 * (normalized) 21
+ +       1.1806 * (normalized) 22
+ +       0.2424 * (normalized) 23
+ +       0.9269 * (normalized) 24
+ +       1.0328 * (normalized) 25
+ +       0.8853 * (normalized) 26
+ +       0.7417 * (normalized) 27
+ +      -1.8465 * (normalized) 28
+ +       0.7955 * (normalized) 29
+ +       2.0206 * (normalized) 30
+ +      -0.5824 * (normalized) 31
+ +      -1.2959 * (normalized) 32
+ +      -0.1757 * (normalized) 33
+ +       1.1806 * (normalized) 34
+ +       0.2424 * (normalized) 35
+ +       0.9269 * (normalized) 36
+ +       1.0328 * (normalized) 37
+ +       0.8853 * (normalized) 38
+ +       0.7417 * (normalized) 39
+ +      -1.8465 * (normalized) 40
+ +       0.7955 * (normalized) 41
+ +       2.0206 * (normalized) 42
+ +      -0.5824 * (normalized) 43
+ +      -1.2959 * (normalized) 44
+ +       0.8912 * (normalized) 45
+ +       0.1895 * (normalized) 46
+ +       0.4289 * (normalized) 47
+ +       0.0324 * (normalized) 48
+ +       0.0265 * (normalized) 49
+ +       0.0964 * (normalized) 50
+ +       0.4776 * (normalized) 51
+ +       0.1964 * (normalized) 52
+ +      -0.039  * (normalized) 53
+ +       0.066  * (normalized) 54
+ +      -0.1555 * (normalized) 55
+ +      -0.0862 * (normalized) 56
+ +      -0.0563 * (normalized) 57
+ +      -0.1196 * (normalized) 58
+ +       0.2524 * (normalized) 59
+ +      -0.2255 * (normalized) 60
+ +      -0.0635 * (normalized) 61
+ +       0.1469 * (normalized) 62
+ +       0.531  * (normalized) 63
+ +       0.0055 * (normalized) 64
+ +      -0.2475 * (normalized) 65
+ +      -0.335  * (normalized) 66
+ +       0.0659 * (normalized) 67
+ +       0.2004 * (normalized) 68
+ +      -0.2637 * (normalized) 69
+ +      -0.0058 * (normalized) 70
+ +       0.381  * (normalized) 71
+ -       7.6062
+
+Number of kernel evaluations: 1096080 (72.598% cached)
+
+Classifier for classes: '(2.75-3.666667]', '(3.666667-4.583333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.1653 * (normalized) 1
+ +      -1.9356 * (normalized) 2
+ +       0.4787 * (normalized) 3
+ +      -1.2119 * (normalized) 4
+ +      -0.4251 * (normalized) 5
+ +       0.7589 * (normalized) 6
+ +      -0.636  * (normalized) 7
+ +       0.0075 * (normalized) 8
+ +       0.3693 * (normalized) 9
+ +       0.1572 * (normalized) 10
+ +       0.3931 * (normalized) 11
+ +       0.4386 * (normalized) 12
+ +       0.1171 * (normalized) 13
+ +       0.2358 * (normalized) 14
+ +      -0.1506 * (normalized) 15
+ +       0.0814 * (normalized) 16
+ +       0.4384 * (normalized) 17
+ +      -0.1452 * (normalized) 18
+ +      -0.2655 * (normalized) 19
+ +       0.3291 * (normalized) 20
+ +      -1.5262 * (normalized) 21
+ +      -1.943  * (normalized) 22
+ +      -1.104  * (normalized) 23
+ +      -0.3219 * (normalized) 24
+ +      -1.1295 * (normalized) 25
+ +      -1.2128 * (normalized) 26
+ +       0.1291 * (normalized) 27
+ +       0.676  * (normalized) 28
+ +      -1.6962 * (normalized) 29
+ +       0.3435 * (normalized) 30
+ +      -3.4717 * (normalized) 31
+ +      -0.2526 * (normalized) 32
+ +      -1.5262 * (normalized) 33
+ +      -1.943  * (normalized) 34
+ +      -1.104  * (normalized) 35
+ +      -0.3219 * (normalized) 36
+ +      -1.1295 * (normalized) 37
+ +      -1.2128 * (normalized) 38
+ +       0.1291 * (normalized) 39
+ +       0.676  * (normalized) 40
+ +      -1.6962 * (normalized) 41
+ +       0.3435 * (normalized) 42
+ +      -3.4717 * (normalized) 43
+ +      -0.2526 * (normalized) 44
+ +       2.0487 * (normalized) 45
+ +      -0.2144 * (normalized) 46
+ +       0.0835 * (normalized) 47
+ +       0.087  * (normalized) 48
+ +       0.1272 * (normalized) 49
+ +      -0.1372 * (normalized) 50
+ +      -0.0593 * (normalized) 51
+ +      -0.2909 * (normalized) 52
+ +       0.1896 * (normalized) 53
+ +       0.0062 * (normalized) 54
+ +       0.0511 * (normalized) 55
+ +      -0.0449 * (normalized) 56
+ +       0.3081 * (normalized) 57
+ +       0.015  * (normalized) 58
+ +      -0.4474 * (normalized) 59
+ +      -0.4025 * (normalized) 60
+ +      -0.0937 * (normalized) 61
+ +       0.1475 * (normalized) 62
+ +       0.1163 * (normalized) 63
+ +       0.1617 * (normalized) 64
+ +      -0.052  * (normalized) 65
+ +       0.3493 * (normalized) 66
+ +      -0.198  * (normalized) 67
+ +       0.1321 * (normalized) 68
+ +      -0.4241 * (normalized) 69
+ +      -0.0649 * (normalized) 70
+ +      -0.0554 * (normalized) 71
+ +      11.3112
+
+Number of kernel evaluations: 920395 (72.796% cached)
+
+Classifier for classes: '(2.75-3.666667]', '(4.583333-5.5]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6368 * (normalized) 1
+ +      -2.6349 * (normalized) 2
+ +       2.065  * (normalized) 3
+ +      -1.0069 * (normalized) 4
+ +      -0.2498 * (normalized) 5
+ +       1.1676 * (normalized) 6
+ +      -0.1733 * (normalized) 7
+ +      -0.3057 * (normalized) 8
+ +       0.5128 * (normalized) 9
+ +      -0.033  * (normalized) 10
+ +      -0.2021 * (normalized) 11
+ +       0.9369 * (normalized) 12
+ +      -0.2738 * (normalized) 13
+ +      -0.4903 * (normalized) 14
+ +       0.7684 * (normalized) 15
+ +      -0.8496 * (normalized) 16
+ +       0.1695 * (normalized) 17
+ +       0.8082 * (normalized) 18
+ +      -1.4606 * (normalized) 19
+ +       0.6006 * (normalized) 20
+ +       0.019  * (normalized) 21
+ +      -0.7655 * (normalized) 22
+ +      -0.6885 * (normalized) 23
+ +      -0.3701 * (normalized) 24
+ +      -0.9189 * (normalized) 25
+ +      -0.7235 * (normalized) 26
+ +       1.1778 * (normalized) 27
+ +       0.5079 * (normalized) 28
+ +      -1.6532 * (normalized) 29
+ +       0.1708 * (normalized) 30
+ +      -1.5578 * (normalized) 31
+ +       1.9883 * (normalized) 32
+ +       0.019  * (normalized) 33
+ +      -0.7655 * (normalized) 34
+ +      -0.6885 * (normalized) 35
+ +      -0.3701 * (normalized) 36
+ +      -0.9189 * (normalized) 37
+ +      -0.7235 * (normalized) 38
+ +       1.1778 * (normalized) 39
+ +       0.5079 * (normalized) 40
+ +      -1.6532 * (normalized) 41
+ +       0.1708 * (normalized) 42
+ +      -1.5578 * (normalized) 43
+ +       1.9883 * (normalized) 44
+ +      -1.3696 * (normalized) 45
+ +       0.4598 * (normalized) 46
+ +      -0.0586 * (normalized) 47
+ +       0.2579 * (normalized) 48
+ +       0.1273 * (normalized) 49
+ +       0.1774 * (normalized) 50
+ +       0.0739 * (normalized) 51
+ +       0.2218 * (normalized) 52
+ +       0.1149 * (normalized) 53
+ +      -0.1448 * (normalized) 54
+ +       0.0824 * (normalized) 55
+ +      -0.1093 * (normalized) 56
+ +       0.1397 * (normalized) 57
+ +      -0.0893 * (normalized) 58
+ +      -0.1529 * (normalized) 59
+ +      -0.1728 * (normalized) 60
+ +      -0.2621 * (normalized) 61
+ +      -0.3691 * (normalized) 62
+ +      -0.2353 * (normalized) 63
+ +      -0.0278 * (normalized) 64
+ +       0.1824 * (normalized) 65
+ +       0.2221 * (normalized) 66
+ +      -0.396  * (normalized) 67
+ +       0.1731 * (normalized) 68
+ +      -0.0735 * (normalized) 69
+ +       0.0969 * (normalized) 70
+ +      -0.287  * (normalized) 71
+ +       3.7391
+
+Number of kernel evaluations: 1207315 (70.604% cached)
+
+Classifier for classes: '(2.75-3.666667]', '(5.5-6.416667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3805 * (normalized) 1
+ +       0.3173 * (normalized) 2
+ +      -0.7809 * (normalized) 3
+ +      -0.3421 * (normalized) 4
+ +       0.134  * (normalized) 5
+ +      -0.1763 * (normalized) 6
+ +       0.1008 * (normalized) 7
+ +       0.261  * (normalized) 8
+ +       0.3552 * (normalized) 9
+ +       0.105  * (normalized) 10
+ +       0.3107 * (normalized) 11
+ +      -0.177  * (normalized) 12
+ +       0.3145 * (normalized) 13
+ +       0.0767 * (normalized) 14
+ +      -0.2643 * (normalized) 15
+ +       0.4607 * (normalized) 16
+ +      -0.1558 * (normalized) 17
+ +       0.1695 * (normalized) 18
+ +      -0.4686 * (normalized) 19
+ +       0.4239 * (normalized) 20
+ +      -0.4396 * (normalized) 21
+ +      -0.8181 * (normalized) 22
+ +      -0.5193 * (normalized) 23
+ +       0.4461 * (normalized) 24
+ +       0.9019 * (normalized) 25
+ +       0.9133 * (normalized) 26
+ +      -0.1571 * (normalized) 27
+ +       1.1107 * (normalized) 28
+ +      -0.3055 * (normalized) 29
+ +       2.1151 * (normalized) 30
+ +      -1.7439 * (normalized) 31
+ +      -0.1061 * (normalized) 32
+ +      -0.4396 * (normalized) 33
+ +      -0.8181 * (normalized) 34
+ +      -0.5193 * (normalized) 35
+ +       0.4461 * (normalized) 36
+ +       0.9019 * (normalized) 37
+ +       0.9133 * (normalized) 38
+ +      -0.1571 * (normalized) 39
+ +       1.1107 * (normalized) 40
+ +      -0.3055 * (normalized) 41
+ +       2.1151 * (normalized) 42
+ +      -1.7439 * (normalized) 43
+ +      -0.1061 * (normalized) 44
+ +       0.775  * (normalized) 45
+ +      -0.2382 * (normalized) 46
+ +      -0.0635 * (normalized) 47
+ +      -0.0141 * (normalized) 48
+ +      -0.0792 * (normalized) 49
+ +      -0.0116 * (normalized) 50
+ +      -0.2414 * (normalized) 51
+ +      -0.2536 * (normalized) 52
+ +      -0.0818 * (normalized) 53
+ +      -0.2308 * (normalized) 54
+ +       0.1519 * (normalized) 55
+ +       0.0122 * (normalized) 56
+ +      -0.0305 * (normalized) 57
+ +       0.2273 * (normalized) 58
+ +      -0.1602 * (normalized) 59
+ +      -0.393  * (normalized) 60
+ +      -0.341  * (normalized) 61
+ +      -0.0581 * (normalized) 62
+ +      -0.4357 * (normalized) 63
+ +       0.3134 * (normalized) 64
+ +       0.0194 * (normalized) 65
+ +       0.2453 * (normalized) 66
+ +      -0.0643 * (normalized) 67
+ +       0.4623 * (normalized) 68
+ +      -0.0838 * (normalized) 69
+ +      -0.0065 * (normalized) 70
+ +       0.1466 * (normalized) 71
+ -       1.8939
+
+Number of kernel evaluations: 905237 (74.05% cached)
+
+Classifier for classes: '(2.75-3.666667]', '(6.416667-7.333333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.9694 * (normalized) 1
+ +      -2.3623 * (normalized) 2
+ +       1.4418 * (normalized) 3
+ +      -0.1871 * (normalized) 4
+ +      -0.2936 * (normalized) 5
+ +       0.899  * (normalized) 6
+ +       0.4525 * (normalized) 7
+ +      -0.3784 * (normalized) 8
+ +       0.9498 * (normalized) 9
+ +      -0.2174 * (normalized) 10
+ +       0.1988 * (normalized) 11
+ +       0.5408 * (normalized) 12
+ +       0.1545 * (normalized) 13
+ +       0.0383 * (normalized) 14
+ +      -0.3342 * (normalized) 15
+ +       0.695  * (normalized) 16
+ +      -0.212  * (normalized) 17
+ +       0.0136 * (normalized) 18
+ +       0.0897 * (normalized) 19
+ +      -0.0751 * (normalized) 20
+ +       0.0688 * (normalized) 21
+ +      -0.8554 * (normalized) 22
+ +      -0.6909 * (normalized) 23
+ +      -0.5306 * (normalized) 24
+ +      -0.2944 * (normalized) 25
+ +      -0.1557 * (normalized) 26
+ +       1.154  * (normalized) 27
+ +       0.4941 * (normalized) 28
+ +      -0.9187 * (normalized) 29
+ +       2.0597 * (normalized) 30
+ +       0.4782 * (normalized) 31
+ +       0.7452 * (normalized) 32
+ +       0.0688 * (normalized) 33
+ +      -0.8554 * (normalized) 34
+ +      -0.6909 * (normalized) 35
+ +      -0.5306 * (normalized) 36
+ +      -0.2944 * (normalized) 37
+ +      -0.1557 * (normalized) 38
+ +       1.154  * (normalized) 39
+ +       0.4941 * (normalized) 40
+ +      -0.9187 * (normalized) 41
+ +       2.0597 * (normalized) 42
+ +       0.4782 * (normalized) 43
+ +       0.7452 * (normalized) 44
+ +      -1.2447 * (normalized) 45
+ +       0.2433 * (normalized) 46
+ +      -0.0644 * (normalized) 47
+ +       0.3271 * (normalized) 48
+ +       0.1694 * (normalized) 49
+ +       0.0582 * (normalized) 50
+ +       0.0856 * (normalized) 51
+ +       0.1224 * (normalized) 52
+ +      -0.0876 * (normalized) 53
+ +      -0.2092 * (normalized) 54
+ +       0.2147 * (normalized) 55
+ +       0.2191 * (normalized) 56
+ +      -0.0249 * (normalized) 57
+ +       0.1996 * (normalized) 58
+ +      -0.3499 * (normalized) 59
+ +      -0.249  * (normalized) 60
+ +      -0.3372 * (normalized) 61
+ +      -0.3886 * (normalized) 62
+ +      -0.2335 * (normalized) 63
+ +      -0.1835 * (normalized) 64
+ +       0.203  * (normalized) 65
+ +       0.144  * (normalized) 66
+ +      -0.2854 * (normalized) 67
+ +       0.3198 * (normalized) 68
+ +      -0.1108 * (normalized) 69
+ +       0.1497 * (normalized) 70
+ +       0.249  * (normalized) 71
+ -       2.9329
+
+Number of kernel evaluations: 1260079 (70.24% cached)
+
+Classifier for classes: '(2.75-3.666667]', '(7.333333-8.25]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5613 * (normalized) 1
+ +      -2.2132 * (normalized) 2
+ +       0.726  * (normalized) 3
+ +      -1.8438 * (normalized) 4
+ +      -0.2453 * (normalized) 5
+ +      -0.1823 * (normalized) 6
+ +       0.06   * (normalized) 7
+ +      -0.068  * (normalized) 8
+ +       0.2733 * (normalized) 9
+ +       0.2031 * (normalized) 10
+ +       0.4185 * (normalized) 11
+ +      -0.9477 * (normalized) 12
+ +       0.5031 * (normalized) 13
+ +      -0.419  * (normalized) 14
+ +      -0.7341 * (normalized) 15
+ +       0.1373 * (normalized) 16
+ +      -0.0202 * (normalized) 17
+ +      -1.2891 * (normalized) 18
+ +       0.9853 * (normalized) 19
+ +      -0.8197 * (normalized) 20
+ +      -0.6829 * (normalized) 21
+ +      -1.7243 * (normalized) 22
+ +      -1.5499 * (normalized) 23
+ +       0.531  * (normalized) 24
+ +       1.0359 * (normalized) 25
+ +       0.002  * (normalized) 26
+ +      -0.1994 * (normalized) 27
+ +      -0.0616 * (normalized) 28
+ +      -0.1603 * (normalized) 29
+ +      -1.5245 * (normalized) 30
+ +      -1.6443 * (normalized) 31
+ +      -0.6311 * (normalized) 32
+ +      -0.6829 * (normalized) 33
+ +      -1.7243 * (normalized) 34
+ +      -1.5499 * (normalized) 35
+ +       0.531  * (normalized) 36
+ +       1.0359 * (normalized) 37
+ +       0.002  * (normalized) 38
+ +      -0.1994 * (normalized) 39
+ +      -0.0616 * (normalized) 40
+ +      -0.1603 * (normalized) 41
+ +      -1.5245 * (normalized) 42
+ +      -1.6443 * (normalized) 43
+ +      -0.6311 * (normalized) 44
+ +       2.2746 * (normalized) 45
+ +       0.4894 * (normalized) 46
+ +       0.2491 * (normalized) 47
+ +      -0.0893 * (normalized) 48
+ +       0.0428 * (normalized) 49
+ +       0.2994 * (normalized) 50
+ +       0.0678 * (normalized) 51
+ +       0.2403 * (normalized) 52
+ +       0.3944 * (normalized) 53
+ +       0.1416 * (normalized) 54
+ +       0.093  * (normalized) 55
+ +       0.0023 * (normalized) 56
+ +       0.0929 * (normalized) 57
+ +      -0.9077 * (normalized) 58
+ +       0.135  * (normalized) 59
+ +      -0.2141 * (normalized) 60
+ +      -0.3211 * (normalized) 61
+ +      -0.0673 * (normalized) 62
+ +       0.4161 * (normalized) 63
+ +       0.0264 * (normalized) 64
+ +      -0.2423 * (normalized) 65
+ +       0.1311 * (normalized) 66
+ +      -0.11   * (normalized) 67
+ +      -0.4634 * (normalized) 68
+ +      -0.0141 * (normalized) 69
+ +      -0.1626 * (normalized) 70
+ +      -0.3564 * (normalized) 71
+ +       9.0287
+
+Number of kernel evaluations: 900635 (74.595% cached)
+
+Classifier for classes: '(2.75-3.666667]', '(8.25-9.166667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2744 * (normalized) 1
+ +      -2.2024 * (normalized) 2
+ +       1.0979 * (normalized) 3
+ +      -1.3524 * (normalized) 4
+ +      -0.669  * (normalized) 5
+ +       0.2288 * (normalized) 6
+ +      -0.5    * (normalized) 7
+ +       0.1293 * (normalized) 8
+ +       0.0126 * (normalized) 9
+ +       0.8611 * (normalized) 10
+ +      -0.1216 * (normalized) 11
+ +       0.2795 * (normalized) 12
+ +       0.3397 * (normalized) 13
+ +       0.0069 * (normalized) 14
+ +      -0.2384 * (normalized) 15
+ +       0.3021 * (normalized) 16
+ +       0.5807 * (normalized) 17
+ +      -0.2617 * (normalized) 18
+ +       0.6437 * (normalized) 19
+ +       0.3008 * (normalized) 20
+ +      -1.6885 * (normalized) 21
+ +      -0.9948 * (normalized) 22
+ +      -0.8535 * (normalized) 23
+ +       1.0586 * (normalized) 24
+ +       0.2194 * (normalized) 25
+ +      -0.9981 * (normalized) 26
+ +      -0.4126 * (normalized) 27
+ +      -0.369  * (normalized) 28
+ +      -1.2161 * (normalized) 29
+ +       0.1698 * (normalized) 30
+ +      -2.7392 * (normalized) 31
+ +       1.0907 * (normalized) 32
+ +      -1.6885 * (normalized) 33
+ +      -0.9948 * (normalized) 34
+ +      -0.8535 * (normalized) 35
+ +       1.0586 * (normalized) 36
+ +       0.2194 * (normalized) 37
+ +      -0.9981 * (normalized) 38
+ +      -0.4126 * (normalized) 39
+ +      -0.369  * (normalized) 40
+ +      -1.2161 * (normalized) 41
+ +       0.1698 * (normalized) 42
+ +      -2.7392 * (normalized) 43
+ +       1.0907 * (normalized) 44
+ +       1.506  * (normalized) 45
+ +       0.4389 * (normalized) 46
+ +       0.3916 * (normalized) 47
+ +       0.1517 * (normalized) 48
+ +       0.1373 * (normalized) 49
+ +       0.0891 * (normalized) 50
+ +       0.6394 * (normalized) 51
+ +       0.3185 * (normalized) 52
+ +       0.1205 * (normalized) 53
+ +      -0.221  * (normalized) 54
+ +       0.1741 * (normalized) 55
+ +       0.2381 * (normalized) 56
+ +       0.0814 * (normalized) 57
+ +      -0.4896 * (normalized) 58
+ +       0.0526 * (normalized) 59
+ +      -0.2463 * (normalized) 60
+ +      -0.1147 * (normalized) 61
+ +       0.1132 * (normalized) 62
+ +       0.048  * (normalized) 63
+ +       0.1712 * (normalized) 64
+ +       0.2884 * (normalized) 65
+ +       0.1777 * (normalized) 66
+ +      -0.3039 * (normalized) 67
+ +      -0.1634 * (normalized) 68
+ +      -0.0723 * (normalized) 69
+ +       0.1666 * (normalized) 70
+ +      -0.7131 * (normalized) 71
+ +       5.1869
+
+Number of kernel evaluations: 1045559 (71.637% cached)
+
+Classifier for classes: '(2.75-3.666667]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3734 * (normalized) 1
+ +      -2.0633 * (normalized) 2
+ +       1.8003 * (normalized) 3
+ +      -1.56   * (normalized) 4
+ +       0.336  * (normalized) 5
+ +       0.1337 * (normalized) 6
+ +       0.0124 * (normalized) 7
+ +      -0.1626 * (normalized) 8
+ +       1.1461 * (normalized) 9
+ +       0.2838 * (normalized) 10
+ +       0.9316 * (normalized) 11
+ +       0.995  * (normalized) 12
+ +       0.2583 * (normalized) 13
+ +       0.5222 * (normalized) 14
+ +       0.4882 * (normalized) 15
+ +       0.2397 * (normalized) 16
+ +       0.6801 * (normalized) 17
+ +       0.3522 * (normalized) 18
+ +       0.0067 * (normalized) 19
+ +       0.3112 * (normalized) 20
+ +      -1.2094 * (normalized) 21
+ +      -1.6995 * (normalized) 22
+ +       0.427  * (normalized) 23
+ +       0.8161 * (normalized) 24
+ +       0.1831 * (normalized) 25
+ +      -1.6714 * (normalized) 26
+ +       0.2867 * (normalized) 27
+ +       0.3209 * (normalized) 28
+ +      -0.7852 * (normalized) 29
+ +       0.0928 * (normalized) 30
+ +      -1.219  * (normalized) 31
+ +      -0.3659 * (normalized) 32
+ +      -1.2094 * (normalized) 33
+ +      -1.6995 * (normalized) 34
+ +       0.427  * (normalized) 35
+ +       0.8161 * (normalized) 36
+ +       0.1831 * (normalized) 37
+ +      -1.6714 * (normalized) 38
+ +       0.2867 * (normalized) 39
+ +       0.3209 * (normalized) 40
+ +      -0.7852 * (normalized) 41
+ +       0.0928 * (normalized) 42
+ +      -1.219  * (normalized) 43
+ +      -0.3659 * (normalized) 44
+ +      -0.633  * (normalized) 45
+ +       0.3837 * (normalized) 46
+ +       0.2866 * (normalized) 47
+ +       0.2664 * (normalized) 48
+ +       0.459  * (normalized) 49
+ +       0.2641 * (normalized) 50
+ +       0.008  * (normalized) 51
+ +       0.1375 * (normalized) 52
+ +       0.2368 * (normalized) 53
+ +       0.1492 * (normalized) 54
+ +       0.0436 * (normalized) 55
+ +      -0.353  * (normalized) 56
+ +       0.0991 * (normalized) 57
+ +      -0.5303 * (normalized) 58
+ +      -0.3854 * (normalized) 59
+ +      -0.3766 * (normalized) 60
+ +      -0.361  * (normalized) 61
+ +      -0.5107 * (normalized) 62
+ +      -0.1165 * (normalized) 63
+ +      -0.1993 * (normalized) 64
+ +       0.0182 * (normalized) 65
+ +       0.2027 * (normalized) 66
+ +      -0.2967 * (normalized) 67
+ +       0.0638 * (normalized) 68
+ +      -0.1078 * (normalized) 69
+ +      -0.0472 * (normalized) 70
+ +      -0.5616 * (normalized) 71
+ +       2.415 
+
+Number of kernel evaluations: 928261 (71.975% cached)
+
+Classifier for classes: '(2.75-3.666667]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.2552 * (normalized) 1
+ +      -0.0542 * (normalized) 2
+ +      -1.2349 * (normalized) 3
+ +      -0.0214 * (normalized) 4
+ +      -0.4085 * (normalized) 5
+ +      -0.439  * (normalized) 6
+ +       0.9734 * (normalized) 7
+ +      -0.5962 * (normalized) 8
+ +       0.5431 * (normalized) 9
+ +       0.1623 * (normalized) 10
+ +      -0.4033 * (normalized) 11
+ +      -0.0705 * (normalized) 12
+ +       0.5024 * (normalized) 13
+ +      -0.333  * (normalized) 14
+ +      -0.3119 * (normalized) 15
+ +       0.052  * (normalized) 16
+ +      -0.1044 * (normalized) 17
+ +      -0.2343 * (normalized) 18
+ +      -0.3698 * (normalized) 19
+ +      -0.3575 * (normalized) 20
+ +      -0.4366 * (normalized) 21
+ +      -1.6405 * (normalized) 22
+ +      -0.9785 * (normalized) 23
+ +      -0.6885 * (normalized) 24
+ +       0.613  * (normalized) 25
+ +       0.4602 * (normalized) 26
+ +       0.5174 * (normalized) 27
+ +      -1.3797 * (normalized) 28
+ +      -0.3521 * (normalized) 29
+ +       0.939  * (normalized) 30
+ +      -2.3435 * (normalized) 31
+ +       0.2435 * (normalized) 32
+ +      -0.4366 * (normalized) 33
+ +      -1.6405 * (normalized) 34
+ +      -0.9785 * (normalized) 35
+ +      -0.6885 * (normalized) 36
+ +       0.613  * (normalized) 37
+ +       0.4602 * (normalized) 38
+ +       0.5174 * (normalized) 39
+ +      -1.3797 * (normalized) 40
+ +      -0.3521 * (normalized) 41
+ +       0.939  * (normalized) 42
+ +      -2.3435 * (normalized) 43
+ +       0.2435 * (normalized) 44
+ +       2.2239 * (normalized) 45
+ +      -0.1885 * (normalized) 46
+ +       0.1157 * (normalized) 47
+ +      -0.1039 * (normalized) 48
+ +      -0.1748 * (normalized) 49
+ +       0.0484 * (normalized) 50
+ +       0.09   * (normalized) 51
+ +       0.0594 * (normalized) 52
+ +      -0.2188 * (normalized) 53
+ +      -0.0779 * (normalized) 54
+ +       0.1985 * (normalized) 55
+ +       0.0231 * (normalized) 56
+ +       0.0634 * (normalized) 57
+ +       0.1183 * (normalized) 58
+ +       0.1454 * (normalized) 59
+ +      -0.6368 * (normalized) 60
+ +      -0.3069 * (normalized) 61
+ +      -0.2701 * (normalized) 62
+ +       0.394  * (normalized) 63
+ +      -0.3747 * (normalized) 64
+ +       0.0139 * (normalized) 65
+ +       0.0788 * (normalized) 66
+ +      -0.2049 * (normalized) 67
+ +       0.1261 * (normalized) 68
+ +      -0.1263 * (normalized) 69
+ +       0.3552 * (normalized) 70
+ +       0.1728 * (normalized) 71
+ +       6.0405
+
+Number of kernel evaluations: 955137 (73.004% cached)
+
+Classifier for classes: '(3.666667-4.583333]', '(4.583333-5.5]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.4199 * (normalized) 1
+ +       0.2708 * (normalized) 2
+ +       1.0256 * (normalized) 3
+ +       0.3948 * (normalized) 4
+ +       0.7749 * (normalized) 5
+ +      -0.1755 * (normalized) 6
+ +       0.9478 * (normalized) 7
+ +      -0.3751 * (normalized) 8
+ +       0.2293 * (normalized) 9
+ +      -0.195  * (normalized) 10
+ +      -0.5192 * (normalized) 11
+ +       0.6291 * (normalized) 12
+ +      -0.5012 * (normalized) 13
+ +      -0.6754 * (normalized) 14
+ +       1.0094 * (normalized) 15
+ +      -1.2019 * (normalized) 16
+ +      -0.021  * (normalized) 17
+ +       0.8981 * (normalized) 18
+ +      -1.3425 * (normalized) 19
+ +       0.1867 * (normalized) 20
+ +       1.8191 * (normalized) 21
+ +       1.0434 * (normalized) 22
+ +       0.4584 * (normalized) 23
+ +      -0.1958 * (normalized) 24
+ +       0.2575 * (normalized) 25
+ +       0.09   * (normalized) 26
+ +       1.2569 * (normalized) 27
+ +      -0.5554 * (normalized) 28
+ +       0.0479 * (normalized) 29
+ +       0.0259 * (normalized) 30
+ +       1.9997 * (normalized) 31
+ +       2.1962 * (normalized) 32
+ +       1.8191 * (normalized) 33
+ +       1.0434 * (normalized) 34
+ +       0.4584 * (normalized) 35
+ +      -0.1958 * (normalized) 36
+ +       0.2575 * (normalized) 37
+ +       0.09   * (normalized) 38
+ +       1.2569 * (normalized) 39
+ +      -0.5554 * (normalized) 40
+ +       0.0479 * (normalized) 41
+ +       0.0259 * (normalized) 42
+ +       1.9997 * (normalized) 43
+ +       2.1962 * (normalized) 44
+ +      -4.1228 * (normalized) 45
+ +       0.4482 * (normalized) 46
+ +      -0.0574 * (normalized) 47
+ +      -0.098  * (normalized) 48
+ +      -0.0818 * (normalized) 49
+ +       0.5341 * (normalized) 50
+ +       0.0044 * (normalized) 51
+ +       0.1117 * (normalized) 52
+ +      -0.1249 * (normalized) 53
+ +      -0.2144 * (normalized) 54
+ +       0.1228 * (normalized) 55
+ +      -0.1587 * (normalized) 56
+ +      -0.099  * (normalized) 57
+ +      -0.0102 * (normalized) 58
+ +       0.1137 * (normalized) 59
+ +      -0.0514 * (normalized) 60
+ +      -0.0388 * (normalized) 61
+ +      -0.2167 * (normalized) 62
+ +       0.0381 * (normalized) 63
+ +      -0.3161 * (normalized) 64
+ +       0.2591 * (normalized) 65
+ +      -0.2496 * (normalized) 66
+ +      -0.1808 * (normalized) 67
+ +      -0.0557 * (normalized) 68
+ +       0.0169 * (normalized) 69
+ +       0.1878 * (normalized) 70
+ +       0.1486 * (normalized) 71
+ -       7.0744
+
+Number of kernel evaluations: 862103 (73.813% cached)
+
+Classifier for classes: '(3.666667-4.583333]', '(5.5-6.416667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8214 * (normalized) 1
+ +       2.4555 * (normalized) 2
+ +      -1.3612 * (normalized) 3
+ +       1.1805 * (normalized) 4
+ +       0.3976 * (normalized) 5
+ +      -0.9251 * (normalized) 6
+ +       0.7244 * (normalized) 7
+ +      -0.048  * (normalized) 8
+ +      -0.0528 * (normalized) 9
+ +      -0.3137 * (normalized) 10
+ +      -0.2214 * (normalized) 11
+ +      -0.5469 * (normalized) 12
+ +       0.0232 * (normalized) 13
+ +      -0.2204 * (normalized) 14
+ +       0.0024 * (normalized) 15
+ +       0.0893 * (normalized) 16
+ +      -0.548  * (normalized) 17
+ +       0.1228 * (normalized) 18
+ +      -0.1083 * (normalized) 19
+ +      -0.3479 * (normalized) 20
+ +       1.4256 * (normalized) 21
+ +       1.341  * (normalized) 22
+ +       1.1636 * (normalized) 23
+ +       0.381  * (normalized) 24
+ +       1.8831 * (normalized) 25
+ +       1.7754 * (normalized) 26
+ +       0.1549 * (normalized) 27
+ +      -0.1173 * (normalized) 28
+ +       1.8732 * (normalized) 29
+ +       0.9628 * (normalized) 30
+ +       2.5908 * (normalized) 31
+ +      -0.5525 * (normalized) 32
+ +       1.4256 * (normalized) 33
+ +       1.341  * (normalized) 34
+ +       1.1636 * (normalized) 35
+ +       0.381  * (normalized) 36
+ +       1.8831 * (normalized) 37
+ +       1.7754 * (normalized) 38
+ +       0.1549 * (normalized) 39
+ +      -0.1173 * (normalized) 40
+ +       1.8732 * (normalized) 41
+ +       0.9628 * (normalized) 42
+ +       2.5908 * (normalized) 43
+ +      -0.5525 * (normalized) 44
+ +      -1.0953 * (normalized) 45
+ +      -0.0305 * (normalized) 46
+ +       0.1961 * (normalized) 47
+ +      -0.0101 * (normalized) 48
+ +       0.2563 * (normalized) 49
+ +       0.3821 * (normalized) 50
+ +       0.159  * (normalized) 51
+ +       0.3329 * (normalized) 52
+ +      -0.0433 * (normalized) 53
+ +      -0.2561 * (normalized) 54
+ +       0.1439 * (normalized) 55
+ +       0.2108 * (normalized) 56
+ +      -0.009  * (normalized) 57
+ +       0.3038 * (normalized) 58
+ +       0.074  * (normalized) 59
+ +       0.2762 * (normalized) 60
+ +      -0.2154 * (normalized) 61
+ +      -0.3573 * (normalized) 62
+ +      -0.1889 * (normalized) 63
+ +       0.3931 * (normalized) 64
+ +       0.065  * (normalized) 65
+ +      -0.2185 * (normalized) 66
+ +       0.2015 * (normalized) 67
+ +      -0.1592 * (normalized) 68
+ +       0.3445 * (normalized) 69
+ +      -0.1206 * (normalized) 70
+ +       0.3436 * (normalized) 71
+ -      13.3694
+
+Number of kernel evaluations: 808516 (74.688% cached)
+
+Classifier for classes: '(3.666667-4.583333]', '(6.416667-7.333333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.7137 * (normalized) 1
+ +       0.4383 * (normalized) 2
+ +       0.3629 * (normalized) 3
+ +       1.3831 * (normalized) 4
+ +       0.1839 * (normalized) 5
+ +       0.0516 * (normalized) 6
+ +       1.3167 * (normalized) 7
+ +      -0.3822 * (normalized) 8
+ +       0.2727 * (normalized) 9
+ +      -0.0237 * (normalized) 10
+ +      -0.2496 * (normalized) 11
+ +       0.1454 * (normalized) 12
+ +       0.1495 * (normalized) 13
+ +      -0.068  * (normalized) 14
+ +      -0.3629 * (normalized) 15
+ +       0.5922 * (normalized) 16
+ +      -0.4134 * (normalized) 17
+ +      -0.142  * (normalized) 18
+ +       0.7066 * (normalized) 19
+ +      -0.5334 * (normalized) 20
+ +       1.6221 * (normalized) 21
+ +       1.0454 * (normalized) 22
+ +       0.4204 * (normalized) 23
+ +      -0.2098 * (normalized) 24
+ +       0.4153 * (normalized) 25
+ +       0.9001 * (normalized) 26
+ +       1.4871 * (normalized) 27
+ +      -0.3949 * (normalized) 28
+ +       0.573  * (normalized) 29
+ +       0.9026 * (normalized) 30
+ +       3.1329 * (normalized) 31
+ +       1.2631 * (normalized) 32
+ +       1.6221 * (normalized) 33
+ +       1.0454 * (normalized) 34
+ +       0.4204 * (normalized) 35
+ +      -0.2098 * (normalized) 36
+ +       0.4153 * (normalized) 37
+ +       0.9001 * (normalized) 38
+ +       1.4871 * (normalized) 39
+ +      -0.3949 * (normalized) 40
+ +       0.573  * (normalized) 41
+ +       0.9026 * (normalized) 42
+ +       3.1329 * (normalized) 43
+ +       1.2631 * (normalized) 44
+ +      -3.7912 * (normalized) 45
+ +       0.0942 * (normalized) 46
+ +      -0.5429 * (normalized) 47
+ +      -0.2533 * (normalized) 48
+ +      -0.2442 * (normalized) 49
+ +       0.0154 * (normalized) 50
+ +       0.0108 * (normalized) 51
+ +       0.3279 * (normalized) 52
+ +       0.1028 * (normalized) 53
+ +      -0.3057 * (normalized) 54
+ +       0.1555 * (normalized) 55
+ +       0.1974 * (normalized) 56
+ +      -0.2889 * (normalized) 57
+ +       0.2061 * (normalized) 58
+ +      -0.3591 * (normalized) 59
+ +       0.1804 * (normalized) 60
+ +      -0.2694 * (normalized) 61
+ +      -0.4745 * (normalized) 62
+ +      -0.5477 * (normalized) 63
+ +      -0.1924 * (normalized) 64
+ +       0.3288 * (normalized) 65
+ +      -0.2915 * (normalized) 66
+ +       0.0124 * (normalized) 67
+ +      -0.0611 * (normalized) 68
+ +       0.3941 * (normalized) 69
+ +       0.181  * (normalized) 70
+ +       0.06   * (normalized) 71
+ -      11.0301
+
+Number of kernel evaluations: 752168 (76.666% cached)
+
+Classifier for classes: '(3.666667-4.583333]', '(7.333333-8.25]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3561 * (normalized) 1
+ +      -0.144  * (normalized) 2
+ +      -0.068  * (normalized) 3
+ +      -0.5661 * (normalized) 4
+ +       0.0287 * (normalized) 5
+ +      -0.8655 * (normalized) 6
+ +       0.5844 * (normalized) 7
+ +      -0.1459 * (normalized) 8
+ +       0.0892 * (normalized) 9
+ +      -0.1334 * (normalized) 10
+ +       0.1833 * (normalized) 11
+ +      -1.0751 * (normalized) 12
+ +       0.2172 * (normalized) 13
+ +      -0.5109 * (normalized) 14
+ +      -0.4372 * (normalized) 15
+ +       0.0031 * (normalized) 16
+ +      -0.6232 * (normalized) 17
+ +      -0.6968 * (normalized) 18
+ +       0.7211 * (normalized) 19
+ +      -1.1292 * (normalized) 20
+ +       0.7053 * (normalized) 21
+ +      -0.2184 * (normalized) 22
+ +      -0.1149 * (normalized) 23
+ +       0.7433 * (normalized) 24
+ +       2.1391 * (normalized) 25
+ +       0.9082 * (normalized) 26
+ +       0.0715 * (normalized) 27
+ +      -0.8343 * (normalized) 28
+ +       1.5956 * (normalized) 29
+ +      -2.1099 * (normalized) 30
+ +       2.1531 * (normalized) 31
+ +      -0.9685 * (normalized) 32
+ +       0.7053 * (normalized) 33
+ +      -0.2184 * (normalized) 34
+ +      -0.1149 * (normalized) 35
+ +       0.7433 * (normalized) 36
+ +       2.1391 * (normalized) 37
+ +       0.9082 * (normalized) 38
+ +       0.0715 * (normalized) 39
+ +      -0.8343 * (normalized) 40
+ +       1.5956 * (normalized) 41
+ +      -2.1099 * (normalized) 42
+ +       2.1531 * (normalized) 43
+ +      -0.9685 * (normalized) 44
+ +       0.362  * (normalized) 45
+ +       0.4887 * (normalized) 46
+ +       0.0822 * (normalized) 47
+ +      -0.0397 * (normalized) 48
+ +      -0.0958 * (normalized) 49
+ +       0.6389 * (normalized) 50
+ +       0.3359 * (normalized) 51
+ +       0.4317 * (normalized) 52
+ +      -0.0131 * (normalized) 53
+ +       0.08   * (normalized) 54
+ +       0.1031 * (normalized) 55
+ +      -0.0799 * (normalized) 56
+ +      -0.2129 * (normalized) 57
+ +      -0.5822 * (normalized) 58
+ +       0.0059 * (normalized) 59
+ +      -0.0366 * (normalized) 60
+ +      -0.1217 * (normalized) 61
+ +       0.1391 * (normalized) 62
+ +       0.1881 * (normalized) 63
+ +       0.066  * (normalized) 64
+ +      -0.1476 * (normalized) 65
+ +       0.0034 * (normalized) 66
+ +       0.0079 * (normalized) 67
+ +      -0.3502 * (normalized) 68
+ +       0.3099 * (normalized) 69
+ +       0.0606 * (normalized) 70
+ +      -0.1211 * (normalized) 71
+ -       1.4168
+
+Number of kernel evaluations: 796037 (72.723% cached)
+
+Classifier for classes: '(3.666667-4.583333]', '(8.25-9.166667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6509 * (normalized) 1
+ +       0.5622 * (normalized) 2
+ +       0.0202 * (normalized) 3
+ +       0.315  * (normalized) 4
+ +      -0.1192 * (normalized) 5
+ +      -0.6258 * (normalized) 6
+ +       0.3834 * (normalized) 7
+ +      -0.002  * (normalized) 8
+ +      -0.1519 * (normalized) 9
+ +       0.5509 * (normalized) 10
+ +      -0.4737 * (normalized) 11
+ +       0.0219 * (normalized) 12
+ +       0.1019 * (normalized) 13
+ +      -0.3817 * (normalized) 14
+ +       0.4239 * (normalized) 15
+ +      -0.1105 * (normalized) 16
+ +      -0.1037 * (normalized) 17
+ +       0.6772 * (normalized) 18
+ +       0.0271 * (normalized) 19
+ +       0.1493 * (normalized) 20
+ +       0.1117 * (normalized) 21
+ +       0.8723 * (normalized) 22
+ +       0.4091 * (normalized) 23
+ +       1.0882 * (normalized) 24
+ +       1.436  * (normalized) 25
+ +       0.0516 * (normalized) 26
+ +      -0.3095 * (normalized) 27
+ +      -1.1683 * (normalized) 28
+ +       0.8873 * (normalized) 29
+ +      -0.6611 * (normalized) 30
+ +       1.3393 * (normalized) 31
+ +       1.0532 * (normalized) 32
+ +       0.1117 * (normalized) 33
+ +       0.8723 * (normalized) 34
+ +       0.4091 * (normalized) 35
+ +       1.0882 * (normalized) 36
+ +       1.436  * (normalized) 37
+ +       0.0516 * (normalized) 38
+ +      -0.3095 * (normalized) 39
+ +      -1.1683 * (normalized) 40
+ +       0.8873 * (normalized) 41
+ +      -0.6611 * (normalized) 42
+ +       1.3393 * (normalized) 43
+ +       1.0532 * (normalized) 44
+ +      -1.4649 * (normalized) 45
+ +       0.288  * (normalized) 46
+ +       0.3148 * (normalized) 47
+ +      -0.0908 * (normalized) 48
+ +       0.0176 * (normalized) 49
+ +       0.3569 * (normalized) 50
+ +       0.0532 * (normalized) 51
+ +       0.048  * (normalized) 52
+ +       0.0059 * (normalized) 53
+ +      -0.0081 * (normalized) 54
+ +       0.092  * (normalized) 55
+ +       0.0488 * (normalized) 56
+ +       0.2454 * (normalized) 57
+ +      -0.3092 * (normalized) 58
+ +       0.0996 * (normalized) 59
+ +       0.1817 * (normalized) 60
+ +       0.282  * (normalized) 61
+ +       0.0459 * (normalized) 62
+ +       0.2704 * (normalized) 63
+ +      -0.1501 * (normalized) 64
+ +       0.3574 * (normalized) 65
+ +      -0.3902 * (normalized) 66
+ +       0.1685 * (normalized) 67
+ +      -0.3634 * (normalized) 68
+ +       0.2763 * (normalized) 69
+ +       0.2368 * (normalized) 70
+ +      -0.2435 * (normalized) 71
+ -       5.7955
+
+Number of kernel evaluations: 758765 (74.873% cached)
+
+Classifier for classes: '(3.666667-4.583333]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.331  * (normalized) 1
+ +       1.1533 * (normalized) 2
+ +       0.5696 * (normalized) 3
+ +       0.0235 * (normalized) 4
+ +       1.0026 * (normalized) 5
+ +      -0.8707 * (normalized) 6
+ +       0.7069 * (normalized) 7
+ +       0.0994 * (normalized) 8
+ +       0.4445 * (normalized) 9
+ +       0.1537 * (normalized) 10
+ +       0.7085 * (normalized) 11
+ +       0.0762 * (normalized) 12
+ +       0.2459 * (normalized) 13
+ +       0.4052 * (normalized) 14
+ +       0.3786 * (normalized) 15
+ +       0.2415 * (normalized) 16
+ +       0.3013 * (normalized) 17
+ +       0.0665 * (normalized) 18
+ +       0.5295 * (normalized) 19
+ +      -0.2432 * (normalized) 20
+ +       0.7407 * (normalized) 21
+ +       0.5166 * (normalized) 22
+ +       1.7902 * (normalized) 23
+ +       1.1034 * (normalized) 24
+ +       1.671  * (normalized) 25
+ +      -0.0526 * (normalized) 26
+ +       0.0188 * (normalized) 27
+ +      -0.1648 * (normalized) 28
+ +       1.1177 * (normalized) 29
+ +      -0.5269 * (normalized) 30
+ +       2.0427 * (normalized) 31
+ +      -0.079  * (normalized) 32
+ +       0.7407 * (normalized) 33
+ +       0.5166 * (normalized) 34
+ +       1.7902 * (normalized) 35
+ +       1.1034 * (normalized) 36
+ +       1.671  * (normalized) 37
+ +      -0.0526 * (normalized) 38
+ +       0.0188 * (normalized) 39
+ +      -0.1648 * (normalized) 40
+ +       1.1177 * (normalized) 41
+ +      -0.5269 * (normalized) 42
+ +       2.0427 * (normalized) 43
+ +      -0.079  * (normalized) 44
+ +      -2.6396 * (normalized) 45
+ +       0.4101 * (normalized) 46
+ +       0.1369 * (normalized) 47
+ +       0.045  * (normalized) 48
+ +       0.3536 * (normalized) 49
+ +       0.3403 * (normalized) 50
+ +       0.1144 * (normalized) 51
+ +       0.4278 * (normalized) 52
+ +       0.1369 * (normalized) 53
+ +       0.0866 * (normalized) 54
+ +       0.1778 * (normalized) 55
+ +      -0.1166 * (normalized) 56
+ +      -0.2437 * (normalized) 57
+ +      -0.334  * (normalized) 58
+ +       0.2073 * (normalized) 59
+ +       0.1679 * (normalized) 60
+ +      -0.0108 * (normalized) 61
+ +      -0.0012 * (normalized) 62
+ +      -0.0017 * (normalized) 63
+ +      -0.0455 * (normalized) 64
+ +       0.013  * (normalized) 65
+ +      -0.2842 * (normalized) 66
+ +      -0.0328 * (normalized) 67
+ +      -0.1955 * (normalized) 68
+ +       0.1219 * (normalized) 69
+ +       0.0483 * (normalized) 70
+ +      -0.2343 * (normalized) 71
+ -      11.1574
+
+Number of kernel evaluations: 834865 (74.186% cached)
+
+Classifier for classes: '(3.666667-4.583333]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6771 * (normalized) 1
+ +       1.7543 * (normalized) 2
+ +      -1.1299 * (normalized) 3
+ +       1.3641 * (normalized) 4
+ +      -0.1235 * (normalized) 5
+ +      -0.8833 * (normalized) 6
+ +       1.5144 * (normalized) 7
+ +      -0.759  * (normalized) 8
+ +       0.3445 * (normalized) 9
+ +      -0.0532 * (normalized) 10
+ +      -0.7563 * (normalized) 11
+ +      -0.346  * (normalized) 12
+ +       0.1975 * (normalized) 13
+ +      -0.5742 * (normalized) 14
+ +      -0.0247 * (normalized) 15
+ +      -0.0459 * (normalized) 16
+ +      -0.6614 * (normalized) 17
+ +      -0.1386 * (normalized) 18
+ +      -0.0762 * (normalized) 19
+ +      -0.7948 * (normalized) 20
+ +       1.6486 * (normalized) 21
+ +       0.6769 * (normalized) 22
+ +       0.7684 * (normalized) 23
+ +      -0.0342 * (normalized) 24
+ +       1.8963 * (normalized) 25
+ +       1.5894 * (normalized) 26
+ +       0.3395 * (normalized) 27
+ +      -1.3726 * (normalized) 28
+ +       1.4324 * (normalized) 29
+ +       0.1269 * (normalized) 30
+ +       1.9041 * (normalized) 31
+ +       0.0949 * (normalized) 32
+ +       1.6486 * (normalized) 33
+ +       0.6769 * (normalized) 34
+ +       0.7684 * (normalized) 35
+ +      -0.0342 * (normalized) 36
+ +       1.8963 * (normalized) 37
+ +       1.5894 * (normalized) 38
+ +       0.3395 * (normalized) 39
+ +      -1.3726 * (normalized) 40
+ +       1.4324 * (normalized) 41
+ +       0.1269 * (normalized) 42
+ +       1.9041 * (normalized) 43
+ +       0.0949 * (normalized) 44
+ +      -0.9623 * (normalized) 45
+ +      -0.112  * (normalized) 46
+ +       0.0278 * (normalized) 47
+ +      -0.0576 * (normalized) 48
+ +      -0.2657 * (normalized) 49
+ +       0.3999 * (normalized) 50
+ +       0.2296 * (normalized) 51
+ +       0.3295 * (normalized) 52
+ +       0.1037 * (normalized) 53
+ +       0.0034 * (normalized) 54
+ +       0.1187 * (normalized) 55
+ +       0.1889 * (normalized) 56
+ +      -0.041  * (normalized) 57
+ +       0.0945 * (normalized) 58
+ +       0.276  * (normalized) 59
+ +       0.0474 * (normalized) 60
+ +      -0.2313 * (normalized) 61
+ +       0.1092 * (normalized) 62
+ +       0.2249 * (normalized) 63
+ +      -0.1538 * (normalized) 64
+ +      -0.0393 * (normalized) 65
+ +      -0.3541 * (normalized) 66
+ +      -0.0033 * (normalized) 67
+ +      -0.1096 * (normalized) 68
+ +       0.3882 * (normalized) 69
+ +       0.2277 * (normalized) 70
+ +       0.2593 * (normalized) 71
+ -       8.3636
+
+Number of kernel evaluations: 972598 (73.341% cached)
+
+Classifier for classes: '(4.583333-5.5]', '(5.5-6.416667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8033 * (normalized) 1
+ +       2.6092 * (normalized) 2
+ +      -2.4575 * (normalized) 3
+ +       0.5476 * (normalized) 4
+ +       0.2607 * (normalized) 5
+ +      -1.2784 * (normalized) 6
+ +       0.0353 * (normalized) 7
+ +       0.5657 * (normalized) 8
+ +      -0.3567 * (normalized) 9
+ +       0.146  * (normalized) 10
+ +       0.4236 * (normalized) 11
+ +      -1.1871 * (normalized) 12
+ +       0.5133 * (normalized) 13
+ +       0.464  * (normalized) 14
+ +      -0.9915 * (normalized) 15
+ +       1.2961 * (normalized) 16
+ +      -0.5527 * (normalized) 17
+ +      -0.5282 * (normalized) 18
+ +       0.9023 * (normalized) 19
+ +      -0.3471 * (normalized) 20
+ +      -0.3084 * (normalized) 21
+ +       0.1185 * (normalized) 22
+ +       0.5096 * (normalized) 23
+ +       0.7854 * (normalized) 24
+ +       1.8735 * (normalized) 25
+ +       1.3308 * (normalized) 26
+ +      -1.4309 * (normalized) 27
+ +       0.4782 * (normalized) 28
+ +       1.5688 * (normalized) 29
+ +       1.1544 * (normalized) 30
+ +       0.4304 * (normalized) 31
+ +      -2.2172 * (normalized) 32
+ +      -0.3084 * (normalized) 33
+ +       0.1185 * (normalized) 34
+ +       0.5096 * (normalized) 35
+ +       0.7854 * (normalized) 36
+ +       1.8735 * (normalized) 37
+ +       1.3308 * (normalized) 38
+ +      -1.4309 * (normalized) 39
+ +       0.4782 * (normalized) 40
+ +       1.5688 * (normalized) 41
+ +       1.1544 * (normalized) 42
+ +       0.4304 * (normalized) 43
+ +      -2.2172 * (normalized) 44
+ +       2.63   * (normalized) 45
+ +      -0.3714 * (normalized) 46
+ +       0.0607 * (normalized) 47
+ +      -0.0521 * (normalized) 48
+ +       0.1061 * (normalized) 49
+ +      -0.1055 * (normalized) 50
+ +       0.0665 * (normalized) 51
+ +      -0.3227 * (normalized) 52
+ +       0.225  * (normalized) 53
+ +       0.0601 * (normalized) 54
+ +      -0.168  * (normalized) 55
+ +      -0.0654 * (normalized) 56
+ +      -0.1489 * (normalized) 57
+ +       0.213  * (normalized) 58
+ +      -0.1868 * (normalized) 59
+ +      -0.0054 * (normalized) 60
+ +      -0.3341 * (normalized) 61
+ +       0.3248 * (normalized) 62
+ +       0.0123 * (normalized) 63
+ +       0.2706 * (normalized) 64
+ +      -0.2278 * (normalized) 65
+ +       0.1352 * (normalized) 66
+ +       0.3907 * (normalized) 67
+ +       0.3375 * (normalized) 68
+ +       0.0109 * (normalized) 69
+ +      -0.382  * (normalized) 70
+ +       0.1536 * (normalized) 71
+ -       5.6035
+
+Number of kernel evaluations: 1202417 (71.351% cached)
+
+Classifier for classes: '(4.583333-5.5]', '(6.416667-7.333333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5471 * (normalized) 1
+ +      -0.0148 * (normalized) 2
+ +      -0.3481 * (normalized) 3
+ +       0.9427 * (normalized) 4
+ +       0.0251 * (normalized) 5
+ +      -0.2496 * (normalized) 6
+ +       1.0216 * (normalized) 7
+ +      -0.3426 * (normalized) 8
+ +       0.4495 * (normalized) 9
+ +      -0.0481 * (normalized) 10
+ +       0.1658 * (normalized) 11
+ +      -0.211  * (normalized) 12
+ +       0.5201 * (normalized) 13
+ +       0.2477 * (normalized) 14
+ +      -1.024  * (normalized) 15
+ +       1.6271 * (normalized) 16
+ +      -0.4337 * (normalized) 17
+ +      -0.8319 * (normalized) 18
+ +       1.6463 * (normalized) 19
+ +      -0.6984 * (normalized) 20
+ +       0.2231 * (normalized) 21
+ +       0.0146 * (normalized) 22
+ +      -0.1795 * (normalized) 23
+ +      -0.3841 * (normalized) 24
+ +       0.2944 * (normalized) 25
+ +       0.4389 * (normalized) 26
+ +       0.3799 * (normalized) 27
+ +       0.2038 * (normalized) 28
+ +       0.0519 * (normalized) 29
+ +       2.1459 * (normalized) 30
+ +       2.2803 * (normalized) 31
+ +      -1.2463 * (normalized) 32
+ +       0.2231 * (normalized) 33
+ +       0.0146 * (normalized) 34
+ +      -0.1795 * (normalized) 35
+ +      -0.3841 * (normalized) 36
+ +       0.2944 * (normalized) 37
+ +       0.4389 * (normalized) 38
+ +       0.3799 * (normalized) 39
+ +       0.2038 * (normalized) 40
+ +       0.0519 * (normalized) 41
+ +       2.1459 * (normalized) 42
+ +       2.2803 * (normalized) 43
+ +      -1.2463 * (normalized) 44
+ +      -0.918  * (normalized) 45
+ +      -0.1859 * (normalized) 46
+ +      -0.2149 * (normalized) 47
+ +      -0.1964 * (normalized) 48
+ +      -0.172  * (normalized) 49
+ +       0.107  * (normalized) 50
+ +      -0.1938 * (normalized) 51
+ +       0.0858 * (normalized) 52
+ +      -0.0138 * (normalized) 53
+ +      -0.3226 * (normalized) 54
+ +      -0.0677 * (normalized) 55
+ +      -0.2666 * (normalized) 56
+ +      -0.1943 * (normalized) 57
+ +       0.1952 * (normalized) 58
+ +       0.0794 * (normalized) 59
+ +      -0.0927 * (normalized) 60
+ +      -0.2477 * (normalized) 61
+ +      -0.0042 * (normalized) 62
+ +      -0.2185 * (normalized) 63
+ +      -0.0716 * (normalized) 64
+ +      -0.0246 * (normalized) 65
+ +      -0.0295 * (normalized) 66
+ +      -0.0504 * (normalized) 67
+ +       0.2903 * (normalized) 68
+ +       0.2488 * (normalized) 69
+ +      -0.3955 * (normalized) 70
+ +       0.011  * (normalized) 71
+ -       5.2402
+
+Number of kernel evaluations: 909205 (72.118% cached)
+
+Classifier for classes: '(4.583333-5.5]', '(7.333333-8.25]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.9998 * (normalized) 1
+ +      -0.1645 * (normalized) 2
+ +      -0.7312 * (normalized) 3
+ +      -1.3179 * (normalized) 4
+ +       0.2406 * (normalized) 5
+ +      -1.2954 * (normalized) 6
+ +       0.2502 * (normalized) 7
+ +       0.175  * (normalized) 8
+ +      -0.2756 * (normalized) 9
+ +       0.1058 * (normalized) 10
+ +       0.6198 * (normalized) 11
+ +      -1.7561 * (normalized) 12
+ +       0.7863 * (normalized) 13
+ +       0.0642 * (normalized) 14
+ +      -1.2218 * (normalized) 15
+ +       0.8888 * (normalized) 16
+ +      -0.2111 * (normalized) 17
+ +      -1.6064 * (normalized) 18
+ +       1.7807 * (normalized) 19
+ +      -1.1715 * (normalized) 20
+ +      -0.772  * (normalized) 21
+ +      -0.9904 * (normalized) 22
+ +      -0.6135 * (normalized) 23
+ +       0.4266 * (normalized) 24
+ +       1.7985 * (normalized) 25
+ +       0.7934 * (normalized) 26
+ +      -0.978  * (normalized) 27
+ +      -0.4773 * (normalized) 28
+ +       1.0243 * (normalized) 29
+ +      -1.6851 * (normalized) 30
+ +      -0.4873 * (normalized) 31
+ +      -1.5275 * (normalized) 32
+ +      -0.772  * (normalized) 33
+ +      -0.9904 * (normalized) 34
+ +      -0.6135 * (normalized) 35
+ +       0.4266 * (normalized) 36
+ +       1.7985 * (normalized) 37
+ +       0.7934 * (normalized) 38
+ +      -0.978  * (normalized) 39
+ +      -0.4773 * (normalized) 40
+ +       1.0243 * (normalized) 41
+ +      -1.6851 * (normalized) 42
+ +      -0.4873 * (normalized) 43
+ +      -1.5275 * (normalized) 44
+ +       3.6376 * (normalized) 45
+ +      -0.1191 * (normalized) 46
+ +       0.1588 * (normalized) 47
+ +      -0.1577 * (normalized) 48
+ +      -0.1472 * (normalized) 49
+ +      -0.0417 * (normalized) 50
+ +      -0.0634 * (normalized) 51
+ +      -0.0275 * (normalized) 52
+ +       0.2875 * (normalized) 53
+ +       0.1879 * (normalized) 54
+ +      -0.2231 * (normalized) 55
+ +      -0.1069 * (normalized) 56
+ +      -0.1726 * (normalized) 57
+ +      -0.5306 * (normalized) 58
+ +      -0.0396 * (normalized) 59
+ +      -0.1857 * (normalized) 60
+ +      -0.1999 * (normalized) 61
+ +       0.311  * (normalized) 62
+ +       0.343  * (normalized) 63
+ +      -0.1083 * (normalized) 64
+ +      -0.3501 * (normalized) 65
+ +       0.2205 * (normalized) 66
+ +       0.2059 * (normalized) 67
+ +      -0.1184 * (normalized) 68
+ +       0.0266 * (normalized) 69
+ +       0.27   * (normalized) 70
+ +      -0.1179 * (normalized) 71
+ +       5.2868
+
+Number of kernel evaluations: 1171854 (73.912% cached)
+
+Classifier for classes: '(4.583333-5.5]', '(8.25-9.166667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.98   * (normalized) 1
+ +       0.4659 * (normalized) 2
+ +      -1.0337 * (normalized) 3
+ +      -0.4758 * (normalized) 4
+ +      -0.3309 * (normalized) 5
+ +      -1.0833 * (normalized) 6
+ +      -0.3213 * (normalized) 7
+ +       0.4067 * (normalized) 8
+ +      -0.6143 * (normalized) 9
+ +       0.7273 * (normalized) 10
+ +      -0.0253 * (normalized) 11
+ +      -0.7889 * (normalized) 12
+ +       0.5947 * (normalized) 13
+ +       0.2836 * (normalized) 14
+ +      -0.7988 * (normalized) 15
+ +       1.0253 * (normalized) 16
+ +       0.08   * (normalized) 17
+ +      -0.6861 * (normalized) 18
+ +       1.3813 * (normalized) 19
+ +      -0.3238 * (normalized) 20
+ +      -1.486  * (normalized) 21
+ +      -0.2827 * (normalized) 22
+ +       0.1063 * (normalized) 23
+ +       0.9752 * (normalized) 24
+ +       1.4132 * (normalized) 25
+ +      -0.0881 * (normalized) 26
+ +      -1.5482 * (normalized) 27
+ +      -0.9364 * (normalized) 28
+ +       0.431  * (normalized) 29
+ +      -0.1232 * (normalized) 30
+ +      -0.9514 * (normalized) 31
+ +      -0.789  * (normalized) 32
+ +      -1.486  * (normalized) 33
+ +      -0.2827 * (normalized) 34
+ +       0.1063 * (normalized) 35
+ +       0.9752 * (normalized) 36
+ +       1.4132 * (normalized) 37
+ +      -0.0881 * (normalized) 38
+ +      -1.5482 * (normalized) 39
+ +      -0.9364 * (normalized) 40
+ +       0.431  * (normalized) 41
+ +      -0.1232 * (normalized) 42
+ +      -0.9514 * (normalized) 43
+ +      -0.789  * (normalized) 44
+ +       3.1398 * (normalized) 45
+ +       0.0855 * (normalized) 46
+ +       0.2089 * (normalized) 47
+ +       0.2152 * (normalized) 48
+ +      -0.0016 * (normalized) 49
+ +       0.302  * (normalized) 50
+ +       0.3524 * (normalized) 51
+ +       0.1398 * (normalized) 52
+ +       0.3528 * (normalized) 53
+ +       0.135  * (normalized) 54
+ +       0.0379 * (normalized) 55
+ +       0.0818 * (normalized) 56
+ +      -0.0597 * (normalized) 57
+ +      -0.3552 * (normalized) 58
+ +      -0.1229 * (normalized) 59
+ +      -0.0185 * (normalized) 60
+ +      -0.224  * (normalized) 61
+ +       0.5153 * (normalized) 62
+ +      -0.0039 * (normalized) 63
+ +       0.014  * (normalized) 64
+ +      -0.1509 * (normalized) 65
+ +      -0.1166 * (normalized) 66
+ +       0.336  * (normalized) 67
+ +      -0.0427 * (normalized) 68
+ +       0.2634 * (normalized) 69
+ +       0.1344 * (normalized) 70
+ +      -0.3798 * (normalized) 71
+ +       1.7414
+
+Number of kernel evaluations: 1073968 (72.553% cached)
+
+Classifier for classes: '(4.583333-5.5]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1796 * (normalized) 1
+ +       0.6754 * (normalized) 2
+ +      -0.1389 * (normalized) 3
+ +      -0.6203 * (normalized) 4
+ +       0.8035 * (normalized) 5
+ +      -1.1478 * (normalized) 6
+ +       0.1614 * (normalized) 7
+ +       0.2103 * (normalized) 8
+ +       0.2869 * (normalized) 9
+ +       0.2422 * (normalized) 10
+ +       1.1271 * (normalized) 11
+ +      -0.3339 * (normalized) 12
+ +       0.672  * (normalized) 13
+ +       0.8553 * (normalized) 14
+ +      -0.3334 * (normalized) 15
+ +       1.1374 * (normalized) 16
+ +       0.3158 * (normalized) 17
+ +      -0.5556 * (normalized) 18
+ +       1.3257 * (normalized) 19
+ +      -0.4647 * (normalized) 20
+ +      -0.8504 * (normalized) 21
+ +      -0.6856 * (normalized) 22
+ +       1.415  * (normalized) 23
+ +       0.7674 * (normalized) 24
+ +       1.0805 * (normalized) 25
+ +      -0.8048 * (normalized) 26
+ +      -0.9472 * (normalized) 27
+ +      -0.0516 * (normalized) 28
+ +       0.7567 * (normalized) 29
+ +      -0.333  * (normalized) 30
+ +       0.4428 * (normalized) 31
+ +      -1.9993 * (normalized) 32
+ +      -0.8504 * (normalized) 33
+ +      -0.6856 * (normalized) 34
+ +       1.415  * (normalized) 35
+ +       0.7674 * (normalized) 36
+ +       1.0805 * (normalized) 37
+ +      -0.8048 * (normalized) 38
+ +      -0.9472 * (normalized) 39
+ +      -0.0516 * (normalized) 40
+ +       0.7567 * (normalized) 41
+ +      -0.333  * (normalized) 42
+ +       0.4428 * (normalized) 43
+ +      -1.9993 * (normalized) 44
+ +       0.451  * (normalized) 45
+ +       0.0364 * (normalized) 46
+ +       0.1226 * (normalized) 47
+ +       0.034  * (normalized) 48
+ +       0.1555 * (normalized) 49
+ +       0.0104 * (normalized) 50
+ +       0.0487 * (normalized) 51
+ +       0.0032 * (normalized) 52
+ +       0.3531 * (normalized) 53
+ +       0.2114 * (normalized) 54
+ +       0.0431 * (normalized) 55
+ +      -0.2706 * (normalized) 56
+ +       0.0373 * (normalized) 57
+ +      -0.2942 * (normalized) 58
+ +      -0.1968 * (normalized) 59
+ +       0.3733 * (normalized) 60
+ +      -0.1419 * (normalized) 61
+ +       0.2392 * (normalized) 62
+ +      -0.1132 * (normalized) 63
+ +       0.0843 * (normalized) 64
+ +      -0.136  * (normalized) 65
+ +      -0.0089 * (normalized) 66
+ +       0.2432 * (normalized) 67
+ +      -0.0298 * (normalized) 68
+ +      -0.0859 * (normalized) 69
+ +      -0.215  * (normalized) 70
+ +      -0.0009 * (normalized) 71
+ -       1.9019
+
+Number of kernel evaluations: 1069695 (73.812% cached)
+
+Classifier for classes: '(4.583333-5.5]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.3905 * (normalized) 1
+ +       2.4605 * (normalized) 2
+ +      -2.7758 * (normalized) 3
+ +       0.7672 * (normalized) 4
+ +       0.0214 * (normalized) 5
+ +      -1.5678 * (normalized) 6
+ +       1.1141 * (normalized) 7
+ +      -0.1755 * (normalized) 8
+ +      -0.1102 * (normalized) 9
+ +       0.3159 * (normalized) 10
+ +      -0.2691 * (normalized) 11
+ +      -1.0354 * (normalized) 12
+ +       0.6596 * (normalized) 13
+ +       0.0429 * (normalized) 14
+ +      -0.8738 * (normalized) 15
+ +       0.9121 * (normalized) 16
+ +      -0.5771 * (normalized) 17
+ +      -0.6139 * (normalized) 18
+ +       0.684  * (normalized) 19
+ +      -0.7839 * (normalized) 20
+ +      -0.1211 * (normalized) 21
+ +      -0.515  * (normalized) 22
+ +      -0.0767 * (normalized) 23
+ +      -0.1534 * (normalized) 24
+ +       1.9163 * (normalized) 25
+ +       1.3889 * (normalized) 26
+ +      -0.8363 * (normalized) 27
+ +      -1.3132 * (normalized) 28
+ +       1.2577 * (normalized) 29
+ +       0.1317 * (normalized) 30
+ +      -0.3526 * (normalized) 31
+ +      -1.4389 * (normalized) 32
+ +      -0.1211 * (normalized) 33
+ +      -0.515  * (normalized) 34
+ +      -0.0767 * (normalized) 35
+ +      -0.1534 * (normalized) 36
+ +       1.9163 * (normalized) 37
+ +       1.3889 * (normalized) 38
+ +      -0.8363 * (normalized) 39
+ +      -1.3132 * (normalized) 40
+ +       1.2577 * (normalized) 41
+ +       0.1317 * (normalized) 42
+ +      -0.3526 * (normalized) 43
+ +      -1.4389 * (normalized) 44
+ +       2.9877 * (normalized) 45
+ +      -0.5405 * (normalized) 46
+ +      -0.028  * (normalized) 47
+ +      -0.0808 * (normalized) 48
+ +       0.163  * (normalized) 49
+ +      -0.2763 * (normalized) 50
+ +       0.0798 * (normalized) 51
+ +      -0.2869 * (normalized) 52
+ +       0.1448 * (normalized) 53
+ +       0.0038 * (normalized) 54
+ +      -0.2375 * (normalized) 55
+ +      -0.0102 * (normalized) 56
+ +      -0.1827 * (normalized) 57
+ +       0.1363 * (normalized) 58
+ +       0.1959 * (normalized) 59
+ +      -0.113  * (normalized) 60
+ +       0.1094 * (normalized) 61
+ +       0.2982 * (normalized) 62
+ +       0.5204 * (normalized) 63
+ +       0.0279 * (normalized) 64
+ +      -0.4608 * (normalized) 65
+ +      -0.2143 * (normalized) 66
+ +       0.1106 * (normalized) 67
+ +       0.0365 * (normalized) 68
+ +       0.0117 * (normalized) 69
+ +      -0.0484 * (normalized) 70
+ +       0.2941 * (normalized) 71
+ +       0.2536
+
+Number of kernel evaluations: 1240109 (72.046% cached)
+
+Classifier for classes: '(5.5-6.416667]', '(6.416667-7.333333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8061 * (normalized) 1
+ +      -1.8158 * (normalized) 2
+ +       1.2909 * (normalized) 3
+ +       0.5202 * (normalized) 4
+ +      -0.3551 * (normalized) 5
+ +       0.8725 * (normalized) 6
+ +       0.7121 * (normalized) 7
+ +      -0.4999 * (normalized) 8
+ +       0.4862 * (normalized) 9
+ +      -0.0289 * (normalized) 10
+ +      -0.0481 * (normalized) 11
+ +       0.6946 * (normalized) 12
+ +       0.058  * (normalized) 13
+ +       0.0332 * (normalized) 14
+ +      -0.1165 * (normalized) 15
+ +       0.2818 * (normalized) 16
+ +       0.2541 * (normalized) 17
+ +      -0.4278 * (normalized) 18
+ +       0.8088 * (normalized) 19
+ +      -0.262  * (normalized) 20
+ +       0.2154 * (normalized) 21
+ +      -0.2662 * (normalized) 22
+ +      -0.6613 * (normalized) 23
+ +      -0.8582 * (normalized) 24
+ +      -1.3525 * (normalized) 25
+ +      -0.5757 * (normalized) 26
+ +       1.2823 * (normalized) 27
+ +      -0.2501 * (normalized) 28
+ +      -1.308  * (normalized) 29
+ +       0.5074 * (normalized) 30
+ +       1.3633 * (normalized) 31
+ +       1.6614 * (normalized) 32
+ +       0.2154 * (normalized) 33
+ +      -0.2662 * (normalized) 34
+ +      -0.6613 * (normalized) 35
+ +      -0.8582 * (normalized) 36
+ +      -1.3525 * (normalized) 37
+ +      -0.5757 * (normalized) 38
+ +       1.2823 * (normalized) 39
+ +      -0.2501 * (normalized) 40
+ +      -1.308  * (normalized) 41
+ +       0.5074 * (normalized) 42
+ +       1.3633 * (normalized) 43
+ +       1.6614 * (normalized) 44
+ +      -2.192  * (normalized) 45
+ +      -0.0183 * (normalized) 46
+ +      -0.3412 * (normalized) 47
+ +      -0.0148 * (normalized) 48
+ +       0.0115 * (normalized) 49
+ +      -0.2113 * (normalized) 50
+ +       0.0138 * (normalized) 51
+ +       0.1165 * (normalized) 52
+ +       0.0521 * (normalized) 53
+ +      -0.0372 * (normalized) 54
+ +       0.1627 * (normalized) 55
+ +       0.0578 * (normalized) 56
+ +      -0.0925 * (normalized) 57
+ +      -0.0618 * (normalized) 58
+ +       0.0163 * (normalized) 59
+ +       0.3175 * (normalized) 60
+ +       0.1576 * (normalized) 61
+ +      -0.4374 * (normalized) 62
+ +      -0.0776 * (normalized) 63
+ +      -0.2978 * (normalized) 64
+ +       0.1114 * (normalized) 65
+ +      -0.0277 * (normalized) 66
+ +      -0.2482 * (normalized) 67
+ +      -0.123  * (normalized) 68
+ +       0.1491 * (normalized) 69
+ +       0.3494 * (normalized) 70
+ +       0.1605 * (normalized) 71
+ -       0.6571
+
+Number of kernel evaluations: 968943 (72.882% cached)
+
+Classifier for classes: '(5.5-6.416667]', '(7.333333-8.25]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1066 * (normalized) 1
+ +      -3.3772 * (normalized) 2
+ +       1.8856 * (normalized) 3
+ +      -1.8648 * (normalized) 4
+ +      -0.4476 * (normalized) 5
+ +       0.0821 * (normalized) 6
+ +       0.0989 * (normalized) 7
+ +      -0.2421 * (normalized) 8
+ +       0.1132 * (normalized) 9
+ +       0.5325 * (normalized) 10
+ +      -0.1068 * (normalized) 11
+ +      -0.7265 * (normalized) 12
+ +       0.5858 * (normalized) 13
+ +      -0.6023 * (normalized) 14
+ +      -0.562  * (normalized) 15
+ +       0.3675 * (normalized) 16
+ +      -0.3815 * (normalized) 17
+ +      -1.1627 * (normalized) 18
+ +       1.2578 * (normalized) 19
+ +      -1.1634 * (normalized) 20
+ +      -0.4532 * (normalized) 21
+ +      -1.501  * (normalized) 22
+ +      -1.1906 * (normalized) 23
+ +       0.0711 * (normalized) 24
+ +       0.797  * (normalized) 25
+ +      -0.4001 * (normalized) 26
+ +      -0.4064 * (normalized) 27
+ +      -0.6998 * (normalized) 28
+ +       0.2248 * (normalized) 29
+ +      -2.5508 * (normalized) 30
+ +      -0.3297 * (normalized) 31
+ +      -0.9919 * (normalized) 32
+ +      -0.4532 * (normalized) 33
+ +      -1.501  * (normalized) 34
+ +      -1.1906 * (normalized) 35
+ +       0.0711 * (normalized) 36
+ +       0.797  * (normalized) 37
+ +      -0.4001 * (normalized) 38
+ +      -0.4064 * (normalized) 39
+ +      -0.6998 * (normalized) 40
+ +       0.2248 * (normalized) 41
+ +      -2.5508 * (normalized) 42
+ +      -0.3297 * (normalized) 43
+ +      -0.9919 * (normalized) 44
+ +       1.6485 * (normalized) 45
+ +       0.3794 * (normalized) 46
+ +       0.1699 * (normalized) 47
+ +       0.323  * (normalized) 48
+ +      -0.3213 * (normalized) 49
+ +       0.2924 * (normalized) 50
+ +       0.0999 * (normalized) 51
+ +       0.2321 * (normalized) 52
+ +       0.1845 * (normalized) 53
+ +       0.2529 * (normalized) 54
+ +      -0.0747 * (normalized) 55
+ +      -0.112  * (normalized) 56
+ +       0.3843 * (normalized) 57
+ +      -0.8861 * (normalized) 58
+ +       0.355  * (normalized) 59
+ +      -0.1959 * (normalized) 60
+ +      -0.2122 * (normalized) 61
+ +       0.3197 * (normalized) 62
+ +       0.4337 * (normalized) 63
+ +      -0.2376 * (normalized) 64
+ +      -0.3792 * (normalized) 65
+ +       0.0478 * (normalized) 66
+ +      -0.17   * (normalized) 67
+ +      -0.2712 * (normalized) 68
+ +      -0.0317 * (normalized) 69
+ +      -0.0347 * (normalized) 70
+ +      -0.2688 * (normalized) 71
+ +      10.0075
+
+Number of kernel evaluations: 1077834 (74.259% cached)
+
+Classifier for classes: '(5.5-6.416667]', '(8.25-9.166667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0337 * (normalized) 1
+ +      -2.5352 * (normalized) 2
+ +       1.7512 * (normalized) 3
+ +      -1.0722 * (normalized) 4
+ +      -0.7167 * (normalized) 5
+ +       0.4393 * (normalized) 6
+ +      -0.4408 * (normalized) 7
+ +      -0.0182 * (normalized) 8
+ +      -0.2644 * (normalized) 9
+ +       0.9795 * (normalized) 10
+ +      -0.333  * (normalized) 11
+ +       0.5148 * (normalized) 12
+ +       0.2837 * (normalized) 13
+ +      -0.0889 * (normalized) 14
+ +       0.1539 * (normalized) 15
+ +       0.0312 * (normalized) 16
+ +       0.6843 * (normalized) 17
+ +      -0.3198 * (normalized) 18
+ +       0.9755 * (normalized) 19
+ +       0.0658 * (normalized) 20
+ +      -1.4504 * (normalized) 21
+ +      -0.6246 * (normalized) 22
+ +      -0.5206 * (normalized) 23
+ +       0.5539 * (normalized) 24
+ +      -0.6827 * (normalized) 25
+ +      -1.6325 * (normalized) 26
+ +      -0.3706 * (normalized) 27
+ +      -0.9651 * (normalized) 28
+ +      -1.3328 * (normalized) 29
+ +      -1.5545 * (normalized) 30
+ +      -1.4694 * (normalized) 31
+ +       1.2315 * (normalized) 32
+ +      -1.4504 * (normalized) 33
+ +      -0.6246 * (normalized) 34
+ +      -0.5206 * (normalized) 35
+ +       0.5539 * (normalized) 36
+ +      -0.6827 * (normalized) 37
+ +      -1.6325 * (normalized) 38
+ +      -0.3706 * (normalized) 39
+ +      -0.9651 * (normalized) 40
+ +      -1.3328 * (normalized) 41
+ +      -1.5545 * (normalized) 42
+ +      -1.4694 * (normalized) 43
+ +       1.2315 * (normalized) 44
+ +       0.6469 * (normalized) 45
+ +       0.446  * (normalized) 46
+ +       0.3235 * (normalized) 47
+ +       0.3266 * (normalized) 48
+ +       0.1387 * (normalized) 49
+ +       0.1056 * (normalized) 50
+ +       0.5274 * (normalized) 51
+ +       0.0848 * (normalized) 52
+ +       0.2395 * (normalized) 53
+ +       0.0748 * (normalized) 54
+ +       0.034  * (normalized) 55
+ +       0.0218 * (normalized) 56
+ +       0.3204 * (normalized) 57
+ +      -0.5531 * (normalized) 58
+ +       0.3533 * (normalized) 59
+ +      -0.048  * (normalized) 60
+ +       0.169  * (normalized) 61
+ +       0.5103 * (normalized) 62
+ +       0.419  * (normalized) 63
+ +      -0.1943 * (normalized) 64
+ +       0.1157 * (normalized) 65
+ +      -0.1293 * (normalized) 66
+ +      -0.0112 * (normalized) 67
+ +      -0.4012 * (normalized) 68
+ +      -0.1882 * (normalized) 69
+ +       0.2654 * (normalized) 70
+ +      -0.4262 * (normalized) 71
+ +       7.095 
+
+Number of kernel evaluations: 1014455 (72.402% cached)
+
+Classifier for classes: '(5.5-6.416667]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5389 * (normalized) 1
+ +      -2.0474 * (normalized) 2
+ +       2.0498 * (normalized) 3
+ +      -0.9497 * (normalized) 4
+ +      -0.1279 * (normalized) 5
+ +       0.4493 * (normalized) 6
+ +      -0.3315 * (normalized) 7
+ +      -0.0921 * (normalized) 8
+ +       0.637  * (normalized) 9
+ +       0.3157 * (normalized) 10
+ +       0.7785 * (normalized) 11
+ +       0.9501 * (normalized) 12
+ +       0.1492 * (normalized) 13
+ +       0.5125 * (normalized) 14
+ +       0.4948 * (normalized) 15
+ +       0.0186 * (normalized) 16
+ +       0.8067 * (normalized) 17
+ +      -0.1705 * (normalized) 18
+ +       0.7579 * (normalized) 19
+ +      -0.158  * (normalized) 20
+ +      -0.8903 * (normalized) 21
+ +      -1.1174 * (normalized) 22
+ +       0.8713 * (normalized) 23
+ +       0.6652 * (normalized) 24
+ +      -0.5955 * (normalized) 25
+ +      -2.2145 * (normalized) 26
+ +       0.1026 * (normalized) 27
+ +      -0.5289 * (normalized) 28
+ +      -0.7098 * (normalized) 29
+ +      -1.5229 * (normalized) 30
+ +       0.2878 * (normalized) 31
+ +      -0.2549 * (normalized) 32
+ +      -0.8903 * (normalized) 33
+ +      -1.1174 * (normalized) 34
+ +       0.8713 * (normalized) 35
+ +       0.6652 * (normalized) 36
+ +      -0.5955 * (normalized) 37
+ +      -2.2145 * (normalized) 38
+ +       0.1026 * (normalized) 39
+ +      -0.5289 * (normalized) 40
+ +      -0.7098 * (normalized) 41
+ +      -1.5229 * (normalized) 42
+ +       0.2878 * (normalized) 43
+ +      -0.2549 * (normalized) 44
+ +      -0.8415 * (normalized) 45
+ +       0.3251 * (normalized) 46
+ +       0.2271 * (normalized) 47
+ +       0.3299 * (normalized) 48
+ +       0.1667 * (normalized) 49
+ +       0.019  * (normalized) 50
+ +       0.0621 * (normalized) 51
+ +       0.2916 * (normalized) 52
+ +       0.0994 * (normalized) 53
+ +       0.5412 * (normalized) 54
+ +       0.072  * (normalized) 55
+ +      -0.2472 * (normalized) 56
+ +      -0.0383 * (normalized) 57
+ +      -0.5041 * (normalized) 58
+ +       0.0877 * (normalized) 59
+ +      -0.1896 * (normalized) 60
+ +       0.091  * (normalized) 61
+ +      -0.1089 * (normalized) 62
+ +       0.2973 * (normalized) 63
+ +      -0.5029 * (normalized) 64
+ +       0.0071 * (normalized) 65
+ +      -0.0021 * (normalized) 66
+ +      -0.1855 * (normalized) 67
+ +      -0.1959 * (normalized) 68
+ +      -0.1906 * (normalized) 69
+ +      -0.0716 * (normalized) 70
+ +      -0.6005 * (normalized) 71
+ +       3.8118
+
+Number of kernel evaluations: 1023759 (72.915% cached)
+
+Classifier for classes: '(5.5-6.416667]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4455 * (normalized) 1
+ +      -0.7467 * (normalized) 2
+ +      -0.0114 * (normalized) 3
+ +       0.2123 * (normalized) 4
+ +      -0.3919 * (normalized) 5
+ +      -0.2019 * (normalized) 6
+ +       1.048  * (normalized) 7
+ +      -0.7698 * (normalized) 8
+ +       0.195  * (normalized) 9
+ +       0.298  * (normalized) 10
+ +      -0.7324 * (normalized) 11
+ +      -0.032  * (normalized) 12
+ +       0.3961 * (normalized) 13
+ +      -0.3812 * (normalized) 14
+ +      -0.2086 * (normalized) 15
+ +       0.0788 * (normalized) 16
+ +      -0.2614 * (normalized) 17
+ +      -0.3299 * (normalized) 18
+ +       0.2538 * (normalized) 19
+ +      -0.8184 * (normalized) 20
+ +       0.1567 * (normalized) 21
+ +      -0.8062 * (normalized) 22
+ +      -0.5123 * (normalized) 23
+ +      -1.1874 * (normalized) 24
+ +       0.0085 * (normalized) 25
+ +      -0.1597 * (normalized) 26
+ +       0.4772 * (normalized) 27
+ +      -2.0927 * (normalized) 28
+ +       0.1977 * (normalized) 29
+ +      -1.1277 * (normalized) 30
+ +      -0.3739 * (normalized) 31
+ +       0.4698 * (normalized) 32
+ +       0.1567 * (normalized) 33
+ +      -0.8062 * (normalized) 34
+ +      -0.5123 * (normalized) 35
+ +      -1.1874 * (normalized) 36
+ +       0.0085 * (normalized) 37
+ +      -0.1597 * (normalized) 38
+ +       0.4772 * (normalized) 39
+ +      -2.0927 * (normalized) 40
+ +       0.1977 * (normalized) 41
+ +      -1.1277 * (normalized) 42
+ +      -0.3739 * (normalized) 43
+ +       0.4698 * (normalized) 44
+ +       0.6752 * (normalized) 45
+ +      -0.2577 * (normalized) 46
+ +       0.1831 * (normalized) 47
+ +      -0.1203 * (normalized) 48
+ +       0.0599 * (normalized) 49
+ +      -0.133  * (normalized) 50
+ +       0.0957 * (normalized) 51
+ +      -0.063  * (normalized) 52
+ +       0.0696 * (normalized) 53
+ +      -0.0761 * (normalized) 54
+ +      -0.2087 * (normalized) 55
+ +       0.0653 * (normalized) 56
+ +       0.1627 * (normalized) 57
+ +      -0.0548 * (normalized) 58
+ +       0.4182 * (normalized) 59
+ +      -0.3388 * (normalized) 60
+ +      -0.0461 * (normalized) 61
+ +       0.0047 * (normalized) 62
+ +       0.756  * (normalized) 63
+ +      -0.405  * (normalized) 64
+ +       0.0047 * (normalized) 65
+ +      -0.4683 * (normalized) 66
+ +      -0.2559 * (normalized) 67
+ +      -0.1763 * (normalized) 68
+ +      -0.1178 * (normalized) 69
+ +       0.2156 * (normalized) 70
+ +       0.1455 * (normalized) 71
+ +       6.647 
+
+Number of kernel evaluations: 1030467 (72.604% cached)
+
+Classifier for classes: '(6.416667-7.333333]', '(7.333333-8.25]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.9688 * (normalized) 1
+ +      -0.1859 * (normalized) 2
+ +      -0.3009 * (normalized) 3
+ +      -1.4098 * (normalized) 4
+ +       0.2031 * (normalized) 5
+ +      -0.7823 * (normalized) 6
+ +      -0.1403 * (normalized) 7
+ +       0.2436 * (normalized) 8
+ +      -0.3022 * (normalized) 9
+ +       0.191  * (normalized) 10
+ +       0.3614 * (normalized) 11
+ +      -1.2673 * (normalized) 12
+ +       0.4788 * (normalized) 13
+ +      -0.3596 * (normalized) 14
+ +      -0.2796 * (normalized) 15
+ +       0.0495 * (normalized) 16
+ +      -0.3586 * (normalized) 17
+ +      -0.2948 * (normalized) 18
+ +       0.111  * (normalized) 19
+ +      -0.4968 * (normalized) 20
+ +      -0.5213 * (normalized) 21
+ +      -0.8851 * (normalized) 22
+ +      -0.533  * (normalized) 23
+ +       0.3286 * (normalized) 24
+ +       1.4844 * (normalized) 25
+ +       0.1705 * (normalized) 26
+ +      -0.8496 * (normalized) 27
+ +      -0.3348 * (normalized) 28
+ +       0.7686 * (normalized) 29
+ +      -2.5471 * (normalized) 30
+ +      -1.3146 * (normalized) 31
+ +      -1.0829 * (normalized) 32
+ +      -0.5213 * (normalized) 33
+ +      -0.8851 * (normalized) 34
+ +      -0.533  * (normalized) 35
+ +       0.3286 * (normalized) 36
+ +       1.4844 * (normalized) 37
+ +       0.1705 * (normalized) 38
+ +      -0.8496 * (normalized) 39
+ +      -0.3348 * (normalized) 40
+ +       0.7686 * (normalized) 41
+ +      -2.5471 * (normalized) 42
+ +      -1.3146 * (normalized) 43
+ +      -1.0829 * (normalized) 44
+ +       1.9315 * (normalized) 45
+ +       0.335  * (normalized) 46
+ +       0.203  * (normalized) 47
+ +      -0.0837 * (normalized) 48
+ +       0.0289 * (normalized) 49
+ +       0.337  * (normalized) 50
+ +      -0.142  * (normalized) 51
+ +       0.2537 * (normalized) 52
+ +       0.0241 * (normalized) 53
+ +       0.5327 * (normalized) 54
+ +      -0.2043 * (normalized) 55
+ +      -0.1013 * (normalized) 56
+ +       0.0434 * (normalized) 57
+ +      -0.8016 * (normalized) 58
+ +       0.1935 * (normalized) 59
+ +      -0.5083 * (normalized) 60
+ +       0.0004 * (normalized) 61
+ +       0.145  * (normalized) 62
+ +       0.4672 * (normalized) 63
+ +       0.2728 * (normalized) 64
+ +      -0.2254 * (normalized) 65
+ +       0.1685 * (normalized) 66
+ +       0.4117 * (normalized) 67
+ +      -0.116  * (normalized) 68
+ +      -0.0183 * (normalized) 69
+ +      -0.1638 * (normalized) 70
+ +      -0.3623 * (normalized) 71
+ +       7.5815
+
+Number of kernel evaluations: 1065997 (72.407% cached)
+
+Classifier for classes: '(6.416667-7.333333]', '(8.25-9.166667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.0587 * (normalized) 1
+ +       0.6099 * (normalized) 2
+ +      -0.7251 * (normalized) 3
+ +      -0.4953 * (normalized) 4
+ +      -0.6333 * (normalized) 5
+ +      -0.2735 * (normalized) 6
+ +      -1.0034 * (normalized) 7
+ +       0.5106 * (normalized) 8
+ +      -0.6973 * (normalized) 9
+ +       0.5646 * (normalized) 10
+ +      -0.2624 * (normalized) 11
+ +      -0.3478 * (normalized) 12
+ +       0.1224 * (normalized) 13
+ +      -0.237  * (normalized) 14
+ +       0.408  * (normalized) 15
+ +      -0.4533 * (normalized) 16
+ +       0.1089 * (normalized) 17
+ +       0.4413 * (normalized) 18
+ +      -0.608  * (normalized) 19
+ +       0.3744 * (normalized) 20
+ +      -0.9947 * (normalized) 21
+ +      -0.1648 * (normalized) 22
+ +       0.2855 * (normalized) 23
+ +       0.8588 * (normalized) 24
+ +       0.8321 * (normalized) 25
+ +      -0.3312 * (normalized) 26
+ +      -1.4801 * (normalized) 27
+ +      -0.7315 * (normalized) 28
+ +       0.0196 * (normalized) 29
+ +      -1.5213 * (normalized) 30
+ +      -2.1577 * (normalized) 31
+ +       0.0711 * (normalized) 32
+ +      -0.9947 * (normalized) 33
+ +      -0.1648 * (normalized) 34
+ +       0.2855 * (normalized) 35
+ +       0.8588 * (normalized) 36
+ +       0.8321 * (normalized) 37
+ +      -0.3312 * (normalized) 38
+ +      -1.4801 * (normalized) 39
+ +      -0.7315 * (normalized) 40
+ +       0.0196 * (normalized) 41
+ +      -1.5213 * (normalized) 42
+ +      -2.1577 * (normalized) 43
+ +       0.0711 * (normalized) 44
+ +       2.3749 * (normalized) 45
+ +       0.2453 * (normalized) 46
+ +       0.2825 * (normalized) 47
+ +      -0.0143 * (normalized) 48
+ +       0.0284 * (normalized) 49
+ +       0.0164 * (normalized) 50
+ +       0.2355 * (normalized) 51
+ +       0.1098 * (normalized) 52
+ +       0.202  * (normalized) 53
+ +       0.1212 * (normalized) 54
+ +      -0.0301 * (normalized) 55
+ +      -0.3714 * (normalized) 56
+ +       0.1293 * (normalized) 57
+ +      -0.4588 * (normalized) 58
+ +       0.1708 * (normalized) 59
+ +      -0.3411 * (normalized) 60
+ +       0.1993 * (normalized) 61
+ +       0.3837 * (normalized) 62
+ +       0.3148 * (normalized) 63
+ +       0.2302 * (normalized) 64
+ +      -0.2902 * (normalized) 65
+ +       0.0332 * (normalized) 66
+ +       0.4437 * (normalized) 67
+ +      -0.0756 * (normalized) 68
+ +      -0.1069 * (normalized) 69
+ +       0.022  * (normalized) 70
+ +      -0.3078 * (normalized) 71
+ +       5.8066
+
+Number of kernel evaluations: 1163217 (73.972% cached)
+
+Classifier for classes: '(6.416667-7.333333]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3551 * (normalized) 1
+ +       0.487  * (normalized) 2
+ +       0.3188 * (normalized) 3
+ +      -1.2695 * (normalized) 4
+ +       0.5607 * (normalized) 5
+ +      -0.6218 * (normalized) 6
+ +      -0.5935 * (normalized) 7
+ +       0.4492 * (normalized) 8
+ +       0.0539 * (normalized) 9
+ +       0.3179 * (normalized) 10
+ +       0.7401 * (normalized) 11
+ +       0.0716 * (normalized) 12
+ +       0.0784 * (normalized) 13
+ +       0.3656 * (normalized) 14
+ +       0.6632 * (normalized) 15
+ +      -0.3515 * (normalized) 16
+ +       0.6084 * (normalized) 17
+ +       0.2476 * (normalized) 18
+ +      -0.195  * (normalized) 19
+ +       0.1671 * (normalized) 20
+ +      -0.7665 * (normalized) 21
+ +      -0.6049 * (normalized) 22
+ +       1.215  * (normalized) 23
+ +       1.1547 * (normalized) 24
+ +       1.1056 * (normalized) 25
+ +      -1.0292 * (normalized) 26
+ +      -0.9151 * (normalized) 27
+ +      -0.0515 * (normalized) 28
+ +       0.2922 * (normalized) 29
+ +      -1.9227 * (normalized) 30
+ +      -1.2176 * (normalized) 31
+ +      -1.3818 * (normalized) 32
+ +      -0.7665 * (normalized) 33
+ +      -0.6049 * (normalized) 34
+ +       1.215  * (normalized) 35
+ +       1.1547 * (normalized) 36
+ +       1.1056 * (normalized) 37
+ +      -1.0292 * (normalized) 38
+ +      -0.9151 * (normalized) 39
+ +      -0.0515 * (normalized) 40
+ +       0.2922 * (normalized) 41
+ +      -1.9227 * (normalized) 42
+ +      -1.2176 * (normalized) 43
+ +      -1.3818 * (normalized) 44
+ +       0.5904 * (normalized) 45
+ +       0.2195 * (normalized) 46
+ +       0.2614 * (normalized) 47
+ +      -0.061  * (normalized) 48
+ +       0.2408 * (normalized) 49
+ +      -0.1309 * (normalized) 50
+ +       0.0038 * (normalized) 51
+ +       0.1819 * (normalized) 52
+ +       0.05   * (normalized) 53
+ +       0.3327 * (normalized) 54
+ +       0.1428 * (normalized) 55
+ +      -0.1719 * (normalized) 56
+ +       0.0634 * (normalized) 57
+ +      -0.442  * (normalized) 58
+ +       0.1173 * (normalized) 59
+ +      -0.2252 * (normalized) 60
+ +       0.1351 * (normalized) 61
+ +       0.2951 * (normalized) 62
+ +       0.3086 * (normalized) 63
+ +      -0.1273 * (normalized) 64
+ +       0.0037 * (normalized) 65
+ +      -0.1739 * (normalized) 66
+ +       0.2623 * (normalized) 67
+ +      -0.1915 * (normalized) 68
+ +      -0.201  * (normalized) 69
+ +      -0.0874 * (normalized) 70
+ +      -0.1319 * (normalized) 71
+ +       2.8721
+
+Number of kernel evaluations: 977615 (75.107% cached)
+
+Classifier for classes: '(6.416667-7.333333]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.354  * (normalized) 1
+ +       1.9745 * (normalized) 2
+ +      -1.9943 * (normalized) 3
+ +       0.2985 * (normalized) 4
+ +      -0.2666 * (normalized) 5
+ +      -0.898  * (normalized) 6
+ +       0.3079 * (normalized) 7
+ +      -0.1872 * (normalized) 8
+ +      -0.2514 * (normalized) 9
+ +       0.3152 * (normalized) 10
+ +      -0.5501 * (normalized) 11
+ +      -0.5894 * (normalized) 12
+ +       0.1947 * (normalized) 13
+ +      -0.4914 * (normalized) 14
+ +       0.2458 * (normalized) 15
+ +      -0.4527 * (normalized) 16
+ +      -0.3576 * (normalized) 17
+ +       0.4249 * (normalized) 18
+ +      -0.9586 * (normalized) 19
+ +      -0.0707 * (normalized) 20
+ +      -0.0527 * (normalized) 21
+ +      -0.2814 * (normalized) 22
+ +       0.0684 * (normalized) 23
+ +       0.0518 * (normalized) 24
+ +       1.4166 * (normalized) 25
+ +       0.5515 * (normalized) 26
+ +      -0.8109 * (normalized) 27
+ +      -1.0417 * (normalized) 28
+ +       0.8645 * (normalized) 29
+ +      -1.351  * (normalized) 30
+ +      -1.8573 * (normalized) 31
+ +      -0.4027 * (normalized) 32
+ +      -0.0527 * (normalized) 33
+ +      -0.2814 * (normalized) 34
+ +       0.0684 * (normalized) 35
+ +       0.0518 * (normalized) 36
+ +       1.4166 * (normalized) 37
+ +       0.5515 * (normalized) 38
+ +      -0.8109 * (normalized) 39
+ +      -1.0417 * (normalized) 40
+ +       0.8645 * (normalized) 41
+ +      -1.351  * (normalized) 42
+ +      -1.8573 * (normalized) 43
+ +      -0.4027 * (normalized) 44
+ +       2.5553 * (normalized) 45
+ +      -0.1998 * (normalized) 46
+ +      -0.0946 * (normalized) 47
+ +      -0.0981 * (normalized) 48
+ +      -0.0132 * (normalized) 49
+ +       0.1244 * (normalized) 50
+ +      -0.1234 * (normalized) 51
+ +      -0.02   * (normalized) 52
+ +       0.0511 * (normalized) 53
+ +       0.2904 * (normalized) 54
+ +      -0.1653 * (normalized) 55
+ +      -0.2244 * (normalized) 56
+ +      -0.1235 * (normalized) 57
+ +      -0.0998 * (normalized) 58
+ +       0.189  * (normalized) 59
+ +      -0.4121 * (normalized) 60
+ +      -0.0562 * (normalized) 61
+ +       0.156  * (normalized) 62
+ +       0.6401 * (normalized) 63
+ +      -0.0884 * (normalized) 64
+ +      -0.3024 * (normalized) 65
+ +      -0.1811 * (normalized) 66
+ +       0.2497 * (normalized) 67
+ +      -0.1289 * (normalized) 68
+ +      -0.1945 * (normalized) 69
+ +       0.0253 * (normalized) 70
+ +       0.0939 * (normalized) 71
+ +       4.8626
+
+Number of kernel evaluations: 1221938 (72.629% cached)
+
+Classifier for classes: '(7.333333-8.25]', '(8.25-9.166667]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4813 * (normalized) 1
+ +       0.0538 * (normalized) 2
+ +       0.4132 * (normalized) 3
+ +       0.9014 * (normalized) 4
+ +      -0.3255 * (normalized) 5
+ +       0.6047 * (normalized) 6
+ +      -0.4781 * (normalized) 7
+ +       0.1982 * (normalized) 8
+ +      -0.3093 * (normalized) 9
+ +       0.6057 * (normalized) 10
+ +      -0.544  * (normalized) 11
+ +       1.2505 * (normalized) 12
+ +      -0.1971 * (normalized) 13
+ +       0.3999 * (normalized) 14
+ +       0.4275 * (normalized) 15
+ +       0.2514 * (normalized) 16
+ +       0.576  * (normalized) 17
+ +       0.8424 * (normalized) 18
+ +      -0.0052 * (normalized) 19
+ +       0.9844 * (normalized) 20
+ +      -0.6937 * (normalized) 21
+ +       0.9904 * (normalized) 22
+ +       0.5424 * (normalized) 23
+ +       0.2157 * (normalized) 24
+ +      -1.3132 * (normalized) 25
+ +      -1.1522 * (normalized) 26
+ +       0.0108 * (normalized) 27
+ +      -0.0431 * (normalized) 28
+ +      -0.8987 * (normalized) 29
+ +       1.8804 * (normalized) 30
+ +      -0.1757 * (normalized) 31
+ +       1.3968 * (normalized) 32
+ +      -0.6937 * (normalized) 33
+ +       0.9904 * (normalized) 34
+ +       0.5424 * (normalized) 35
+ +       0.2157 * (normalized) 36
+ +      -1.3132 * (normalized) 37
+ +      -1.1522 * (normalized) 38
+ +       0.0108 * (normalized) 39
+ +      -0.0431 * (normalized) 40
+ +      -0.8987 * (normalized) 41
+ +       1.8804 * (normalized) 42
+ +      -0.1757 * (normalized) 43
+ +       1.3968 * (normalized) 44
+ +      -1.4519 * (normalized) 45
+ +      -0.2354 * (normalized) 46
+ +      -0.1976 * (normalized) 47
+ +      -0.1233 * (normalized) 48
+ +       0.1921 * (normalized) 49
+ +      -0.4361 * (normalized) 50
+ +       0.1715 * (normalized) 51
+ +      -0.1615 * (normalized) 52
+ +      -0.131  * (normalized) 53
+ +      -0.2038 * (normalized) 54
+ +       0.2908 * (normalized) 55
+ +       0.0893 * (normalized) 56
+ +      -0.04   * (normalized) 57
+ +       0.367  * (normalized) 58
+ +       0.2604 * (normalized) 59
+ +       0.3283 * (normalized) 60
+ +       0.4234 * (normalized) 61
+ +       0.0328 * (normalized) 62
+ +      -0.1064 * (normalized) 63
+ +      -0.216  * (normalized) 64
+ +       0.5057 * (normalized) 65
+ +      -0.1953 * (normalized) 66
+ +      -0.096  * (normalized) 67
+ +       0.0388 * (normalized) 68
+ +       0.12   * (normalized) 69
+ +       0.1714 * (normalized) 70
+ +      -0.3108 * (normalized) 71
+ -       4.3265
+
+Number of kernel evaluations: 909815 (73.186% cached)
+
+Classifier for classes: '(7.333333-8.25]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8765 * (normalized) 1
+ +       0.5859 * (normalized) 2
+ +       0.7797 * (normalized) 3
+ +       0.3465 * (normalized) 4
+ +       0.7038 * (normalized) 5
+ +       0.141  * (normalized) 6
+ +       0.0594 * (normalized) 7
+ +      -0.2029 * (normalized) 8
+ +       0.703  * (normalized) 9
+ +      -0.1261 * (normalized) 10
+ +       0.5283 * (normalized) 11
+ +       1.4992 * (normalized) 12
+ +      -0.2225 * (normalized) 13
+ +       0.8517 * (normalized) 14
+ +       1.0417 * (normalized) 15
+ +       0.0966 * (normalized) 16
+ +       0.6892 * (normalized) 17
+ +       1.2786 * (normalized) 18
+ +      -0.6508 * (normalized) 19
+ +       0.9939 * (normalized) 20
+ +      -0.3346 * (normalized) 21
+ +       0.483  * (normalized) 22
+ +       1.8742 * (normalized) 23
+ +       0.1889 * (normalized) 24
+ +      -0.8354 * (normalized) 25
+ +      -1.178  * (normalized) 26
+ +       0.4781 * (normalized) 27
+ +       0.697  * (normalized) 28
+ +      -0.5086 * (normalized) 29
+ +       1.2558 * (normalized) 30
+ +       0.4317 * (normalized) 31
+ +       0.025  * (normalized) 32
+ +      -0.3346 * (normalized) 33
+ +       0.483  * (normalized) 34
+ +       1.8742 * (normalized) 35
+ +       0.1889 * (normalized) 36
+ +      -0.8354 * (normalized) 37
+ +      -1.178  * (normalized) 38
+ +       0.4781 * (normalized) 39
+ +       0.697  * (normalized) 40
+ +      -0.5086 * (normalized) 41
+ +       1.2558 * (normalized) 42
+ +       0.4317 * (normalized) 43
+ +       0.025  * (normalized) 44
+ +      -2.4723 * (normalized) 45
+ +      -0.136  * (normalized) 46
+ +       0.2164 * (normalized) 47
+ +       0.3697 * (normalized) 48
+ +       0.2416 * (normalized) 49
+ +      -0.136  * (normalized) 50
+ +      -0.1359 * (normalized) 51
+ +      -0.0362 * (normalized) 52
+ +       0.0004 * (normalized) 53
+ +       0.0764 * (normalized) 54
+ +      -0.0309 * (normalized) 55
+ +      -0.3221 * (normalized) 56
+ +      -0.2227 * (normalized) 57
+ +       0.2521 * (normalized) 58
+ +      -0.1259 * (normalized) 59
+ +      -0.0282 * (normalized) 60
+ +       0.246  * (normalized) 61
+ +      -0.1963 * (normalized) 62
+ +      -0.3823 * (normalized) 63
+ +      -0.4562 * (normalized) 64
+ +       0.5415 * (normalized) 65
+ +      -0.1623 * (normalized) 66
+ +      -0.3955 * (normalized) 67
+ +       0.2378 * (normalized) 68
+ +      -0.0529 * (normalized) 69
+ +      -0.0868 * (normalized) 70
+ +      -0.153  * (normalized) 71
+ -       6.8723
+
+Number of kernel evaluations: 967501 (71.762% cached)
+
+Classifier for classes: '(7.333333-8.25]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2363 * (normalized) 1
+ +       2.7123 * (normalized) 2
+ +      -1.7319 * (normalized) 3
+ +       2.1051 * (normalized) 4
+ +      -0.0143 * (normalized) 5
+ +       0.0875 * (normalized) 6
+ +       0.4634 * (normalized) 7
+ +      -0.0722 * (normalized) 8
+ +      -0.155  * (normalized) 9
+ +      -0.0536 * (normalized) 10
+ +      -0.6461 * (normalized) 11
+ +       1.0479 * (normalized) 12
+ +      -0.32   * (normalized) 13
+ +       0.3446 * (normalized) 14
+ +       0.641  * (normalized) 15
+ +      -0.193  * (normalized) 16
+ +       0.1508 * (normalized) 17
+ +       1.368  * (normalized) 18
+ +      -1.1391 * (normalized) 19
+ +       0.814  * (normalized) 20
+ +       0.3362 * (normalized) 21
+ +       1.0896 * (normalized) 22
+ +       0.8561 * (normalized) 23
+ +      -0.8997 * (normalized) 24
+ +      -0.8027 * (normalized) 25
+ +       0.3547 * (normalized) 26
+ +       0.9667 * (normalized) 27
+ +      -0.86   * (normalized) 28
+ +      -0.2089 * (normalized) 29
+ +       1.6684 * (normalized) 30
+ +       0.3751 * (normalized) 31
+ +       1.0089 * (normalized) 32
+ +       0.3362 * (normalized) 33
+ +       1.0896 * (normalized) 34
+ +       0.8561 * (normalized) 35
+ +      -0.8997 * (normalized) 36
+ +      -0.8027 * (normalized) 37
+ +       0.3547 * (normalized) 38
+ +       0.9667 * (normalized) 39
+ +      -0.86   * (normalized) 40
+ +      -0.2089 * (normalized) 41
+ +       1.6684 * (normalized) 42
+ +       0.3751 * (normalized) 43
+ +       1.0089 * (normalized) 44
+ +      -1.4568 * (normalized) 45
+ +      -0.8828 * (normalized) 46
+ +       0.0274 * (normalized) 47
+ +      -0.1241 * (normalized) 48
+ +       0.154  * (normalized) 49
+ +      -0.4109 * (normalized) 50
+ +      -0.0005 * (normalized) 51
+ +      -0.0268 * (normalized) 52
+ +      -0.1455 * (normalized) 53
+ +      -0.3104 * (normalized) 54
+ +       0.0788 * (normalized) 55
+ +       0.0684 * (normalized) 56
+ +      -0.1266 * (normalized) 57
+ +       1.0305 * (normalized) 58
+ +       0.1281 * (normalized) 59
+ +      -0.2338 * (normalized) 60
+ +       0.0728 * (normalized) 61
+ +      -0.3434 * (normalized) 62
+ +      -0.1107 * (normalized) 63
+ +      -0.1842 * (normalized) 64
+ +       0.0918 * (normalized) 65
+ +      -0.6034 * (normalized) 66
+ +      -0.1064 * (normalized) 67
+ +      -0.0541 * (normalized) 68
+ +       0.1677 * (normalized) 69
+ +       0.1354 * (normalized) 70
+ +       0.0649 * (normalized) 71
+ -       5.5113
+
+Number of kernel evaluations: 994826 (73.221% cached)
+
+Classifier for classes: '(8.25-9.166667]', '(9.166667-10.083333]'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8253 * (normalized) 1
+ +       0.2266 * (normalized) 2
+ +       0.8606 * (normalized) 3
+ +      -0.382  * (normalized) 4
+ +       1.2212 * (normalized) 5
+ +      -0.2927 * (normalized) 6
+ +       0.5751 * (normalized) 7
+ +      -0.1203 * (normalized) 8
+ +       0.9139 * (normalized) 9
+ +      -0.4646 * (normalized) 10
+ +       1.1523 * (normalized) 11
+ +       0.5896 * (normalized) 12
+ +      -0.0074 * (normalized) 13
+ +       0.6192 * (normalized) 14
+ +       0.6527 * (normalized) 15
+ +       0.1547 * (normalized) 16
+ +       0.2491 * (normalized) 17
+ +       0.4001 * (normalized) 18
+ +      -0.2474 * (normalized) 19
+ +      -0.1334 * (normalized) 20
+ +       0.4558 * (normalized) 21
+ +      -0.5295 * (normalized) 22
+ +       1.5367 * (normalized) 23
+ +      -0.2276 * (normalized) 24
+ +       0.3828 * (normalized) 25
+ +      -0.6534 * (normalized) 26
+ +       0.8067 * (normalized) 27
+ +       0.7379 * (normalized) 28
+ +       0.2069 * (normalized) 29
+ +      -0.334  * (normalized) 30
+ +       1.874  * (normalized) 31
+ +      -1.335  * (normalized) 32
+ +       0.4558 * (normalized) 33
+ +      -0.5295 * (normalized) 34
+ +       1.5367 * (normalized) 35
+ +      -0.2276 * (normalized) 36
+ +       0.3828 * (normalized) 37
+ +      -0.6534 * (normalized) 38
+ +       0.8067 * (normalized) 39
+ +       0.7379 * (normalized) 40
+ +       0.2069 * (normalized) 41
+ +      -0.334  * (normalized) 42
+ +       1.874  * (normalized) 43
+ +      -1.335  * (normalized) 44
+ +      -2.0721 * (normalized) 45
+ +       0.1248 * (normalized) 46
+ +       0.1223 * (normalized) 47
+ +       0.057  * (normalized) 48
+ +       0.2535 * (normalized) 49
+ +       0.1962 * (normalized) 50
+ +      -0.2034 * (normalized) 51
+ +       0.0053 * (normalized) 52
+ +      -0.1736 * (normalized) 53
+ +       0.0598 * (normalized) 54
+ +      -0.0569 * (normalized) 55
+ +      -0.397  * (normalized) 56
+ +      -0.026  * (normalized) 57
+ +      -0.0453 * (normalized) 58
+ +      -0.3794 * (normalized) 59
+ +      -0.161  * (normalized) 60
+ +      -0.0466 * (normalized) 61
+ +      -0.522  * (normalized) 62
+ +      -0.2708 * (normalized) 63
+ +      -0.1658 * (normalized) 64
+ +       0.0843 * (normalized) 65
+ +       0.1833 * (normalized) 66
+ +      -0.126  * (normalized) 67
+ +       0.0976 * (normalized) 68
+ +       0.1182 * (normalized) 69
+ +      -0.3351 * (normalized) 70
+ +       0.1121 * (normalized) 71
+ -       4.7617
+
+Number of kernel evaluations: 843773 (73.256% cached)
+
+Classifier for classes: '(8.25-9.166667]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.6389 * (normalized) 1
+ +       2.2815 * (normalized) 2
+ +      -1.8488 * (normalized) 3
+ +       0.8966 * (normalized) 4
+ +       0.7918 * (normalized) 5
+ +      -0.9613 * (normalized) 6
+ +       1.3806 * (normalized) 7
+ +      -0.5054 * (normalized) 8
+ +       0.4026 * (normalized) 9
+ +      -0.6408 * (normalized) 10
+ +      -0.3937 * (normalized) 11
+ +      -0.1899 * (normalized) 12
+ +      -0.1332 * (normalized) 13
+ +      -0.2423 * (normalized) 14
+ +       0.1015 * (normalized) 15
+ +      -0.4385 * (normalized) 16
+ +      -0.6789 * (normalized) 17
+ +       0.289  * (normalized) 18
+ +      -1.3069 * (normalized) 19
+ +      -0.5456 * (normalized) 20
+ +       1.5256 * (normalized) 21
+ +      -0.2851 * (normalized) 22
+ +       0.2493 * (normalized) 23
+ +      -1.5063 * (normalized) 24
+ +       0.7963 * (normalized) 25
+ +       1.4596 * (normalized) 26
+ +       0.6959 * (normalized) 27
+ +      -1.0921 * (normalized) 28
+ +       1.121  * (normalized) 29
+ +       0.6076 * (normalized) 30
+ +       0.7483 * (normalized) 31
+ +      -1.1581 * (normalized) 32
+ +       1.5256 * (normalized) 33
+ +      -0.2851 * (normalized) 34
+ +       0.2493 * (normalized) 35
+ +      -1.5063 * (normalized) 36
+ +       0.7963 * (normalized) 37
+ +       1.4596 * (normalized) 38
+ +       0.6959 * (normalized) 39
+ +      -1.0921 * (normalized) 40
+ +       1.121  * (normalized) 41
+ +       0.6076 * (normalized) 42
+ +       0.7483 * (normalized) 43
+ +      -1.1581 * (normalized) 44
+ +      -0.0098 * (normalized) 45
+ +      -0.4541 * (normalized) 46
+ +      -0.1217 * (normalized) 47
+ +      -0.1087 * (normalized) 48
+ +      -0.2105 * (normalized) 49
+ +      -0.0842 * (normalized) 50
+ +      -0.302  * (normalized) 51
+ +      -0.1423 * (normalized) 52
+ +      -0.1433 * (normalized) 53
+ +       0.0534 * (normalized) 54
+ +      -0.2062 * (normalized) 55
+ +      -0.0663 * (normalized) 56
+ +      -0.0248 * (normalized) 57
+ +       0.4382 * (normalized) 58
+ +       0.6147 * (normalized) 59
+ +      -0.3431 * (normalized) 60
+ +       0.0669 * (normalized) 61
+ +      -0.1391 * (normalized) 62
+ +       0.5757 * (normalized) 63
+ +       0.0667 * (normalized) 64
+ +      -0.1344 * (normalized) 65
+ +      -0.143  * (normalized) 66
+ +       0.1164 * (normalized) 67
+ +       0.1031 * (normalized) 68
+ +      -0.0357 * (normalized) 69
+ +      -0.046  * (normalized) 70
+ +       0.4671 * (normalized) 71
+ -       1.5811
+
+Number of kernel evaluations: 1073234 (73.43% cached)
+
+Classifier for classes: '(9.166667-10.083333]', '(10.083333-inf)'
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.9528 * (normalized) 1
+ +       1.1598 * (normalized) 2
+ +      -1.8476 * (normalized) 3
+ +       0.707  * (normalized) 4
+ +      -0.0862 * (normalized) 5
+ +      -0.808  * (normalized) 6
+ +       1.0646 * (normalized) 7
+ +      -0.573  * (normalized) 8
+ +      -0.5668 * (normalized) 9
+ +      -0.0862 * (normalized) 10
+ +      -1.4014 * (normalized) 11
+ +      -0.8372 * (normalized) 12
+ +      -0.0213 * (normalized) 13
+ +      -0.874  * (normalized) 14
+ +      -0.6608 * (normalized) 15
+ +      -0.214  * (normalized) 16
+ +      -0.9555 * (normalized) 17
+ +      -0.2077 * (normalized) 18
+ +      -0.6764 * (normalized) 19
+ +      -0.5371 * (normalized) 20
+ +       0.9803 * (normalized) 21
+ +       0.3339 * (normalized) 22
+ +      -1.2111 * (normalized) 23
+ +      -1.3387 * (normalized) 24
+ +       0.4725 * (normalized) 25
+ +       1.8367 * (normalized) 26
+ +       0.3868 * (normalized) 27
+ +      -1.1459 * (normalized) 28
+ +       0.5459 * (normalized) 29
+ +       0.5208 * (normalized) 30
+ +      -0.6089 * (normalized) 31
+ +       0.599  * (normalized) 32
+ +       0.9803 * (normalized) 33
+ +       0.3339 * (normalized) 34
+ +      -1.2111 * (normalized) 35
+ +      -1.3387 * (normalized) 36
+ +       0.4725 * (normalized) 37
+ +       1.8367 * (normalized) 38
+ +       0.3868 * (normalized) 39
+ +      -1.1459 * (normalized) 40
+ +       0.5459 * (normalized) 41
+ +       0.5208 * (normalized) 42
+ +      -0.6089 * (normalized) 43
+ +       0.599  * (normalized) 44
+ +       2.133  * (normalized) 45
+ +      -0.4998 * (normalized) 46
+ +      -0.1244 * (normalized) 47
+ +      -0.2268 * (normalized) 48
+ +      -0.143  * (normalized) 49
+ +      -0.2621 * (normalized) 50
+ +       0.1486 * (normalized) 51
+ +      -0.0415 * (normalized) 52
+ +       0.0019 * (normalized) 53
+ +      -0.3345 * (normalized) 54
+ +      -0.2109 * (normalized) 55
+ +       0.1987 * (normalized) 56
+ +      -0.0478 * (normalized) 57
+ +       0.6755 * (normalized) 58
+ +       0.3835 * (normalized) 59
+ +      -0.0894 * (normalized) 60
+ +       0.0026 * (normalized) 61
+ +       0.1744 * (normalized) 62
+ +       0.4094 * (normalized) 63
+ +       0.05   * (normalized) 64
+ +      -0.0745 * (normalized) 65
+ +      -0.1352 * (normalized) 66
+ +       0.0834 * (normalized) 67
+ +       0.032  * (normalized) 68
+ +      -0.0823 * (normalized) 69
+ +       0.376  * (normalized) 70
+ +       0.2835 * (normalized) 71
+ +       2.2662
+
+Number of kernel evaluations: 1009911 (74.209% cached)
+
+
+
+Time taken to build model: 52.06 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances        1051               12.8831 %
+Incorrectly Classified Instances      7107               87.1169 %
+Kappa statistic                          0.0494
+Mean absolute error                      0.1506
+Root mean squared error                  0.2773
+Relative absolute error                 98.5944 %
+Root relative squared error            100.3129 %
+Coverage of cases (0.95 level)          83.9912 %
+Mean rel. region size (0.95 level)      76.617  %
+Total Number of Instances             8158     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.072     0.097      0.068     0.072     0.07       0.491    '(-inf-0.916667]'
+                 0.201     0.111      0.133     0.201     0.16       0.607    '(0.916667-1.833333]'
+                 0.092     0.069      0.102     0.092     0.097      0.6      '(1.833333-2.75]'
+                 0.143     0.075      0.151     0.143     0.147      0.584    '(2.75-3.666667]'
+                 0.024     0.04       0.051     0.024     0.033      0.442    '(3.666667-4.583333]'
+                 0.158     0.119      0.114     0.158     0.132      0.551    '(4.583333-5.5]'
+                 0.053     0.053      0.084     0.053     0.065      0.523    '(5.5-6.416667]'
+                 0.181     0.083      0.169     0.181     0.175      0.648    '(6.416667-7.333333]'
+                 0.19      0.071      0.188     0.19      0.189      0.668    '(7.333333-8.25]'
+                 0.137     0.075      0.141     0.137     0.139      0.61     '(8.25-9.166667]'
+                 0.137     0.085      0.129     0.137     0.133      0.611    '(9.166667-10.083333]'
+                 0.16      0.074      0.168     0.16      0.164      0.581    '(10.083333-inf)'
+Weighted Avg.    0.129     0.079      0.125     0.129     0.125      0.575
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   <-- classified as
+  52  84  55  58  19 130  44  81  47  39  67  48 |   a = '(-inf-0.916667]'
+  51 128  33  45  21  68  23  40  57  74  57  39 |   b = '(0.916667-1.833333]'
+  59  76  59  31  20 117  32  84  70  31  33  30 |   c = '(1.833333-2.75]'
+  58  82  67 100  41  55  35  30  73  69  27  64 |   d = '(2.75-3.666667]'
+  87  66  66  54  16  78  30  32  32  31  62 114 |   e = '(3.666667-4.583333]'
+  47  89  63  57  26 113  66  62  41  32  76  44 |   f = '(4.583333-5.5]'
+  67  45  70  56  28  74  36 100  44  56  59  38 |   g = '(5.5-6.416667]'
+  97  48  41  49  36  95  34 126  19  43  75  33 |   h = '(6.416667-7.333333]'
+  44 129  42  32  21  21  44  29 123  69  66  29 |   i = '(7.333333-8.25]'
+  50 104  26  45  33  81  20  42  69  92  59  50 |   j = '(8.25-9.166667]'
+ 110  49  23  67  24  78  35  42  47  49  94  66 |   k = '(9.166667-10.083333]'
+  48  62  34  67  29  85  31  77  32  68  53 112 |   l = '(10.083333-inf)'
+
